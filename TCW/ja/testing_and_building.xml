@@ -25,35 +25,8 @@
         <p>ガイドラインとスタイルシートを色々とビルドしてテストするための環境を用意するのは、Ubuntu などの Debian Linux では比較的簡単です。しかし Mac OS X や Windows といったそれ以外のシステムでは、かなり手の込んだ作業が必要になります。TEI あるいは Stylesheet リポジトリに変更が加えられると、TEI Jenkins サーバでさまざまなビルドが行われますが、自分のマシンでテストを実行した方がよいかもしれません。というのも、おそらくその方が実行も速いでしょうし、問題が見つかったときに Jenkins からメールが届くのを待っている時間も節約してくれるからです。それだけでなく、作業用ブランチでの変更については Jenkins はまったく関知しませんし、かといって dev ブランチにマージした後で大量のバグを直すハメになるのは避けたいところです。ですから自分でまず作業結果をチェックするのはとても有益でしょう。</p>
         <p>自分用の開発・テスト環境を構築するための第一歩は、TEI および Stylesheet リポジトリのコピーを入手することです。これらは <ptr target="https://github.com/TEIC/TEI"/> と <ptr target="https://github.com/TEIC/Stylesheets"/> からそれぞれ入手することができます。ここから先の手順説明はすべて、少なくともある程度コマンドラインでの作業に慣れているものと仮定しています。そうでないならばこれが学ぶよい機会かもしれません。Mac に偏ったチュートリアルですが “<ref target="https://www.learnenough.com/command-line-tutorial">Learn Enough Command Line to Be Dangerous</ref>” があります。Windows 10 ユーザなら “<ref target="http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/">How to Install and Use the Linux Bash Shell on Windows 10</ref>” で Bash シェルのインストール方法とその使い方の基本を学ぶことができるでしょう。さてターミナルのウィンドウを開いたら、次のコマンドで TEI のリポジトリを複製することができます。<lb/><code>git clone git@github.com:TEIC/TEI.git</code>  <lb/><code>git clone git@github.com:TEIC/Stylesheets.git</code></p>
         <p>これらのリポジトリは同じディレクトリに保存するのがおそらくはいいでしょう。私は <code>/Users/hcayless/Development/TEIC</code> という名前のディレクトリに保存しています。この先わかるでしょうが、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu かその他の Linux を使用しているなら、好きなところでいいです。すでに TEI および Stylesheets リポジトリの作業用コピーを用意していて、そこで行われた変更を GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境を入手してください。Mac なら <ptr target="https://www.docker.com/products/docker#/mac"/> で、Windowsなら <ptr target="https://www.docker.com/products/docker#/windows"/> で、Linuxなら <ptr target="https://www.docker.com/products/docker#/linux"/> で入手することができます。Docker をインストールしたら、次のコマンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<lb/><code>docker pull teic/teidev-docker</code> <lb/></p>
-        <p>Now you’re ready to run your test environment. You’ll need a couple of pieces of
-          information for Docker: the location of your repositories and your timezone. Your timezone
-          can be looked up on <ref target="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Wikipedia</ref>.
-          You need it because the default timezone of the container is UTC, which will lead to
-          strange warnings when you run the builds unless you actually happen to be in sync with
-          UTC, because the local time of your computer will differ from that set in the container.
-          The directory containing your repositories will be mapped to a directory in the container
-          (which is why it’s easier to put them side-by-side). You’ll run the test container with a
-          command like: 
-          <lb/><code>docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ=America/New_York
-            teic/teidev-docker</code>
-          <lb/>which will put you in a Bash shell inside the container (named 'tei'), at the root directory.
-          The directory on your local file system where you cloned the TEI and
-          Stylesheets repos is mapped to <code>/tei</code> in the container (that’s the part after
-          <code>-v</code> above). If you then do <code>cd tei</code> and then <code>ls</code>, you
-          should  see the repos you cloned above. There’s one more piece of work to be done, and
-          that’s  to tell the Guidelines build process where it can find your copy of the
-          Stylesheets.  You do that by adding a <code>local.mk</code> file in <code>TEI/P5</code>.
-          So,  (from <code>/tei</code>) do <code>cd TEI/P5</code> and then 
-          <code>echo "XSL=/tei/Stylesheets" &gt; local.mk</code>. Now
-          you can build things! And, what’s more, you can work on the Guidelines and Stylesheets in
-          your regular environment, and test them in Docker. The Docker command above will create a
-          container named “tei”, which you can return to later. Because it runs a Bash terminal, you
-          can exit it by typing <code>exit</code> at the command prompt, and that will stop the 
-          container. You can restart it with a command like <code>docker start -ai tei</code>, which
-          will start the container and attach your terminal to it, with whatever state it was in
-          when you left it. You may want to alias a simple command like <code>teidocker</code> to 
-          <code>docker start -ai tei</code>.
-        </p>
+        <p>これでテスト環境を実行する準備が整いました。Docker のための情報があと二、三必要です。リポジトリのある場所と、タイムゾーンです。タイムゾーンは <ref target="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Wikipedia</ref> で調べることができます。これが必要になるのは、Docker コンテナのタイムゾーンの初期設定が UTC だからです。これはたまたま実際に UTC 時間を使用してた場合を除いて、ビルドの際に奇妙な警告を引き起こすことになります。というのも、コンピュータのローカル時刻と、コンテナの中の設定が一致しないからです。リポジトリを格納しているディレクトリは、コンテナの中のディレクトリに対応づけられます（これがリポジトリを1箇所にかためておく方がやりやすい理由です）。テストコンテナを実行するには次のようなコマンドを使用します。<lb/><code>docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ=America/New_York
+            teic/teidev-docker</code> <lb/> これにより、"tei" と名付けられたコンテナのルートディレクトリに、Bash シェルを使ってログインします。TEI と Stylesheets リポジトリを複製したローカルファイルシステム上のディレクトリは、コンテナの <code>/tei</code> ディレクトリに対応づけられます（これが上記のコマンドで <code>-v</code> の後に続く部分の意味です）。その後 <code>cd tei</code> を実行し、次に <code>ls</code> を行うと、上で複製したリポジトリが表示されます。もう一つすることがあります。それは、ガイドラインをビルドするプロセスに、Stylesheets リポジトリの複製がどこにあるかを教えることです。<code>TEI/P5</code> ディレクトリに <code>local.mk</code> ファイルを追加することによって、これを行います。そこで（ <code>/tei</code> ディレクトリから）<code>cd TEI/P5</code> を行ってから、<code>echo "XSL=/tei/Stylesheets" &gt; local.mk</code> を実行します。これでビルドをすることができるようになりました。それだけでなく、通常の環境で Guidelines と Stylesheets リポジトリの作業を行ってから、それを Docker でテストすることもできます。上記の Docker 作成コマンドで、コンテナに "tei" という名前をつけましたので、これを使って後から Docker 環境に戻ってくることができます。この環境は Bash 端末を実行しているので、コマンドプロンプトで <code>exit</code> を入力することにより、この環境から抜けることができ、これによりコンテナも停止します。再起動は <code>docker start -ai tei</code> というコマンドで可能です。これにより前回コンテナを停止した時の状態から再度コンテナが起動され、端末が接続されます。<code>docker start -ai tei</code> の代わりに、<code>teidocker</code> といった単純な別名のコマンドを作りたくなるかもしれませんね。</p>
         <p>To build the HTML version of the Guidelines, for example, you can run (in
             <code>/tei/TEI/P5</code>) <code>make html-web</code>, and after the process finishes,
           you’ll have a directory called “Guidelines-web” in your P5 directory. Outside your Docker
