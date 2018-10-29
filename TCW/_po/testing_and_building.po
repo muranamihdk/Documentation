@@ -1,18 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-29 16:00+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-10-29 17:02+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.2\n"
 
 #. (itstool) path: titleStmt/title
 #: testing_and_building.xml:9
 msgid "Building and Testing the TEI Guidelines and Stylesheets"
-msgstr ""
+msgstr "TEI ガイドラインとスタイルシートをビルドしてテストする"
 
 #. (itstool) path: titleStmt/author
 #: testing_and_building.xml:10
@@ -22,7 +25,7 @@ msgstr ""
 #. (itstool) path: publicationStmt/publisher
 #: testing_and_building.xml:13
 msgid "TEI Technical Council"
-msgstr ""
+msgstr "TEI 技術評議会"
 
 #. (itstool) path: publicationStmt/date
 #: testing_and_building.xml:14
@@ -37,12 +40,12 @@ msgstr ""
 #. (itstool) path: div/head
 #: testing_and_building.xml:24
 msgid "How to build and test the Guidelines and Stylesheets"
-msgstr ""
+msgstr "ガイドラインとスタイルシートをビルドしてテストする方法"
 
 #. (itstool) path: div/p
 #: testing_and_building.xml:25
 msgid "Getting set up to run the various building and testing targets in the Guidelines and Stylesheets is relatively easy in Debian Linuxes like Ubuntu. But it is quite tricky on other systems, like Mac OS X or Windows. The TEI Jenkins server will run a variety of builds when you push changes to the TEI or Stylesheets repos, but you may find you prefer to run the tests locally, as they will likely be faster and will save you the trouble of waiting for Jenkins to email you when it finds a problem. Moreover, if you’re doing work in a branch, Jenkins won’t help you at all, and it can be very useful to “check your work” as you go to avoid lots of bug-fixing when your merge back into dev."
-msgstr ""
+msgstr "ガイドラインとスタイルシートを色々とビルドしてテストするための環境を用意するのは、Ubuntu などの Debian Linux では比較的簡単です。しかし Mac OS X や Windows といったそれ以外のシステムでは、かなり手の込んだ作業が必要になります。TEI あるいは Stylesheet リポジトリに変更が加えられると、TEI Jenkins サーバでさまざまなビルドが行われますが、自分のマシンでテストを実行した方がよいかもしれません。というのも、おそらくその方が実行も速いでしょうし、問題が見つかったときに Jenkins からメールが届くのを待っている時間も節約してくれるからです。それだけでなく、作業用ブランチでの変更については Jenkins はまったく感知しませんし、かといって dev ブランチにマージした後で大量のバグを直すハメになるのは避けたいところです。ですから自分でまず作業結果をチェックするのはとても有益でしょう。"
 
 #. (itstool) path: p/ref
 #: testing_and_building.xml:40
@@ -67,7 +70,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: testing_and_building.xml:33
 msgid "The first step in setting up your development and testing environment is to get copies of the TEI and Stylesheets repositories. These can be obtained from <_:ptr-1/> and <_:ptr-2/> respectively. All of the following instructions assume you are at least somewhat comfortable working in a command line environment. If you aren’t, this would be a good time to learn. A rather Mac-biased tutorial may be found at “<_:ref-3/>”, while Windows 10 users may learn how to install a Bash shell and the basics of using it at “<_:ref-4/>”. Once you’re in a terminal window, you can clone the TEI repos thus: <_:lb-5/><_:code-6/> and <_:lb-7/><_:code-8/>"
-msgstr ""
+msgstr "自分用の開発・テスト環境を構築するための第一歩は、TEI および Stylesheet リポジトリのコピーを入手することです。これらは <_:ptr-1/> と <_:ptr-2/> からそれぞれ入手することができます。ここから先の手順説明はすべて、少なくともある程度コマンドラインでの作業に慣れているものと仮定しています。そうでないならば学ぶよい機会かもしれません。Mac に偏ったチュートリアルですが “<_:ref-3/>” があります。Windows 10 ユーザなら “<_:ref-4/>” で Bash シェルのインストール方法とその使い方の基本を学ぶことができるでしょう。さてターミナルのウィンドウを開いたら、次のコマンドで TEI のリポジトリを複製することができます。<_:lb-5/><_:code-6/> そして <_:lb-7/><_:code-8/>"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:49
@@ -82,7 +85,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: testing_and_building.xml:48
 msgid "It’s probably a good idea to keep these side-by-side. I put mine in a directory called: <_:code-1/>. As you will see, it’s a good idea to do this somewhere under the Users directory, whether you’re on Mac or Windows. If you’re running Ubuntu or some other Linux, you can put them where you like. Let’s assume you’ve got working copies of the TEI and Stylesheets repos, and that you’ve made some changes you’d like to test before you push them back up to GitHub and make them available to everyone. The TEI has set up a pre-built test environment in Docker that you can use. First, you should get Docker. On a Mac, go to <_:ptr-2/>, on Windows, <_:ptr-3/>, and on Linux, <_:ptr-4/>. Once you have docker installed, you can run <_:lb-5/><_:code-6/> <_:lb-7/>to grab a copy of the pre-built image."
-msgstr ""
+msgstr "これらのリポジトリは同じディレクトリに保存するのがおそらくはいいでしょう。私は <_:code-1/> という名前のディレクトリに保存しています。この先わかるでしょうが、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu かその他の Linux を使用しているなら、好きなところでいいです。すでに TEI および Stylesheets リポジトリの作業用コピーを用意していて、そこで行われた変更を GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境を入手してください。Mac なら <_:ptr-2/> で、Windowsなら <_:ptr-3/> で、Linuxなら <_:ptr-4/> で入手することができます。Docker をインストールしたら、次のコマンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<_:lb-5/><_:code-6/> <_:lb-7/>"
 
 #. (itstool) path: p/ref
 #: testing_and_building.xml:64
@@ -95,8 +98,7 @@ msgid "docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ=
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:75
-#: testing_and_building.xml:80
+#: testing_and_building.xml:75 testing_and_building.xml:80
 msgid "/tei"
 msgstr ""
 
@@ -141,8 +143,7 @@ msgid "exit"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:86
-#: testing_and_building.xml:89
+#: testing_and_building.xml:86 testing_and_building.xml:89
 msgid "docker start -ai tei"
 msgstr ""
 
@@ -177,26 +178,22 @@ msgid "Stylesheets/"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:100
-#: testing_and_building.xml:105
+#: testing_and_building.xml:100 testing_and_building.xml:105
 msgid "Makefile"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:100
-#: testing_and_building.xml:109
+#: testing_and_building.xml:100 testing_and_building.xml:109
 msgid "make"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:101
-#: testing_and_building.xml:104
+#: testing_and_building.xml:101 testing_and_building.xml:104
 msgid "Stylesheets/Test"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:101
-#: testing_and_building.xml:110
+#: testing_and_building.xml:101 testing_and_building.xml:110
 msgid "make test"
 msgstr ""
 
@@ -249,4 +246,3 @@ msgstr ""
 #: testing_and_building.xml:133
 msgid "Good luck and happy testing!"
 msgstr ""
-
