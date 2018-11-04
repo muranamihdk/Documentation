@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 $LastChangedDate: 2011-12-06$.
 $LastChangedBy: martindholmes$
 $LastChangedRevision: 8769 $
 -->
-
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-  >
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>How to edit the TEI Guidelines</title>
+        <title>TEI ガイドラインの編集の仕方</title>
         <author>Lou Burnard</author>
       </titleStmt>
       <publicationStmt>
@@ -56,153 +54,65 @@ $LastChangedRevision: 8769 $
   </teiHeader>
   <text>
     <body>
-      <p>This document is intended to set out the way things are
-      currently managed  in the
-        editing of the TEI Guidelines. General notes on the rationale
-	for this state -- <emph>why</emph> it is the way it is -- may be added here
-        later. The intention is to provide information for Council
-      members wishing to contribute actively to the continued
-      development and maintenance of the text of the Guidelines. </p>
+      <p>この文書は、現在 TEI ガイドラインの編集において管理されている方法を、厳格に説明することを目的としている。この状態の根拠 -- <emph>なぜ</emph> なぜそれはそのようであるのか -- について、一般的な解説が後でここに追加されるかもしれない。ガイドラインの文章の継続的な開発と保守に、積極的に貢献することを希望する理事会のメンバーに向けて、情報を提供することを意図している。</p>
       <div>
-        <head>Organization of the Guidelines chapters</head>
-        <p>It cannot have escaped your notice that each chapter (almost) of the Guidelines defines a
-          distinct module. In theory at least, each chapter is organised in more or less the same
-          way: <list>
-            <item>it begins with a paragraph explaining what the module is for, and containing a lot
-              of links to the individual subsections it contains; </item>
-            <item>each subsection introduces a (small) group of elements, usually beginning with a
-              <gi>specList</gi>, which will typically list all the elements discussed within a 
-              given section, listed in whatever order makes sense for the context, but not necessary
-              all possible child elements for a given element; </item>
-            <item>each element is then introduced in turn, usually including an appropriate usage
-              example (on examples, see further <ptr target="#examples"/>); </item>
-            <item>a <gi>specGrp</gi> for each group of elements defined may be given at the end of
-              each section; </item>
-            <item>a <gi>specGrp</gi> for the whole module is given at the end of the chapter: it
-              includes the other specifications either directly (by means XIncludes) or
-              indirectly (by means of a <gi>specGrpRef</gi> pointing to a preceding
-              <gi>specGrp</gi>).</item>
-          </list></p>
-<p>The only chapters not organised in this way are those which do not
-introduce or define particular modules.  </p>
+        <head>ガイドラインの各章の組み立て</head>
+        <p>ガイドラインの（ほとんどの）章が、それぞれ別個のモジュールを定義していることにはお気づきのことと思う。少なくとも理屈の上では、それぞれの章は次のようなほぼ同じ構成で組織されている。</p>
+<p>特定のモジュールの説明や定義を行っていない章は、上記の限りではない。</p>
       </div>
       <div>
-        <head>Organization of the specifications</head>
-        <p>Each element, class, and macro defined in the Guidelines is
-	declared within its own XML file,
-          containing an <gi>elementSpec</gi>, <gi>classSpec</gi>, or <gi>macroSpec</gi> as
-          appropriate. These files are in the directory
-	  <ident>Source/Specs</ident>. For example, the file
-            <ident>Source/Specs/abbr.xml</ident> contains the element spec for the <gi>abbr</gi> element.
-            Note that the elements for the major components of the spec each have a <att>versionDate</att>.
-            <emph rend="bold">If editing the content of the element, you must remember to update the value of this 
-            attribute</emph> in order to allow for detection of translations (stored in the same file) that need 
-            updating. As a general rule, don't update a translation for any language of which you are not 
-            a native speaker. If you feel confident enough to adjust the translation, leave the 
-            <att>versionDate</att> attribute unchanged on the translation in order to ensure the translation 
-            will be reviewed eventually.</p>
-        <p>Each chapter of the Guidelines is stored in a file called
-            <ident>Source/Guidelines/xx/YY-name.xml</ident> where xx is the language (currently only en or
-          fr), YY is the two letter identifier for each chapter (see <ptr target="#chaptercodes"/>)
-          and name is the name of the module being defined by that chapter. </p>
-        <p>The file <ident>Source/guidelines-xx.xml</ident> (where xx is either en or fr) is the
-            <soCalled>driver file</soCalled> for the whole shebang. It contains XInclude elements 
-            for each of the chapters making up the Guidelines. </p>
-        <p>Hence, to add a new element (say <gi>saintName</gi>) you
-	might proceed as follows: <list type="ordered">
-            <item>Write a new file <ident>saintName.xml</ident> containing an <gi>elementSpec</gi>
-              for your new element and add it to the <ident>Specs</ident> folder. Look at other specifications
-              to see which <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDcrystals">ODD elements</ref>
-              to use. Note that we do not use <gi>valDesc</gi> at this time, instead using only a <gi>datatype</gi>.</item>
-            <item>Edit the source of the relevant chapter (presumably
-                <ident>ND-namesdates.xml</ident> in this example) to include a documentation of the element. Use a
-                <gi>specList</gi> to reference the description from your new spec within the body of
-              the text, like this:
-<egXML xmlns="http://www.tei-c.org/ns/Examples"> 
+        <head>仕様定義の組み立て</head>
+        <p>ガイドラインで定義されている要素、クラス、およびマクロは、それぞれが独自の XML ファイルの中で定義されている。ファイルには、しかるべき <gi>elementSpec</gi>、<gi>classSpec</gi>、もしくは <gi>macroSpec</gi> が含まれる。これらのファイルは <ident>Source/Specs</ident> ディレクトリに置かれる。例えば <ident>Source/Specs/abbr.xml</ident> ファイルは、<gi>abbr</gi> 要素のための仕様定義を含む。仕様定義の主要部分を構成する要素には、それぞれに <att>versionDate</att> 属性があることに注意してほしい。<emph rend="bold">もしその要素の内容が編集されたら、忘れずこの属性の値を変更せねばならない。</emph>これにより、同じファイルに含まれている翻訳に更新が必要かどうか、わかるようにするためである。一般的な規則として、その言語を母語としない限りは、その言語の翻訳を更新してはならない。もし翻訳の修正に自信がある場合でも、翻訳の <att>versionDate</att> 属性は変更せずにそのまま残しておくべきである。これは最終的にはレビューが行われることを確実にするためである。</p>
+        <p>ガイドラインの各章は、<ident>Source/Guidelines/xx/YY-name.xml</ident> という名前のファイルに収載されている。xx は言語を示す（現在は en と fr のみである）。YY は各章を示す識別子であり、2文字で構成される（<ptr target="#chaptercodes"/> を参照せよ）。name はその章で定義されているモジュールの名称である。</p>
+        <p><ident>Source/guidelines-xx.xml</ident> ファイル（xx は en か fr かのいずれかである）は、ガイドライン全体に対する <soCalled>「ドライバファイル」</soCalled> である。このファイルに、ガイドラインを構成する各章が、XInclude 要素を使ってまとめられている。</p>
+        <p>したがって、新たに要素（ここでは仮に <gi>saintName</gi> としよう）を追加する場合は、以下の手順に従って進めねばならない。<list type="ordered">
+            <item>新しい要素のための <gi>elementSpec</gi> を含む新しいファイル <ident>saintName.xml</ident> を書き、これを <ident>Specs</ident> フォルダに追加する。どの <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html#TDcrystals">ODD 要素</ref> を使うべきかは他の仕様定義を見よ。この時点では <gi>valDesc</gi> を使わないことに注意すること。代わりに <gi>datatype</gi> のみを使用する。</item>
+            <item>関連する章のソース（この例ではおそらく <ident>ND-namesdates.xml</ident>）を編集して、その要素に関するドキュメントを追加する。本文内から新しい仕様定義の記述を参照するには、<gi>specList</gi> を使い次のようにする。<egXML xmlns="http://www.tei-c.org/ns/Examples"> 
   <p>This module also defines the following canonical element: <specList>
     <specDesc key="saintName"/>
   </specList></p>
-</egXML> 
-
-and follow up with some discussion of usage.
-</item>
+</egXML>そしてその要素の使用方法について何らかの説明を加える。</item>
 <!--	   This item added by MDH 2015-02-11. -->
-	  <item>Also in the relevant chapter, make sure you include an XInclude instruction to bring the specification 
-	  file for your element into the Guidelines source. Normally you would add it to an existing <gi>specGrp</gi>
-	  element somewhere in the chapter source which already contains similar links:
-<eg>
+	  <item>同時に、関連する章においては、その要素の仕様定義ファイルをガイドラインのソースに読み込むための、XInclude 命令が含まれていることを確認する。通常はその章のソースのどこかに、すでに同様のリンクを含む既存の <gi>specGrp</gi> 要素があるので、そこに以下のように追加することになるだろう。<eg>
   &lt;specGrp xml:id="DNDPER" n="Personal and organizational names"&gt;
   &lt;include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/orgName.xml"/&gt;
   &lt;include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/saintName.xml"/&gt;
   [...]
   &lt;/specGrp&gt;
-</eg>
-	  
-	  </item>
-          </list>
-        </p>
+</eg></item>
+          </list></p>
       </div>
       
       <!-- This section added by MDH 2013-04-26 as part of work on https://sourceforge.net/p/tei/bugs/512/. 
           Extra clarification added by MDH 2016-07-08.   -->
       <div>
-<head>Processing Instructions</head>
- <p>In some places in the Guidelines source code, you will notice processing instructions which look like this:
- 
-        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<head>処理命令</head>
+ <p>ガイドラインのソースコードの幾つかの場所に、次のような見た目の処理命令があることに気づかれると思う。<egXML xmlns="http://www.tei-c.org/ns/Examples">
           &lt;?insert totalElements?&gt;
-        </egXML>
-        
-These processing instructions are replaced during the Guidelines build process by generated content. (That processing
-takes place in the XSL module P5/Utilities/expand.xsl.) In the 
-case of the example above, the total number of elements defined in the current version of the Guidelines is
-calculated and inserted. This is a list of the processing instructions currently in use, and what they are replaced 
-by:
-
-<list type="gloss">
+        </egXML>これらの処理命令は、ガイドラインのビルドの過程で、そこで生成された内容に置き換えられる（この処理は P5/Utilities/expand.xsl の XSL モジュールで行われる）。上の例の場合、現在のバージョンのガイドラインで定義されている要素の総数が計算され、挿入される。次のリストは、現在使われている処理命令の一覧と、それが何に置き換えられるかを示したものである。<list type="gloss">
   <label>&lt;?insert tab-content-models?&gt;</label>
-  <item>Inserts a generated table of content models into the ST chapter (not likely to be used elsewhere)</item>
+  <item>生成された内容モデルの表を ST (The TEI Infrastructure) 章に挿入する（他の章では使用できない可能性がある）</item>
   <label>&lt;?insert totalElements?&gt;</label>
-  <item>Inserts a count of the total number of elements defined in the current version</item>
+  <item>現バージョンで定義されている要素の総数を挿入する</item>
   <label>&lt;?insert version?&gt;</label>
-  <item>Inserts the current version number of the TEI release</item>
-</list>
-
-If you are writing a Guidelines section that can use one of these variables, feel free to insert the appropriate 
-processing instruction. If you think of other content that could be generated in this way, raise an issue on GitHub so that it can be implemented.
- </p>
+  <item>現在のリリースの TEI のバージョン番号を挿入する</item>
+</list>ガイドラインのセクションの執筆中に、これらの変数で置き換えが可能な個所があれば、適切な処理命令をそこに挿入することは自由に行ってもらってよい。何か他にもこの方法で生成可能な内容を思いついたときは、GitHub で issue を発行し、実装のための提起をしてもらいたい。</p>
      </div>
 
       <div>
-        <head>Style Notes</head>
+        <head>スタイルについての注記</head>
         <div>
-          <head>General</head>
-          <p>See the <ref target="http://www.tei-c.org/Activities/Council/Working/tcw24.xml">Style 
-            Guide for Editing the TEI Guidelines</ref>, 
-            which attempts to state preferred practice on vexed issues
-            issues about spelling, punctuation, etc. The goal of these rules is to avoid
-            inconsistency, and also (wherever possible) to avoid producing text which is markedly
-            either British or American English. </p>
-          <p></p>
+          <head>一般</head>
+          <p><ref target="http://www.tei-c.org/Activities/Council/Working/tcw24.xml">TEI ガイドライン編集のためのスタイルガイド</ref> を参照されたい。これは綴りや句読点などに関して、頭痛の種になりがちな問題に、実践上の指針を示すことを試みたものである。これらの規則の目的は、非一貫性を避けることであり、同時に可能なかぎり、明らかにイギリス英語かアメリカ英語かのいずれかに偏った文章を避けることである。</p>
+          <p/>
         </div>
         <div xml:id="examples">
-          <head>Examples</head>
-          <p>The purpose of an example is to illustrate a specific element or feature. Do not
-            include irrelevant encoding which does not contribute to this primary goal. If such
-            encoding is unavoidable (eg to make your example valid), then it must be explained in
-            the supporting text.</p>
-          <p>Wherever possible, choose your examples from real documents and provide bibliographic
-            citations for them, either:
-            <list>
-              <item>in a <gi>note</gi> element, with a <att>place</att> whose value is <val>bottom</val> or 
-                <val>foot</val>, following the <gi>egXML</gi> (if the citation is only a URL in a 
-                <gi>ptr</gi>)</item>
-              <item>in a full bibliographic citation (with or without a URL in <gi>ptr</gi>) in 
-                the file <ident>BIB-Bibliography.xml</ident></item>
-            </list> 
-            Use the <att>source</att> attribute on the <gi>egXML</gi> element to link an example to its source. Note
-            that the <att>xml:lang</att> attribute is mandatory on <gi>exemplum</gi>: this is to
-            ensure that the ODD processor knows which examples to choose in a given context.</p>
+          <head>例示</head>
+          <p>例示の目的は、特定の要素や機能の説明をすることである。この主目的に寄与しない無関係なエンコーディングは、含めてはならない。このようなエンコーディングを含めることが避けられないのであれば（例えば例示を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきである。</p>
+          <p>例示は可能なかぎり実際の文書から選択し、次のいずれかの方法で、その書誌情報を示すべきである。<list>
+              <item><gi>note</gi> 要素において、<att>place</att> 属性 の値を <val>bottom</val> か foot<val>foot</val> にし、<gi>egXML</gi> 要素を続ける（典拠が <gi>ptr</gi> 要素 の URL だけである場合）</item>
+              <item><ident>BIB-Bibliography.xml</ident> ファイル中で完全な書誌情報の形で示す（可能であれば <gi>ptr</gi> 要素の URL とともに）</item>
+            </list><gi>egXML</gi> 要素では <att>source</att> 属性を使い、例示をそのソースにリンクする。<gi>exemplum</gi> 要素では <att>xml:lang</att> 属性が必須であることに注意すること。これは特定の文脈においてどの例示を選択すべきか、ODD プロセッサに確実に認識させるためである。</p>
           <p>All examples should be valid against a modified TEI schema in which any element can act
             as a root element; this validity is checked during the build process. </p>
           <p>When you have added or edited examples, always check in the following Jenkins build 
@@ -247,8 +157,7 @@ processing instruction. If you think of other content that could be generated in
           of the NVDL file used for validation of the P5 source.</item>
           <item>If you have a locally installed P5 build environment, make sure you can still build,
             and that the examples are still valid. You can set up a Docker-based build environment
-            by following the instructions in <ptr
-              target="http://teic.github.io/TCW/testing_and_building.html"/>. If you have a build
+            by following the instructions in <ptr target="http://teic.github.io/TCW/testing_and_building.html"/>. If you have a build
             environment nor the means to set one up, just use git to push your updated version to
             GitHub and wait for our two <ident>Jenkins</ident> Continuous Integration servers (<ptr target="http://jenkins.tei-c.org/"/> and <ptr target="http://jenkins2.tei-c.org/"/>) to assess your work.</item>
           <item>Check in your changes:
@@ -522,7 +431,7 @@ by adding a simple <gi>revisionDesc</gi> element, which gives us the added bonus
         
             <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">
               <revisionDesc>
-                <change>&lt;date when="2012-09-06"/>MDH: Added @calendar to one date, and the date 
+                <change>&lt;date when="2012-09-06"/&gt;MDH: Added @calendar to one date, and the date 
                   element in here, for testing a new Schematron constraint.</change>
               </revisionDesc>
             </egXML>
@@ -608,7 +517,7 @@ In order to do that, we have to use the "detest" system. In <ident>trunk/P5/Test
 
       <div>
         <head>Reference section</head>
-        <div  xml:id="chaptercodes">
+        <div xml:id="chaptercodes">
           <head>Chapter codes</head>
 <p>Following a lengthy debate in the Council as to whether the
 two-character codes originally used to identify individual chapters 
@@ -915,13 +824,13 @@ tei
 <head>Some other (mostly superceded) documents on the topic</head>
 
 <listBibl>
- <bibl ><idno>TEI ED W9</idno>
+ <bibl><idno>TEI ED W9</idno>
 <title>Points of Style For Drafts of TEI Guidelines</title>
 <date>2 Mar 1990</date>
 <ref target="http://www.tei-c.org/Vault/ED/edw09.gml">in Waterloo Script format</ref>
 </bibl>
 
-<bibl >
+<bibl>
 <title>Notes on House Style</title>
 <idno>TEI ED W11</idno>
 <date>14 Sep 1992</date>
@@ -930,17 +839,17 @@ tei
 </bibl>
 
 
- <bibl ><idno>TEI ED W55</idno>
+ <bibl><idno>TEI ED W55</idno>
 <title>Form for Draft Chapters of the TEI Guidelines</title>
-<date >5 june 1996</date>
+<date>5 june 1996</date>
 <ref target="http://www.tei-c.org/Vault/ED/edw55.tei">in TEI P2 format</ref>
 <ref target="http://www.tei-c.org/Vault/ED/edw55.htm">in HTML format</ref>
 <ref target="http://www.tei-c.org/Vault/ED/edw55.odd">in ODD format</ref>
 </bibl>
 
- <bibl ><idno>TEI ED W57</idno>
+ <bibl><idno>TEI ED W57</idno>
 <title>Procedures for Correcting Errors in the TEI Guidelines</title>
-<date >July 23, 1994</date>
+<date>July 23, 1994</date>
 <ref target="http://www.tei-c.org/Vault/ED/edw57.tei">in TEI P2 format</ref>
 <ref target="http://www.tei-c.org/Vault/ED/edw57.htm">in HTML format</ref>
 </bibl>
@@ -949,4 +858,3 @@ tei
 </div>
 </back>  </text>
 </TEI>
-
