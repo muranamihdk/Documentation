@@ -1,0 +1,2150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-11-02 22:02+0900\n"
+"PO-Revision-Date: 2018-11-04 11:47+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.2\n"
+
+#. (itstool) path: titleStmt/title
+#: tcw20.xml:15
+msgid "How to edit the TEI Guidelines"
+msgstr "TEI ガイドラインの編集の仕方"
+
+#. (itstool) path: titleStmt/author
+#: tcw20.xml:16
+msgid "Lou Burnard"
+msgstr ""
+
+#. (itstool) path: publicationStmt/publisher
+#: tcw20.xml:19
+msgid "Text Encoding Initiative"
+msgstr ""
+
+#. (itstool) path: publicationStmt/date
+#: tcw20.xml:20
+msgid "2011"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: tcw20.xml:23
+msgid "All my own work"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:27
+msgid "Linked to schema that actually exists, and tweaked to handle the fallout."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:28
+msgid "Adding documentation on how to create or edit an Appendix to the Guidelines."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:29
+msgid "Adding more documentation to clarify where some processing instructions in the Guidelines are actually processed."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:30
+msgid "Updates to account for new Jenkins server subdomains."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:31
+msgid "Updates to account for the change from master to dev branch on GitHub."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:32
+msgid "Updates to account for the shift from SF SVN to GitHub."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:33
+msgid "Added exhortation to include sufficient linebreaks in examples, to avoid distorted page rendering in the Guidelines HTML output."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:35
+msgid "Added clarification about how to XInclude a new spec file."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:36
+msgid "Some clarifications, including not to use valDesc."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:37
+msgid "Made more explicit that you have to update @versionDate when editing the content of an element that it's located on."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:38
+msgid "When closing a ticket, add the URL of the revision number. Also replaced all \"SVN\" with \"Subversion\" when referring to the software."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:39
+msgid "Copyediting and clarified how to do citations per https://sourceforge.net/p/tei/bugs/527/ ."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:40
+msgid "Full path to schema for validation"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:41
+msgid "We should use egXML@source instead of egXML@corresp per Sebastian."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:42
+msgid "Clarified svn commit instructions."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:43
+msgid "Clarified what to include in a specList. Removed info that duplicates tcw24. Some light copyediting."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:44
+msgid "Revised instructions for creating a new element to take account of the switch to XInclude from entities."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:45
+msgid "Revised Schematron section based on feedback from KH."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:46
+msgid "Added a section on adding Schematron constraints."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:47
+msgid "Removed sections redundant with new TCW24 and redirected a link there."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:48
+msgid "Added instructions on when you can edit translations of specs."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:49
+msgid "Removed mention of P5/Source/Guidelines/en/style-guide.txt since this has been removed from SourceForge. Corrected @target to local copy of this document."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:50
+msgid "Created new section on good encoding practice, which includes info on @xml:id and @target and new note about using ptr instead of ref."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:51
+msgid "Removed \"building a release\" section and replaced with link to tcw22."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:52
+msgid "updated publicationStmt; added steps on updating latest download and creating news item in SourceForge"
+msgstr ""
+
+#. (itstool) path: change/name
+#: tcw20.xml:53
+msgid "David Sewell"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:53
+msgid "correction by <_:name-1/> per SR request"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:54
+msgid "started first draft"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: tcw20.xml:62
+msgid "why"
+msgstr "なぜ"
+
+#. (itstool) path: body/p
+#: tcw20.xml:59
+msgid "This document is intended to set out the way things are currently managed in the editing of the TEI Guidelines. General notes on the rationale for this state -- <_:emph-1/> it is the way it is -- may be added here later. The intention is to provide information for Council members wishing to contribute actively to the continued development and maintenance of the text of the Guidelines."
+msgstr "この文書は、現在 TEI ガイドラインの編集において管理されている方法を、厳格に説明することを目的としている。この状態の根拠 -- <_:emph-1/> なぜそれはそのようであるのか -- について、一般的な解説が後でここに追加されるかもしれない。ガイドラインの文章の継続的な開発と保守に、積極的に貢献することを希望する理事会のメンバーに向けて、情報を提供することを意図している。"
+
+#. (itstool) path: div/head
+#: tcw20.xml:67
+msgid "Organization of the Guidelines chapters"
+msgstr "ガイドラインの各章の組み立て"
+
+#. (itstool) path: list/item
+#: tcw20.xml:71
+msgid "it begins with a paragraph explaining what the module is for, and containing a lot of links to the individual subsections it contains;"
+msgstr "最初の段落は、その章で扱うモジュールの目的の説明と、章内の個々の節へのリンクを含む。"
+
+#. (itstool) path: item/gi
+#: tcw20.xml:74 tcw20.xml:119
+msgid "specList"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:73
+msgid "each subsection introduces a (small) group of elements, usually beginning with a <_:gi-1/>, which will typically list all the elements discussed within a given section, listed in whatever order makes sense for the context, but not necessary all possible child elements for a given element;"
+msgstr "それぞれの節では、要素の（小）グループの説明が行われる。これらのグループは通常、<_:gi-1/> で始まる。これは一般的に、その節で論じられるすべての要素のリストである。リスト内の並び順は、それぞれの文脈に応じ、何らかの有意味な順番による。また、可能な子要素を全て列挙する必要はない。"
+
+#. (itstool) path: list/item
+#: tcw20.xml:77
+msgid "each element is then introduced in turn, usually including an appropriate usage example (on examples, see further <_:ptr-1/>);"
+msgstr "そのあと、個々の要素が順番に説明される。通常は適当な使用例を含む（例示については <_:ptr-1/> も参照のこと）。"
+
+#. (itstool) path: item/gi
+#: tcw20.xml:79 tcw20.xml:81 tcw20.xml:84 tcw20.xml:131
+msgid "specGrp"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:79
+msgid "a <_:gi-1/> for each group of elements defined may be given at the end of each section;"
+msgstr "<_:gi-1/> によるそれぞれの要素グループの定義を、その節の末尾に置くことができる。"
+
+#. (itstool) path: item/gi
+#: tcw20.xml:83
+msgid "specGrpRef"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:81
+msgid "a <_:gi-1/> for the whole module is given at the end of the chapter: it includes the other specifications either directly (by means XIncludes) or indirectly (by means of a <_:gi-2/> pointing to a preceding <_:gi-3/>)."
+msgstr "そのモジュール全体の <_:gi-1/> は、その章の末尾に置かれる。ここには直接的にまた間接的に他の場所からの仕様定義が含まれる。直接的には XIncludes を使うことによって含まれ、間接的には <_:gi-2/> を使って既述の <_:gi-3/> を参照することで含まれる。"
+
+#. (itstool) path: div/p
+#: tcw20.xml:68
+msgid "It cannot have escaped your notice that each chapter (almost) of the Guidelines defines a distinct module. In theory at least, each chapter is organised in more or less the same way: <_:list-1/>"
+msgstr "ガイドラインの（ほとんどの）章が、それぞれ別個のモジュールを定義していることにはお気づきのことと思う。少なくとも理屈の上では、それぞれの章は次のようなほぼ同じ構成で組織されている。"
+
+#. (itstool) path: div/p
+#: tcw20.xml:86
+msgid "The only chapters not organised in this way are those which do not introduce or define particular modules."
+msgstr "特定のモジュールの説明や定義を行っていない章は、上記の限りではない。"
+
+#. (itstool) path: div/head
+#: tcw20.xml:90
+msgid "Organization of the specifications"
+msgstr "仕様定義の組み立て"
+
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: tcw20.xml:93 tcw20.xml:113 tcw20.xml:441
+msgid "elementSpec"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:93 tcw20.xml:441 tcw20.xml:479
+msgid "classSpec"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:93 tcw20.xml:441
+msgid "macroSpec"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:95
+msgid "Source/Specs"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:96
+msgid "Source/Specs/abbr.xml"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:96
+msgid "abbr"
+msgstr ""
+
+#. (itstool) path: p/att
+#: tcw20.xml:97 tcw20.xml:102
+msgid "versionDate"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: tcw20.xml:98
+msgid "If editing the content of the element, you must remember to update the value of this attribute"
+msgstr "もしその要素の内容が編集されたら、忘れずこの属性の値を変更せねばならない。"
+
+#. (itstool) path: div/p
+#: tcw20.xml:91
+msgid "Each element, class, and macro defined in the Guidelines is declared within its own XML file, containing an <_:gi-1/>, <_:gi-2/>, or <_:gi-3/> as appropriate. These files are in the directory <_:ident-4/>. For example, the file <_:ident-5/> contains the element spec for the <_:gi-6/> element. Note that the elements for the major components of the spec each have a <_:att-7/>. <_:emph-8/> in order to allow for detection of translations (stored in the same file) that need updating. As a general rule, don't update a translation for any language of which you are not a native speaker. If you feel confident enough to adjust the translation, leave the <_:att-9/> attribute unchanged on the translation in order to ensure the translation will be reviewed eventually."
+msgstr "ガイドラインで定義されている要素、クラス、およびマクロは、それぞれが独自の XML ファイルの中で定義されている。ファイルには、しかるべき <_:gi-1/>、<_:gi-2/>、もしくは <_:gi-3/> が含まれる。これらのファイルは <_:ident-4/> ディレクトリに置かれる。例えば <_:ident-5/> ファイルは、<_:gi-6/> 要素のための仕様定義を含む。仕様定義の主要部分を構成する要素には、それぞれに <_:att-7/> 属性があることに注意してほしい。<_:emph-8/>これにより、同じファイルに含まれている翻訳に更新が必要かどうか、わかるようにするためである。一般的な規則として、その言語を母語としない限りは、その言語の翻訳を更新してはならない。もし翻訳の修正に自信がある場合でも、翻訳の <_:att-9/> 属性は変更せずにそのまま残しておくべきである。これは最終的にはレビューが行われることを確実にするためである。"
+
+#. (itstool) path: p/ident
+#: tcw20.xml:105
+msgid "Source/Guidelines/xx/YY-name.xml"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:104
+msgid "Each chapter of the Guidelines is stored in a file called <_:ident-1/> where xx is the language (currently only en or fr), YY is the two letter identifier for each chapter (see <_:ptr-2/>) and name is the name of the module being defined by that chapter."
+msgstr "ガイドラインの各章は、<_:ident-1/> という名前のファイルに収載されている。xx は言語を示す（現在は en と fr のみである）。YY は各章を示す識別子であり、2文字で構成される（<_:ptr-2/> を参照せよ）。name はその章で定義されているモジュールの名称である。"
+
+#. (itstool) path: p/ident
+#: tcw20.xml:108 tcw20.xml:623
+msgid "Source/guidelines-xx.xml"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: tcw20.xml:109
+msgid "driver file"
+msgstr "「ドライバファイル」"
+
+#. (itstool) path: div/p
+#: tcw20.xml:108
+msgid "The file <_:ident-1/> (where xx is either en or fr) is the <_:soCalled-2/> for the whole shebang. It contains XInclude elements for each of the chapters making up the Guidelines."
+msgstr "<_:ident-1/> ファイル（xx は en か fr かのいずれかである）は、ガイドライン全体に対する <_:soCalled-2/> である。このファイルに、ガイドラインを構成する各章が、XInclude 要素を使ってまとめられている。"
+
+#. (itstool) path: p/gi
+#: tcw20.xml:111
+msgid "saintName"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:113
+msgid "saintName.xml"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:114
+msgid "Specs"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw20.xml:115
+msgid "ODD elements"
+msgstr "ODD 要素"
+
+#. (itstool) path: item/gi
+#: tcw20.xml:116
+msgid "valDesc"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: tcw20.xml:116 tcw20.xml:460
+msgid "datatype"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:113
+msgid "Write a new file <_:ident-1/> containing an <_:gi-2/> for your new element and add it to the <_:ident-3/> folder. Look at other specifications to see which <_:ref-4/> to use. Note that we do not use <_:gi-5/> at this time, instead using only a <_:gi-6/>."
+msgstr "新しい要素のための <_:gi-2/> を含む新しいファイル <_:ident-1/> を書き、これを <_:ident-3/> フォルダに追加する。どの <_:ref-4/> を使うべきかは他の仕様定義を見よ。この時点では <_:gi-5/> を使わないことに注意すること。代わりに <_:gi-6/> のみを使用する。"
+
+#. (itstool) path: item/ident
+#: tcw20.xml:118
+msgid "ND-namesdates.xml"
+msgstr ""
+
+#. (itstool) path: egXML/p
+#: tcw20.xml:122
+msgid "This module also defines the following canonical element: <_:specList-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:117
+msgid "Edit the source of the relevant chapter (presumably <_:ident-1/> in this example) to include a documentation of the element. Use a <_:gi-2/> to reference the description from your new spec within the body of the text, like this: <_:egXML-3/> and follow up with some discussion of usage."
+msgstr "関連する章のソース（この例ではおそらく <_:ident-1/>）を編集して、その要素に関するドキュメントを追加する。本文内から新しい仕様定義の記述を参照するには、<_:gi-2/> を使い次のようにする。<_:egXML-3/>そしてその要素の使用方法について何らかの説明を加える。"
+
+#. (itstool) path: item/eg
+#: tcw20.xml:133
+msgid "&lt;specGrp xml:id=\"DNDPER\" n=\"Personal and organizational names\"&gt; &lt;include xmlns=\"http://www.w3.org/2001/XInclude\" href=\"../../Specs/orgName.xml\"/&gt; &lt;include xmlns=\"http://www.w3.org/2001/XInclude\" href=\"../../Specs/saintName.xml\"/&gt; [...] &lt;/specGrp&gt;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:130
+msgid "Also in the relevant chapter, make sure you include an XInclude instruction to bring the specification file for your element into the Guidelines source. Normally you would add it to an existing <_:gi-1/> element somewhere in the chapter source which already contains similar links: <_:eg-2/>"
+msgstr "同時に、関連する章においては、その要素の仕様定義ファイルをガイドラインのソースに読み込むための、XInclude 命令が含まれていることを確認する。通常はその章のソースのどこかに、すでに同様のリンクを含む既存の <_:gi-1/> 要素があるので、そこに以下のように追加することになるだろう。<_:eg-2/>"
+
+#. (itstool) path: div/p
+#: tcw20.xml:111
+msgid "Hence, to add a new element (say <_:gi-1/>) you might proceed as follows: <_:list-2/>"
+msgstr "したがって、新たに要素（ここでは仮に <_:gi-1/> としよう）を追加する場合は、以下の手順に従って進めねばならない。<_:list-2/>"
+
+#. (itstool) path: div/head
+#: tcw20.xml:149
+msgid "Processing Instructions"
+msgstr "処理命令"
+
+#. (itstool) path: p/egXML
+#. (itstool) path: list/label
+#: tcw20.xml:152 tcw20.xml:165
+msgid "&lt;?insert totalElements?&gt;"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw20.xml:163
+msgid "&lt;?insert tab-content-models?&gt;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:164
+msgid "Inserts a generated table of content models into the ST chapter (not likely to be used elsewhere)"
+msgstr "生成された内容モデルの表を ST (The TEI Infrastructure) 章に挿入する（他の章では使用できない可能性がある）"
+
+#. (itstool) path: list/item
+#: tcw20.xml:166
+msgid "Inserts a count of the total number of elements defined in the current version"
+msgstr "現バージョンで定義されている要素の総数を挿入する"
+
+#. (itstool) path: list/label
+#. (itstool) path: p/code
+#: tcw20.xml:167 tcw20.xml:340
+msgid "&lt;?insert version?&gt;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:168
+msgid "Inserts the current version number of the TEI release"
+msgstr "現在のリリースの TEI のバージョン番号を挿入する"
+
+#. (itstool) path: div/p
+#: tcw20.xml:150
+msgid "In some places in the Guidelines source code, you will notice processing instructions which look like this: <_:egXML-1/> These processing instructions are replaced during the Guidelines build process by generated content. (That processing takes place in the XSL module P5/Utilities/expand.xsl.) In the case of the example above, the total number of elements defined in the current version of the Guidelines is calculated and inserted. This is a list of the processing instructions currently in use, and what they are replaced by: <_:list-2/> If you are writing a Guidelines section that can use one of these variables, feel free to insert the appropriate processing instruction. If you think of other content that could be generated in this way, raise an issue on GitHub so that it can be implemented."
+msgstr "ガイドラインのソースコードの幾つかの場所に、次のような見た目の処理命令があることに気づかれると思う。<_:egXML-1/>これらの処理命令は、ガイドラインのビルドの過程で、そこで生成された内容に置き換えられる（この処理は P5/Utilities/expand.xsl の XSL モジュールで行われる）。上の例の場合、現在のバージョンのガイドラインで定義されている要素の総数が計算され、挿入される。次のリストは、現在使われている処理命令の一覧と、それが何に置き換えられるかを示したものである。<_:list-2/>ガイドラインのセクションの執筆中に、これらの変数で置き換えが可能な個所があれば、適切な処理命令をそこに挿入することは自由に行ってもらってよい。何か他にもこの方法で生成可能な内容を思いついたときは、GitHub で issue を発行し、実装のための提起をしてもらいたい。"
+
+#. (itstool) path: div/head
+#: tcw20.xml:177
+msgid "Style Notes"
+msgstr "スタイルについての注記"
+
+#. (itstool) path: div/head
+#: tcw20.xml:179
+msgid "General"
+msgstr "一般"
+
+#. (itstool) path: p/ref
+#: tcw20.xml:180
+msgid "Style Guide for Editing the TEI Guidelines"
+msgstr "TEI ガイドライン編集のためのスタイルガイド"
+
+#. (itstool) path: div/p
+#: tcw20.xml:180
+msgid "See the <_:ref-1/>, which attempts to state preferred practice on vexed issues issues about spelling, punctuation, etc. The goal of these rules is to avoid inconsistency, and also (wherever possible) to avoid producing text which is markedly either British or American English."
+msgstr "<_:ref-1/> を参照されたい。これは綴りや句読点などに関して、頭痛の種になりがちな問題に、実践上の指針を示すことを試みたものである。これらの規則の目的は、非一貫性を避けることであり、同時に可能なかぎり、明らかにイギリス英語かアメリカ英語かのいずれかに偏った文章を避けることである。"
+
+#. (itstool) path: div/head
+#: tcw20.xml:189
+msgid "Examples"
+msgstr "例示"
+
+#. (itstool) path: div/p
+#: tcw20.xml:190
+msgid "The purpose of an example is to illustrate a specific element or feature. Do not include irrelevant encoding which does not contribute to this primary goal. If such encoding is unavoidable (eg to make your example valid), then it must be explained in the supporting text."
+msgstr "例示の目的は、特定の要素や機能の説明をすることである。この主目的に寄与しない無関係なエンコーディングは、含めてはならない。このようなエンコーディングを含めることが避けられないのであれば（例えば例示を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきである。"
+
+#. (itstool) path: item/gi
+#: tcw20.xml:197
+msgid "note"
+msgstr ""
+
+#. (itstool) path: item/att
+#: tcw20.xml:197
+msgid "place"
+msgstr ""
+
+#. (itstool) path: item/val
+#: tcw20.xml:197
+msgid "bottom"
+msgstr ""
+
+#. (itstool) path: item/val
+#: tcw20.xml:198
+msgid "foot"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: tcw20.xml:198 tcw20.xml:203
+msgid "egXML"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: tcw20.xml:199 tcw20.xml:200 tcw20.xml:219
+msgid "ptr"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:197
+msgid "in a <_:gi-1/> element, with a <_:att-2/> whose value is <_:val-3/> or <_:val-4/>, following the <_:gi-5/> (if the citation is only a URL in a <_:gi-6/>)"
+msgstr "<_:gi-1/> 要素において、<_:att-2/> 属性 の値を <_:val-3/> か foot<_:val-4/> にし、<_:gi-5/> 要素を続ける（典拠が <_:gi-6/> 要素 の URL だけである場合）"
+
+#. (itstool) path: item/ident
+#. (itstool) path: row/cell
+#: tcw20.xml:201 tcw20.xml:732 tcw20.xml:772
+msgid "BIB-Bibliography.xml"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:200
+msgid "in a full bibliographic citation (with or without a URL in <_:gi-1/>) in the file <_:ident-2/>"
+msgstr "<_:ident-2/> ファイル中で完全な書誌情報の形で示す（可能であれば <_:gi-1/> 要素の URL とともに）"
+
+#. (itstool) path: p/att
+#: tcw20.xml:203
+msgid "source"
+msgstr ""
+
+#. (itstool) path: p/att
+#: tcw20.xml:204
+msgid "xml:lang"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:204
+msgid "exemplum"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:194
+msgid "Wherever possible, choose your examples from real documents and provide bibliographic citations for them, either: <_:list-1/> Use the <_:att-2/> attribute on the <_:gi-3/> element to link an example to its source. Note that the <_:att-4/> attribute is mandatory on <_:gi-5/>: this is to ensure that the ODD processor knows which examples to choose in a given context."
+msgstr "例示は可能なかぎり実際の文書から選択し、次のいずれかの方法で、その書誌情報を示すべきである。<_:list-1/><_:gi-3/> 要素では <_:att-2/> 属性を使い、例示をそのソースにリンクする。<_:gi-5/> 要素では <_:att-4/> 属性が必須であることに注意すること。これは特定の文脈においてどの例示を選択すべきか、ODD プロセッサに確実に認識させるためである。"
+
+#. (itstool) path: div/p
+#: tcw20.xml:206
+msgid "All examples should be valid against a modified TEI schema in which any element can act as a root element; this validity is checked during the build process."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:208
+msgid "When you have added or edited examples, always check in the following Jenkins build that they are displaying correctly. In particular, note that if your examples include long lines without linebreaks, the result can be a horizontally-scrolling page and a broken table layout in the reference page. If you see this in the output, you can fix it by adding hard-coded linebreaks at suitable points in the example code."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:215
+msgid "Good encoding practice"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:216
+msgid "Good encoding practice will ensure not only valid but also highly functional Guidelines."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:219
+msgid "ref"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:218
+msgid "When referencing figures and to other sections of the Guidelines, use <_:gi-1/>, not <_:gi-2/>, to ensure that the title and number of the referenced item is automatically inserted when the Guidelines are compiled."
+msgstr ""
+
+#. (itstool) path: p/att
+#: tcw20.xml:225 tcw20.xml:741 tcw20.xml:743
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: p/att
+#: tcw20.xml:228 tcw20.xml:413 tcw20.xml:415 tcw20.xml:433
+msgid "target"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:222
+msgid "The build process validates cross-references. Since the Guidelines is compiled into a single XML document at build time, IDs must be unique across the text and the examples. Consequently, any <_:att-1/> attribute values appearing in your examples must be unique within the text of the whole of the Guidelines. Furthermore, any <_:att-2/> (etc.) values which do not point to anything in the source will be flagged with a warning during the build process."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:234
+msgid "Making a change to the Guidelines"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:236
+msgid "Most changes to the Guidelines are the result of a bug or feature request ticket on GitHub. Once a ticket is assigned to you, and you're sure there is agreement to proceed with the change, follow the steps below."
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw20.xml:241
+msgid "GitHub site"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:241
+msgid "git clone https://github.com/TEIC/TEI.git TEI"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:241
+msgid "If you don't have a local clone of the git repo, go to the <_:ref-1/> and clone the repository following the instructions there. It's usually something like <_:code-2/>"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:242
+msgid "git pull"
+msgstr ""
+
+#. (itstool) path: item/emph
+#: tcw20.xml:242
+msgid "before"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:242
+msgid "If you have already checked out a copy, make sure to update it (<_:code-1/>) <_:emph-2/> you make any changes in it."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:244
+msgid "dev"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:244
+msgid "git checkout dev"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:244
+msgid "Make sure you are on the <_:code-1/> branch (we do not make direct changes to the master branch): <_:code-2/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:245
+msgid "Edit the appropriate file(s) to make your changes, or if the change requires it, create a new file. Make sure your source is still valid. The TEI source files should all contain xml-model processing instructions linking them to the latest version of the NVDL file used for validation of the P5 source."
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:253
+msgid "Jenkins"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:248
+msgid "If you have a locally installed P5 build environment, make sure you can still build, and that the examples are still valid. You can set up a Docker-based build environment by following the instructions in <_:ptr-1/>. If you have a build environment nor the means to set one up, just use git to push your updated version to GitHub and wait for our two <_:ident-2/> Continuous Integration servers (<_:ptr-3/> and <_:ptr-4/>) to assess your work."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:256
+msgid "git add filename.xml"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:256
+msgid "If the file is new, add it to the git repository: <_:code-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:254
+msgid "Check in your changes: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:259
+msgid "git commit -m \"Your commit message\" filename.xml"
+msgstr ""
+
+#. (itstool) path: item/emph
+#: tcw20.xml:259
+msgid "Be sure to add a detailed commit message which includes a link to the git issue ticket which prompted the change"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:259
+msgid "Commit your changes: <_:code-1/> <_:emph-2/>."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:260
+msgid "git push origin dev"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:260
+msgid "Push the change to the git repository: <_:code-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:261
+msgid "Make a note of the revision hash when git receives your change."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:262
+msgid "Assuming the change was successful (see below), add a comment to the GitHub issue ticket which includes the hash of the revision. You may also close the ticket if it is complete."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:264
+msgid "Error messages may appear at any stage. Please do not leave the source in an invalid state (it makes life unnecessarily difficult for others). If you cannot immediately fix a validity error, revert your change while you think about it. If you are working on a particularly complex change involving multiple files, it may be better to create a branch in which to work on your changes, and then to merge the branch when you are confident that the work is successfully completed. See any guide to git for instructions on how to approach that. Bear in mind that our Jenkins servers only build the dev branch, so you cannot depend on them to test-build your working branch."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:268
+msgid "The Jenkins servers monitor the Git repository, and when they detect a change, they check it out and commence building several targets, just as you would build them on your local machine. There are a couple of advantages to letting the Jenkins servers check your build for you:"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:271
+msgid "You don't have to have all the various packages and other software required for a build installed on your system. This means you can make a quick fix to the Guidelines on any computer you happen to be using, without installing a lot of extra software."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:272
+msgid "The required packages on the Jenkins servers tend to be updated regularly, and we're watching them to make sure they work properly."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:273
+msgid "Jenkins attempts to let you know by email if there's a problem, and provides useful debugging tools."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:276
+msgid "If you submit a change, and later get an email from one of the Jenkins servers telling you that the build failed, it will provide a link to the build information on the server. Here's what to do:"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:279
+msgid "First, check that the build is broken on both Jenkins servers. If it's only broken on one of them, it may have been caused by a lag in updates to packages on that server."
+msgstr ""
+
+#. (itstool) path: item/q
+#: tcw20.xml:280
+msgid "Parsed Console Output"
+msgstr ""
+
+#. (itstool) path: item/q
+#: tcw20.xml:280
+msgid "Errors"
+msgstr ""
+
+#. (itstool) path: item/q
+#: tcw20.xml:280
+msgid "Warnings"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:280
+msgid "If both servers have completed a build since your commit, and both are showing an error, then you need to check where the error is occurring. On the page for that build on the Jenkins server site, click on <_:q-1/> on the left menu. You'll see links to <_:q-2/> and <_:q-3/>; these will show you the exact point in the build script where the errors or warnings occurred. This may give you a useful clue to the cause of the failure."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:281
+msgid "If you still can't figure out the problem, email the Council list with a link to the build information, and someone will be able to help."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:282
+msgid "Once you know what the problem is, fix it by editing the source again and committing the change to the git repository. Jenkins will then do its stuff, and you'll know whether your fix worked as expected."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:285
+msgid "make test"
+msgstr ""
+
+#. (itstool) path: p/q
+#: tcw20.xml:285
+msgid "TEIP5-Test"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:285
+msgid "Error messages appearing during the <_:ident-1/> phase (the <_:q-2/> job on Jenkins) usually indicate that your changes are in conflict with the Birnbaum Doctrine, which decrees that changes in the Guideline schemas should not invalidate existing documents. You may wish to discuss the specific issue with other Council members."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:293
+msgid "Images"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:296
+msgid "P5/Images"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:298
+msgid "fred.png"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:299
+msgid "fred.zip"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:295
+msgid "If you use an image in your Guidelines change, you will need to add it to the git repository in the <_:ident-1/> directory. If you have asked for and received permission from a rights-holder to use the image, include all of the relevant correspondence in a zip file named the same as the image file (so for an image <_:ident-2/>, include permission documents in a file called <_:ident-3/>)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:306
+msgid "Adding or Editing an Appendix"
+msgstr ""
+
+#. (itstool) path: p/title
+#: tcw20.xml:308
+msgid "TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:308
+msgid "p5.xml"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:308
+msgid "p5subset.xml"
+msgstr ""
+
+#. (itstool) path: item/ident
+#. (itstool) path: p/ident
+#: tcw20.xml:311 tcw20.xml:398
+msgid "APPENDIXTHING.xml"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:311
+msgid "TEI/P5/Source/Guidelines/en/"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:311
+msgid ".xml"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:311
+msgid "Create a new <_:ident-1/> file in the <_:ident-2/> folder. Model this on the already-existing files for other appendices. The basic pattern is to provide a very short introduction to the list you're creating (see below). The convention is to name this file with an all-caps name followed by lower-case <_:ident-3/>."
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:313
+msgid "TEI/P5/Source/guidelines-en.xml"
+msgstr ""
+
+#. (itstool) path: item/title
+#. (itstool) path: p/title
+#: tcw20.xml:313 tcw20.xml:385
+msgid "Guidelines"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:313
+msgid "Add a line to <_:ident-1/> (right near the end of the file) to XInclude your file in the <_:title-2/>. Again, follow the examples already there. Put your new appendix in the sequence in a location that makes sense in relation to the other appendices."
+msgstr ""
+
+#. (itstool) path: item/ident
+#. (itstool) path: p/ident
+#: tcw20.xml:315 tcw20.xml:343
+msgid "Stylesheets/common/common_tagdocs.xsl"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:315
+msgid "If your appendix listing is to be created automatically, edit the appropriate file in the Stylesheets repository (most likely <_:ident-1/>) to enable it to generate the list or table (see below)."
+msgstr ""
+
+#. (itstool) path: item/ident
+#. (itstool) path: p/ident
+#: tcw20.xml:317 tcw20.xml:375
+msgid "Stylesheets/i18n.xml"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:317
+msgid "If your auto-generated appendix content uses headings that should be translated for other language versions of the Guidelines, add the appropriate language entries to <_:ident-1/> (if they're not already there)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:308
+msgid "The Appendices to the <_:title-1/> mostly constitute lists of features (elements, attributes, classes etc.) which have been automatically harvested from the Guidelines compiled source (<_:ident-2/> or <_:ident-3/>) during the build process. When adding a new appendix of this type, you need to: <_:list-4/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:321 tcw20.xml:747
+msgid "divGen"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:321
+msgid "DEPRECATIONS.xml"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:326
+msgid "Deprecations"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:328
+msgid "About the Deprecation Appendix"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:329
+msgid "This appendix gives you a list of all items (elements, attributes, attribute values, datatypes etc.) which are deprecated in this revision of the TEI Guidelines (revision &lt;?insert revision?&gt; of TEI P5 &lt;?insert version?&gt;)."
+msgstr ""
+
+#. (itstool) path: p/code
+#: tcw20.xml:339
+msgid "&lt;?insert revision?&gt;"
+msgstr ""
+
+#. (itstool) path: p/code
+#: tcw20.xml:341
+msgid "&lt;divGen type=\"deprecationcat\"/&gt;"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: tcw20.xml:346
+msgid "&lt;xsl:template match=\"tei:divGen[@type = 'deprecationcat']\"&gt; &lt;xsl:element namespace=\"{$outputNS}\" name=\"{$tableName}\"&gt; &lt;xsl:attribute name=\"{$rendName}\"&gt; &lt;xsl:text&gt;deprecationcat&lt;/xsl:text&gt; &lt;/xsl:attribute&gt; &lt;!-- .. --&gt; &lt;/xsl:element&gt; &lt;/xsl:template&gt;"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: tcw20.xml:360
+msgid "&lt;xsl:element namespace=\"{$outputNS}\" name=\"{$cellName}\"&gt; &lt;xsl:element namespace=\"{$outputNS}\" name=\"{$hiName}\"&gt; &lt;xsl:attribute name=\"{$rendName}\"&gt; &lt;xsl:text&gt;label&lt;/xsl:text&gt; &lt;/xsl:attribute&gt; &lt;xsl:attribute name=\"{$langAttributeName}\"&gt; &lt;xsl:value-of select=\"$documentationLanguage\"/&gt; &lt;/xsl:attribute&gt; &lt;xsl:sequence select=\"tei:i18n('Identifier')\"/&gt; &lt;/xsl:element&gt; &lt;/xsl:element&gt;"
+msgstr ""
+
+#. (itstool) path: p/val
+#. (itstool) path: entry/key
+#. (itstool) path: entry/text
+#: tcw20.xml:375 tcw20.xml:380 tcw20.xml:381
+msgid "Identifier"
+msgstr ""
+
+#. (itstool) path: entry/key
+#. (itstool) path: entry/text
+#: tcw20.xml:389 tcw20.xml:390 tcw20.xml:392
+msgid "Description"
+msgstr ""
+
+#. (itstool) path: entry/text
+#: tcw20.xml:391
+msgid "Beschreibung"
+msgstr ""
+
+#. (itstool) path: entry/text
+#: tcw20.xml:393
+msgid "Descrizione"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:321
+msgid "Auto-generated appendix listings will require two things: a TEI <_:gi-1/> element which acts as a trigger to cause the list to be generated, and a Stylesheets template which processes the <_:gi-2/> to create the output. For example, the list of deprecations consists of this <_:ident-3/> file: <_:egXML-4/> Note that there are two kinds of auto-generated content here: first, the two processing instructions <_:code-5/> and <_:code-6/>, which are self-explanatory and can simply be used, and <_:code-7/>, which was created specifically for this appendix file, and for which processing had to be explicitly written. If you now look at <_:ident-8/>, you'll find this template: <_:eg-9/> This template creates a table in whatever the target output format is, listing the deprecations. Note that the table headings are created like this: <_:eg-10/> where the keyword <_:val-11/> is used to look up the appropriate language translation in the <_:ident-12/> file. If those items already exist in the file, you can simply use them, but if you are creating headings which do not yet have entries, you will need to add them to <_:ident-13/> like this: <_:egXML-14/> and if you are competent to add the equivalent translations in any of the <_:title-15/> languages, you can add them alongside the English version: <_:egXML-16/> Only when all these pieces are in place can the new appendix function correctly. It would normally be appropriate to do work on this scale in a branch of the repo, but this is a little complicated by the fact that you need to edit two repositories separately. It is fine to make the changes in the TEI repository first, resulting in an appendix page that simply lacks its listing, then do the Stylesheets changes to make the listing."
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: tcw20.xml:398
+msgid "manual"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:398
+msgid "guidelines-en.xml"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:398
+msgid "Of course, a simple <_:soCalled-1/> appendix consisting of some explanatory prose can be created simply by adding the <_:ident-2/> file and XIncluding it in <_:ident-3/>, with no Stylesheets changes required."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:407
+msgid "Adding Schematron constraints to specifications"
+msgstr ""
+
+#. (itstool) path: p/att
+#: tcw20.xml:411 tcw20.xml:412 tcw20.xml:414 tcw20.xml:418 tcw20.xml:419
+#: tcw20.xml:433
+msgid "targetLang"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: tcw20.xml:413
+msgid "language tag"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw20.xml:414
+msgid "BCP 47"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:409
+msgid "The TEI ODD system is primarily concerned with generating schemas in the form of RelaxNG or XML Schema. However, there are often circumstances in which you want to apply constraints to elements and attributes which cannot easily be captured by normal XML schemas. For instance, you might want to apply a co-occurrence constraint on some attributes. The <_:att-1/> attribute is a good example. <_:att-2/> is an optional attribute which “specifies the language of the content to be found at the destination referenced by <_:att-3/>, using a <_:soCalled-4/> generated according to <_:ref-5/>.” Obviously, there is no point in using <_:att-6/> if you're not also using <_:att-7/>. However, many such co-occurrence constraints are difficult to express in RelaxNG schemas, and may not survive conversion to other schema formats such as XML Schema or DTD."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:419 tcw20.xml:441 tcw20.xml:459
+msgid "attDef"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:418
+msgid "For this reason, we often use ISO Schematron to express constraints like this. If you look in att.pointing.xml, where the <_:att-1/> attribute is defined, you'll find this constraint, inside the <_:gi-2/> for <_:att-3/>:"
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: tcw20.xml:425
+msgid "@targetLang can only be used if @target is specified."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:433 tcw20.xml:434 tcw20.xml:441 tcw20.xml:460 tcw20.xml:478
+msgid "constraintSpec"
+msgstr ""
+
+#. (itstool) path: p/att
+#: tcw20.xml:434
+msgid "scheme"
+msgstr ""
+
+#. (itstool) path: p/val
+#: tcw20.xml:434
+msgid "isoschematron"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:434
+msgid "constraints"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:434
+msgid "assert"
+msgstr ""
+
+#. (itstool) path: p/att
+#: tcw20.xml:435
+msgid "test"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:436
+msgid "report"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw20.xml:439
+msgid "Schematron website"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:433
+msgid "This Schematron rule is an assertion that if <_:att-1/> is used, <_:att-2/> should also be present. <_:gi-3/> has an attribute <_:att-4/> (normally set to <_:val-5/>). Inside <_:gi-6/>, <_:gi-7/>s have <_:gi-8/> elements, which have <_:att-9/> attributes. The <_:att-10/> attribute value is always an XPath expression; if the XPath tests false, the assertion will be triggered, and its contents will appear on the console when you build or validate. There is also a <_:gi-11/> element which is similar, but which triggers when true rather than when false, so you can check both positive and negative conditions. In Roma, you can also generate a Schematron schema which you can also use to test your document against. This document is essentially a compilation in Schematron of all the TEI constraints. The operation of checking a document with Schematron is independent of any other validation processes that take place using other schemas. For a full introduction to Schematron, see the <_:ref-12/>."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:441
+msgid "schemaSpec"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:442 tcw20.xml:458
+msgid "date"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:442
+msgid "birth"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: p/gi
+#: tcw20.xml:443 tcw20.xml:444 tcw20.xml:458 tcw20.xml:459 tcw20.xml:498
+#: tcw20.xml:505 tcw20.xml:517 tcw20.xml:518 tcw20.xml:520
+msgid "calendar"
+msgstr ""
+
+#. (itstool) path: p/q
+#: tcw20.xml:443
+msgid "indicates the system or calendar to which the date represented by the content of this element belongs."
+msgstr ""
+
+#. (itstool) path: egXML/date
+#: tcw20.xml:447
+msgid "January, 1622"
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: tcw20.xml:467
+msgid "@calendar indicates the system or calendar to which the date represented by the content of this element belongs, but this element has no textual content."
+msgstr ""
+
+#. (itstool) path: p/code
+#: tcw20.xml:480
+msgid "xmlns:sch=\"http://purl.oclc.org/dsdl/schematron\""
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:441
+msgid "<_:gi-1/> can appear as a child of <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, <_:gi-5/>, and <_:gi-6/>. We'll go through the process of adding a constraint like the one above. The constraint we're going to add relates to dating elements (<_:gi-7/>, <_:gi-8/> etc.) and the <_:att-9/> attribute. <_:att-10/> <_:q-11/> In other words, <_:att-12/> should only be used if the dating element has textual content. This makes sense (assuming that <_:att-13/> points at a valid <_:gi-14/> element): <_:egXML-15/> whereas this is not: <_:egXML-16/> because the <_:gi-17/> element has no textual content to which the <_:att-18/> attribute could apply. We're going to express this in the form of a Schematron constraint, along the lines of the one we've examined above. First, we open the att.datable.xml file, and find the <_:gi-19/> element which defines <_:att-20/>. We can add the <_:gi-21/> element immediately after the <_:gi-22/> element, like this: <_:egXML-23/> (Obviously, by the time you're reading this, the <_:gi-24/> is already in the TEI source, so you'll see it there.) If the Schematron namespace is not already defined somewhere in the file, we'll also have to make sure we add it; in this case, I defined the prefix in the <_:gi-25/> root element: <_:code-26/>. Then we commit our changes, and let the TEI build process build all the products, and make sure that we didn't get anything wrong."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:485
+msgid "Ensure that the context item for the rule is an element, not an attribute, as in the example above. For technical reasons, the Schematron processing in the build process will generate error messages if the context item is an attribute."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:486
+msgid "Break up the message up into fairly short lines, so that it's easy to read when it appears in the build log."
+msgstr ""
+
+#. (itstool) path: item/gi
+#: tcw20.xml:487
+msgid "name"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:487
+msgid "Use the <_:gi-1/> element in place of the name of the context element. This will be helpful for future processing needs."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:488
+msgid "Refer to attributes using the \"@\" prefix, rather than quotation marks or plain names (as above)."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:483
+msgid "When writing Schematron constraints for the Guidelines, bear these points in mind: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:493
+msgid "The Schematron constraint above should cover what we're trying to accomplish. However, it's quite difficult for us to test whether it is in fact doing exactly what it should be, unless we build a new copy of Roma and use it to generate a Schematron schema, then validate a test document against it. This is probably not practical for most of us. Fortunately, the TEI build system provides a way for us to do this; in fact, we can put in place a couple of tests that will always be run whenever P5 is built, checking that our Schematron constraint is intact and functioning as we expect."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:498
+msgid "The first thing we're going to do is add a couple of tests that should pass. We'll add a dating element which has both <_:att-1/> and some textual content, as well as an empty dating element with no textual content. If these tests pass, then we know that our constraint is not doing anything wrong. (We don't yet know whether it's doing anything at all, of course; that comes later.)"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:502 tcw20.xml:534
+msgid "trunk/P5/Test"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:503
+msgid "testbasic.xml"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:503
+msgid "testbasic.odd"
+msgstr ""
+
+#. (itstool) path: sense/date
+#: tcw20.xml:510
+msgid "1685"
+msgstr ""
+
+#. (itstool) path: form/orth
+#: tcw20.xml:512
+msgid "pamplemousse"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:517
+msgid "calendarDesc"
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw20.xml:518
+msgid "data.pointer"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:502
+msgid "If you look at <_:ident-1/>, you'll see there is a whole folder full of files whose purpose is to test various aspects of the TEI build process and products. We want to add our tests to one of these files. The question is which one? We'll add it to the basic test file, which is <_:ident-2/>; this is tested against schemas generated from <_:ident-3/>, which should contain all the dating features we're interested in testing. If we look at that file, we find there are already several date elements in there, so we can try adding our <_:att-4/> attribute to one of those. Let's choose the date of 1685 on a dictionary entry sense: <_:egXML-5/> We could go to the trouble of adding <_:gi-6/> and <_:gi-7/> to the header of the file so we can point to a calendar element in the same document, but since <_:att-8/> is a <_:ident-9/>, we can point to an external source of calendar information."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw20.xml:521
+msgid "revisionDesc"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw20.xml:525
+msgid "&lt;date when=\"2012-09-06\"/&gt;MDH: Added @calendar to one date, and the date element in here, for testing a new Schematron constraint."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:520
+msgid "We also want to add, somewhere, a date element which has no textual content and no <_:att-1/> attribute. We might as well do this in the header, by adding a simple <_:gi-2/> element, which gives us the added bonus of being able to describe our change: <_:egXML-3/> Now we can commit our change, and see if the build of TEIP5-Test completes successfully on our Jenkins servers."
+msgstr ""
+
+#. (itstool) path: item/ident
+#. (itstool) path: p/ident
+#: tcw20.xml:537 tcw20.xml:558 tcw20.xml:585 tcw20.xml:589
+msgid "expected-results/detest.log"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:538
+msgid "detest.odd"
+msgstr ""
+
+#. (itstool) path: item/ident
+#. (itstool) path: p/ident
+#: tcw20.xml:539 tcw20.xml:546 tcw20.xml:552 tcw20.xml:555 tcw20.xml:563
+msgid "detest.xml"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: tcw20.xml:542
+msgid "detest"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:545
+msgid "Schemas are built from detest.odd (including a Schematron schema)."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:546
+msgid "The file <_:ident-1/> is validated against those schemas."
+msgstr ""
+
+#. (itstool) path: item/ident
+#. (itstool) path: p/ident
+#: tcw20.xml:547 tcw20.xml:548 tcw20.xml:552 tcw20.xml:558 tcw20.xml:581
+#: tcw20.xml:588
+msgid "detest.log"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:547
+msgid "Resulting error messages are collected in a file called <_:ident-1/> (in the Test directory)."
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:548
+msgid "expected-results"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:548
+msgid "That file is compared with the <_:ident-1/> file in the <_:ident-2/> subdirectory."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:549
+msgid "If they are not identical, the test build fails."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:555
+msgid "Add our new test to <_:ident-1/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:556
+msgid "Commit the change to the git repository."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:557
+msgid "Let Jenkins run the build (which should fail)."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:558
+msgid "Examine the resulting <_:ident-1/> on Jenkins, and copy it to our local <_:ident-2/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:559
+msgid "Commit that change to the repository."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:560
+msgid "Let Jenkins build again, and make sure that the build completes successfully."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:568
+msgid "Added by MDH. This tests the Schematron constraint that any element with @calendar must have some textual content."
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw20.xml:577
+msgid "https://jenkins.tei-c.org/job/TEIP5-Test-dev/ws/P5/Test/"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw20.xml:578
+msgid "https://jenkins2.tei-c.org/job/TEIP5-Test-dev/ws/P5/Test/"
+msgstr ""
+
+#. (itstool) path: p/q
+#: tcw20.xml:583
+msgid "@calendar indicates the system or calendar to which the date represented by the content of this element belongs, but this element has no textual content. (string-length(.) gt 0)"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:588
+msgid "job/TEIP5-Test/ws/Test/"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:588
+msgid "Download the <_:ident-1/> file from the TEIP5-Test workspace on the Jenkins server (<_:ident-2/>)."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:589
+msgid "Copy its contents into our local file <_:ident-1/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:590
+msgid "Commit this change to git (git commit followed by git push)."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:591
+msgid "Watch Jenkins build P5-Test again, and make sure it completes successfully."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:533
+msgid "If that build successfully completes, we haven't broken anything. But we still don't know whether our constraint will actually fire when something is wrong. In order to do that, we have to use the \"detest\" system. In <_:ident-1/>, you'll find the following files: <_:list-2/> detest.odd and detest.xml are test files like the ones we've seen above, but the purpose of the <_:soCalled-3/> files is to introduce deliberate errors and make sure that the testing process throws up the expected error results. What happens is basically this: <_:list-4/> So what we need to do is to add some new markup to <_:ident-5/> which is designed to fail our Schematron test. The problem is that we cannot reliably predict how it will fail—in other words, we can't know in advance what the resulting <_:ident-6/> file should look like, because we can't know in what order the tests will run, and what the precise error messages might be. We could find this out if we had a working local build environment of our own, but it's far simpler to let Jenkins do the job for us. So this is what we'll do: <_:list-7/> We'll add this div to the <_:ident-8/> file: <_:egXML-9/> Now we commit the change to git, and Jenkins will start building. The build should fail, and it does. If we now go to the Jenkins workspace on one of our two build servers: <_:list-10/> we'll see a file called <_:ident-11/>, and if we look inside it, we'll find this bit, generated by our constraint: <_:q-12/> This line is obviously missing from <_:ident-13/>, so the build failed when the two files were compared. We can fix that very simply: <_:list-14/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:600
+msgid "Building the release"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw20.xml:603
+msgid "TCW22: Building a TEI Release"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:602
+msgid "Note: the original content of this section has been removed, because a longer document dedicated to documenting the release process has been created. Please refer to <_:ref-1/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:610
+msgid "Reference section"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:612
+msgid "Chapter codes"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:613
+msgid "Following a lengthy debate in the Council as to whether the two-character codes originally used to identify individual chapters should be dropped in favour of longer more human-readable names, a compromise solution was reached in which the two character codes were retained as prefixes to longer human-readable names. The same two-character codes are also used to identify the HTML and PDF files generated during the release process."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:626
+msgid "Section"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:626
+msgid "Title"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:626
+msgid "filename"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:628
+msgid "[i]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:628
+msgid "Releases of the TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:629
+msgid "TitlePageVerso.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:631
+msgid "[ii]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:631
+msgid "Dedication"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:632
+msgid "Dedication.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:634
+msgid "[iii]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:634
+msgid "Preface and Acknowledgments"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:635
+msgid "FM1-IntroductoryNote.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:637
+msgid "[iv]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:637
+msgid "About These Guidelines"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:638
+msgid "AB-About.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:640
+msgid "[v]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:640
+msgid "A Gentle Introduction to XML"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:641
+msgid "SG-GentleIntroduction.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:643
+msgid "[vi]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:643
+msgid "Languages and Character Sets"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:644
+msgid "CH-LanguagesCharacterSets.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:646
+msgid "[1]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:646
+msgid "The TEI Infrastructure"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:647
+msgid "ST-Infrastructure.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:649
+msgid "[2]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:649
+msgid "The TEI Header"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:650
+msgid "HD-Header.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:652
+msgid "[3]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:652
+msgid "Elements Available in All TEI Documents"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:653
+msgid "CO-CoreElements.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:655
+msgid "[4]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:655
+msgid "Default Text Structure"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:656
+msgid "DS-DefaultTextStructure.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:658
+msgid "[5]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:658
+msgid "Representation of Non-standard Characters and Glyphs"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:659
+msgid "WD-NonStandardCharacters.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:662
+msgid "[6]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:662
+msgid "Verse"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:662
+msgid "VE-Verse.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:665
+msgid "[7]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:665
+msgid "Performance Texts"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:666
+msgid "DR-PerformanceTexts.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:668
+msgid "[8]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:668
+msgid "Transcriptions of Speech"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:669
+msgid "TS-TranscriptionsofSpeech.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:671
+msgid "[9]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:671
+msgid "Dictionaries"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:672
+msgid "DI-PrintDictionaries.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:674
+msgid "[10]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:674
+msgid "Manuscript Description"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:675
+msgid "MS-ManuscriptDescription.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:677
+msgid "[11]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:677
+msgid "Representation of Primary Sources"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:678
+msgid "PH-PrimarySources.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:680
+msgid "[12]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:680
+msgid "Critical Apparatus"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:681
+msgid "TC-CriticalApparatus.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:683
+msgid "[13]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:683
+msgid "Names, Dates, People, and Places"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:684
+msgid "ND-NamesDates.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:686
+msgid "[14]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:686
+msgid "Tables, Formulæ, and Graphics"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:687
+msgid "FT-TablesFormulaeGraphics.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:689
+msgid "[15]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:689
+msgid "Language Corpora"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:690
+msgid "CC-LanguageCorpora.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:692
+msgid "[16]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:692
+msgid "Linking, Segmentation, and Alignment"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:693
+msgid "SA-LinkingSegmentationAlignment.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:695
+msgid "[17]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:695
+msgid "Simple Analytic Mechanisms"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:696
+msgid "AI-AnalyticMechanisms.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:698
+msgid "[18]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:698
+msgid "Feature Structures"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:699
+msgid "FS-FeatureStructures.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:701
+msgid "[19]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:701
+msgid "Graphs, Networks, and Trees"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:702
+msgid "GD-GraphsNetworksTrees.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:704
+msgid "[20]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:704
+msgid "Non-hierarchical Structures"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:705
+msgid "NH-Non-hierarchical.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:707
+msgid "[21]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:707
+msgid "Certainty, Precision, and Responsibility"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:708
+msgid "CE-CertaintyResponsibility.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:710
+msgid "[22]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:710
+msgid "Documentation Elements"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:711
+msgid "TD-DocumentationElements.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:713
+msgid "[23]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:713
+msgid "Using the TEI"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:714
+msgid "USE.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:716
+msgid "[A1]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:716
+msgid "Model Classes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:717
+msgid "REF-CLASSES-MODEL.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:719
+msgid "[A2]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:719
+msgid "Attribute Classes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:720
+msgid "REF-CLASSES-ATTS.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:722
+msgid "[A3]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:722
+msgid "Elements"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:723
+msgid "REF-ELEMENTS.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:725
+msgid "[A4]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:725
+msgid "Attributes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:726
+msgid "REF-ATTRIBUTES.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:728
+msgid "[A5]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:728
+msgid "Datatypes and Other Macros"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:729
+msgid "REF-MACROS.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:731
+msgid "[A6]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:731
+msgid "Bibliography"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:734
+msgid "[A7]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:734
+msgid "Prefatory Notes"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:735
+msgid "PrefatoryNote.xml"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:737
+msgid "[A8]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:737
+msgid "Colophon"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw20.xml:738
+msgid "COL-Colophon.xml"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:620
+msgid "The following table shows the correspondence between the printed organization of the Guidelines and the corresponding filenames. The order is determined by the driver file <_:ident-1/>, from which the table is derived. <_:table-2/>"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: tcw20.xml:741 tcw20.xml:742 tcw20.xml:771
+msgid "div"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:740
+msgid "In most chapters, the two character code is also used as a prefix for the <_:att-1/> values given to each <_:gi-2/> element. Note that every <_:gi-3/> element carries an <_:att-4/> value, whether or not it is actually referenced explicitly elewhere in the Guidelines."
+msgstr ""
+
+#. (itstool) path: p/code
+#: tcw20.xml:746
+msgid "REF"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:746
+msgid "Note that files with names beginning <_:code-1/> contain only <_:gi-2/> elements: their content, which provides the reference documentation (sections A1 to A5 inclusive), is automatically generated during the build process."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:752
+msgid "Naming conventions"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:753
+msgid "TEI naming conventions have evolved over time, but remain fairly consistent."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw20.xml:755
+msgid "generic identifiers"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:756
+msgid "An element and attribute identifiers should be a single natural language word in lowercase if possible. If more than one word is conjoined to form a name, then the first letter of the second and any subsequent word should be uppercased. Hyphens, underscores, dots etc are not used within element or attribute names."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw20.xml:760
+msgid "class names"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:762
+msgid "model."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw20.xml:763
+msgid "att."
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:765
+msgid "att.linking.foo"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:765
+msgid "foo"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw20.xml:766
+msgid "att.linking"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:761
+msgid "Class names are made up three parts: a name, constructed like an element name, with a prefix and optionally a suffix. The prefix is one of <_:code-1/> or <_:code-2/> and indicates whether this is a model or an attribute class. The suffix, if present, is used to indicate subclassing: for example <_:ident-3/> is the <_:ident-4/> subclass of the attribute class <_:ident-5/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw20.xml:767
+msgid "xml:id values"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:771
+msgid "every <_:gi-1/>, whether or not it is explicitly linked to elsewhere"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:772
+msgid "every bibliographic reference in the <_:ident-1/> file"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw20.xml:768
+msgid "The conventions for these vary somewhat. Most of the older chapters of the guidelines have consistently constructed identifiers, derived from the individual section headings. Identifiers must be provided for:<_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:776
+msgid "File release structure"
+msgstr ""
+
+#. (itstool) path: p/code
+#: tcw20.xml:778
+msgid "/usr/share/xml/tei"
+msgstr ""
+
+#. (itstool) path: p/code
+#: tcw20.xml:779
+msgid "/usr/share/doc/tei-*"
+msgstr ""
+
+#. (itstool) path: p/eg
+#: tcw20.xml:781
+msgid "tei |-- Test |-- custom | |-- odd | |-- schema | | |-- dtd | | |-- relaxng | | `-- xsd | `-- templates |-- odd | |-- Exemplars | |-- ReleaseNotes | |-- Source | | |-- Guidelines | | | |-- en | | | | `-- Images | | | `-- fr | | | `-- Images | | |-- Images | | `-- Specs | | |-- 18decembre | | `-- exemples | |-- Utilities | `-- webnav | `-- icons |-- schema | |-- dtd | `-- relaxng |-- stylesheet | |-- common | |-- common2 | |-- docx | | |-- from | | | |-- dynamic | | | | `-- tests | | | | `-- xspec | | | |-- graphics | | | |-- lists | | | |-- marginals | | | |-- maths | | | |-- paragraphs | | | |-- pass0 | | | |-- pass2 | | | |-- tables | | | |-- templates | | | |-- textruns | | | |-- utils | | | `-- wordsections | | |-- misc | | |-- to | | | |-- docxfiles | | | |-- drama | | | |-- dynamic | | | |-- graphics | | | |-- lists | | | |-- maths | | | |-- templates | | | `-- wordsections | | `-- utils | | |-- graphics | | |-- identity | | |-- maths | | `-- verbatim | |-- epub | |-- fo | |-- fo2 | |-- html | |-- latex | |-- latex2 | |-- nlm | |-- odds | |-- odds2 | |-- oo | |-- profiles | | |-- bodley | | | `-- epub | | |-- default | | | |-- csv | | | |-- docbook | | | |-- docx | | | |-- dtd | | | |-- epub | | | |-- fo | | | |-- html | | | |-- latex | | | |-- lite | | | |-- oddhtml | | | |-- oo | | | |-- p4 | | | `-- relaxng | | |-- enrich | | | |-- docx | | | |-- fo | | | |-- html | | | `-- latex | | |-- iso | | | |-- docx | | | | `-- model | | | |-- epub | | | |-- fo | | | |-- html | | | |-- latex | | | |-- schema | | | `-- tbx | | |-- ota | | | |-- epub | | | `-- html | | |-- oucs | | | |-- docx | | | |-- epub | | | `-- p4 | | |-- oucscourses | | | `-- docx | | |-- podcasts | | | |-- docx | | | `-- epub | | `-- tei | | `-- epub | |-- slides | |-- slides2 | |-- tite | |-- tools2 | |-- xhtml | `-- xhtml2 `-- xquery"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw20.xml:777
+msgid "Currently, the organisation of the <_:code-1/> and <_:code-2/> directories on the TEI web site is as follows: <_:eg-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw20.xml:915
+msgid "Some other (mostly superceded) documents on the topic"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw20.xml:918
+msgid "TEI ED W9"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw20.xml:919
+msgid "Points of Style For Drafts of TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw20.xml:920
+msgid "2 Mar 1990"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw20.xml:921
+msgid "in Waterloo Script format"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw20.xml:925
+msgid "Notes on House Style"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw20.xml:926
+msgid "TEI ED W11"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw20.xml:927
+msgid "14 Sep 1992"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw20.xml:928
+msgid "in Waterloo script"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw20.xml:929
+msgid "formatted text"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw20.xml:933
+msgid "TEI ED W55"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw20.xml:934
+msgid "Form for Draft Chapters of the TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw20.xml:935
+msgid "5 june 1996"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw20.xml:936 tcw20.xml:944
+msgid "in TEI P2 format"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw20.xml:937 tcw20.xml:945
+msgid "in HTML format"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw20.xml:938
+msgid "in ODD format"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw20.xml:941
+msgid "TEI ED W57"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw20.xml:942
+msgid "Procedures for Correcting Errors in the TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw20.xml:943
+msgid "July 23, 1994"
+msgstr ""
