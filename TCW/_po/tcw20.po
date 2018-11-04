@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-11-04 11:47+0900\n"
+"PO-Revision-Date: 2018-11-04 15:17+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +15,7 @@ msgstr ""
 #. (itstool) path: titleStmt/title
 #: tcw20.xml:15
 msgid "How to edit the TEI Guidelines"
-msgstr "TEI ガイドラインの編集の仕方"
+msgstr "TEI ガイドラインの編集の方法"
 
 #. (itstool) path: titleStmt/author
 #: tcw20.xml:16
@@ -185,17 +185,17 @@ msgstr "なぜ"
 #. (itstool) path: body/p
 #: tcw20.xml:59
 msgid "This document is intended to set out the way things are currently managed in the editing of the TEI Guidelines. General notes on the rationale for this state -- <_:emph-1/> it is the way it is -- may be added here later. The intention is to provide information for Council members wishing to contribute actively to the continued development and maintenance of the text of the Guidelines."
-msgstr "この文書は、現在 TEI ガイドラインの編集において管理されている方法を、厳格に説明することを目的としている。この状態の根拠 -- <_:emph-1/> なぜそれはそのようであるのか -- について、一般的な解説が後でここに追加されるかもしれない。ガイドラインの文章の継続的な開発と保守に、積極的に貢献することを希望する理事会のメンバーに向けて、情報を提供することを意図している。"
+msgstr "この文書は、現在 TEI ガイドラインの編集において適用されている管理された方法を、厳格に説明することを目的としています。この状態の根拠 -- <_:emph-1/>それはそのようであるのか -- について、一般的な解説が後でここに追加されるかもしれません。ガイドラインの文章の継続的な開発と保守に、積極的に貢献することを希望する理事会のメンバーに向けて、情報を提供することを意図しています。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:67
 msgid "Organization of the Guidelines chapters"
-msgstr "ガイドラインの各章の組み立て"
+msgstr "ガイドライン各章の構成"
 
 #. (itstool) path: list/item
 #: tcw20.xml:71
 msgid "it begins with a paragraph explaining what the module is for, and containing a lot of links to the individual subsections it contains;"
-msgstr "最初の段落は、その章で扱うモジュールの目的の説明と、章内の個々の節へのリンクを含む。"
+msgstr "最初の段落は、その章で扱うモジュールの目的の説明と、章内の個々の節へのリンクを含みます。"
 
 #. (itstool) path: item/gi
 #: tcw20.xml:74 tcw20.xml:119
@@ -205,12 +205,12 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:73
 msgid "each subsection introduces a (small) group of elements, usually beginning with a <_:gi-1/>, which will typically list all the elements discussed within a given section, listed in whatever order makes sense for the context, but not necessary all possible child elements for a given element;"
-msgstr "それぞれの節では、要素の（小）グループの説明が行われる。これらのグループは通常、<_:gi-1/> で始まる。これは一般的に、その節で論じられるすべての要素のリストである。リスト内の並び順は、それぞれの文脈に応じ、何らかの有意味な順番による。また、可能な子要素を全て列挙する必要はない。"
+msgstr "それぞれの節では、要素の（小）グループの説明が行われます。これらのグループは通常、<_:gi-1/> で始まります。これは一般的に、その節で論じられるすべての要素の一覧です。一覧内の並び順は、それぞれの文脈に応じ何らかの有意味な順番によりますが、可能な子要素を全て列挙する必要はありません。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:77
 msgid "each element is then introduced in turn, usually including an appropriate usage example (on examples, see further <_:ptr-1/>);"
-msgstr "そのあと、個々の要素が順番に説明される。通常は適当な使用例を含む（例示については <_:ptr-1/> も参照のこと）。"
+msgstr "そのあと、個々の要素が順番に説明されます。通常は適当な使用例を含みます（例については <_:ptr-1/> も参照のこと）。"
 
 #. (itstool) path: item/gi
 #: tcw20.xml:79 tcw20.xml:81 tcw20.xml:84 tcw20.xml:131
@@ -220,7 +220,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:79
 msgid "a <_:gi-1/> for each group of elements defined may be given at the end of each section;"
-msgstr "<_:gi-1/> によるそれぞれの要素グループの定義を、その節の末尾に置くことができる。"
+msgstr "<_:gi-1/> によるそれぞれの要素グループの定義を、その節の末尾に置くことができます。"
 
 #. (itstool) path: item/gi
 #: tcw20.xml:83
@@ -230,22 +230,22 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:81
 msgid "a <_:gi-1/> for the whole module is given at the end of the chapter: it includes the other specifications either directly (by means XIncludes) or indirectly (by means of a <_:gi-2/> pointing to a preceding <_:gi-3/>)."
-msgstr "そのモジュール全体の <_:gi-1/> は、その章の末尾に置かれる。ここには直接的にまた間接的に他の場所からの仕様定義が含まれる。直接的には XIncludes を使うことによって含まれ、間接的には <_:gi-2/> を使って既述の <_:gi-3/> を参照することで含まれる。"
+msgstr "そのモジュール全体の <_:gi-1/> は、その章の末尾に置かれます。ここには直接的にまた間接的に他の場所からの仕様定義が含まれます。直接的には XIncludes を使うことによって含まれ、間接的には <_:gi-2/> を使って既述の <_:gi-3/> を参照することで含まれます。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:68
 msgid "It cannot have escaped your notice that each chapter (almost) of the Guidelines defines a distinct module. In theory at least, each chapter is organised in more or less the same way: <_:list-1/>"
-msgstr "ガイドラインの（ほとんどの）章が、それぞれ別個のモジュールを定義していることにはお気づきのことと思う。少なくとも理屈の上では、それぞれの章は次のようなほぼ同じ構成で組織されている。"
+msgstr "ガイドラインのほとんどの章が、それぞれ別のモジュールを定義していることにはお気づきのことと思います。少なくとも理屈の上では、それぞれの章は次のようなほぼ同じ構成で組織されます。<_:list-1/>"
 
 #. (itstool) path: div/p
 #: tcw20.xml:86
 msgid "The only chapters not organised in this way are those which do not introduce or define particular modules."
-msgstr "特定のモジュールの説明や定義を行っていない章は、上記の限りではない。"
+msgstr "特定のモジュールの説明や定義を行っていない章は、上記の限りではありません。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:90
 msgid "Organization of the specifications"
-msgstr "仕様定義の組み立て"
+msgstr "仕様定義の構成"
 
 #. (itstool) path: p/gi
 #. (itstool) path: item/gi
@@ -286,12 +286,12 @@ msgstr ""
 #. (itstool) path: p/emph
 #: tcw20.xml:98
 msgid "If editing the content of the element, you must remember to update the value of this attribute"
-msgstr "もしその要素の内容が編集されたら、忘れずこの属性の値を変更せねばならない。"
+msgstr "もしその要素の内容が編集されたら、忘れずこの属性の値を変更せねばなりません。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:91
 msgid "Each element, class, and macro defined in the Guidelines is declared within its own XML file, containing an <_:gi-1/>, <_:gi-2/>, or <_:gi-3/> as appropriate. These files are in the directory <_:ident-4/>. For example, the file <_:ident-5/> contains the element spec for the <_:gi-6/> element. Note that the elements for the major components of the spec each have a <_:att-7/>. <_:emph-8/> in order to allow for detection of translations (stored in the same file) that need updating. As a general rule, don't update a translation for any language of which you are not a native speaker. If you feel confident enough to adjust the translation, leave the <_:att-9/> attribute unchanged on the translation in order to ensure the translation will be reviewed eventually."
-msgstr "ガイドラインで定義されている要素、クラス、およびマクロは、それぞれが独自の XML ファイルの中で定義されている。ファイルには、しかるべき <_:gi-1/>、<_:gi-2/>、もしくは <_:gi-3/> が含まれる。これらのファイルは <_:ident-4/> ディレクトリに置かれる。例えば <_:ident-5/> ファイルは、<_:gi-6/> 要素のための仕様定義を含む。仕様定義の主要部分を構成する要素には、それぞれに <_:att-7/> 属性があることに注意してほしい。<_:emph-8/>これにより、同じファイルに含まれている翻訳に更新が必要かどうか、わかるようにするためである。一般的な規則として、その言語を母語としない限りは、その言語の翻訳を更新してはならない。もし翻訳の修正に自信がある場合でも、翻訳の <_:att-9/> 属性は変更せずにそのまま残しておくべきである。これは最終的にはレビューが行われることを確実にするためである。"
+msgstr "ガイドラインで定義されている要素、クラス、およびマクロは、それぞれが独自の XML ファイルの中で定義されています。ファイルには、しかるべき <_:gi-1/>、<_:gi-2/>、もしくは <_:gi-3/> が含まれます。これらのファイルは <_:ident-4/> ディレクトリに置かれます。例えば <_:ident-5/> ファイルは、<_:gi-6/> 要素のための仕様定義を含みます。仕様定義の主要部分を構成する要素には、それぞれに <_:att-7/> 属性があることに注意してください。<_:emph-8/>これにより、同じファイルに含まれている翻訳に更新が必要かどうか、わかるようにするためです。一般的な規則として、その言語を母語としない限りは、その言語の翻訳を更新してはなりません。もし翻訳の修正に自信がある場合でも、翻訳の <_:att-9/> 属性は変更せずにそのまま残しておくべきです。これにより最終的にはレビューが行われることを確実にするためです。"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:105
@@ -301,7 +301,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: tcw20.xml:104
 msgid "Each chapter of the Guidelines is stored in a file called <_:ident-1/> where xx is the language (currently only en or fr), YY is the two letter identifier for each chapter (see <_:ptr-2/>) and name is the name of the module being defined by that chapter."
-msgstr "ガイドラインの各章は、<_:ident-1/> という名前のファイルに収載されている。xx は言語を示す（現在は en と fr のみである）。YY は各章を示す識別子であり、2文字で構成される（<_:ptr-2/> を参照せよ）。name はその章で定義されているモジュールの名称である。"
+msgstr "ガイドラインの各章は、<_:ident-1/> という名前のファイルに収められています。xx は言語を示します（現在は en と fr のみです）。YY は各章を示す識別子であり、2文字で構成されます（<_:ptr-2/> を参照のこと）。name はその章で定義されているモジュールの名称です。"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:108 tcw20.xml:623
@@ -316,7 +316,7 @@ msgstr "「ドライバファイル」"
 #. (itstool) path: div/p
 #: tcw20.xml:108
 msgid "The file <_:ident-1/> (where xx is either en or fr) is the <_:soCalled-2/> for the whole shebang. It contains XInclude elements for each of the chapters making up the Guidelines."
-msgstr "<_:ident-1/> ファイル（xx は en か fr かのいずれかである）は、ガイドライン全体に対する <_:soCalled-2/> である。このファイルに、ガイドラインを構成する各章が、XInclude 要素を使ってまとめられている。"
+msgstr "<_:ident-1/> ファイル（xx は en か fr かのいずれかです）は、ガイドライン全体に対する <_:soCalled-2/> です。このファイルに、ガイドラインを構成する各章が、XInclude 要素を使ってまとめられています。"
 
 #. (itstool) path: p/gi
 #: tcw20.xml:111
@@ -352,7 +352,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:113
 msgid "Write a new file <_:ident-1/> containing an <_:gi-2/> for your new element and add it to the <_:ident-3/> folder. Look at other specifications to see which <_:ref-4/> to use. Note that we do not use <_:gi-5/> at this time, instead using only a <_:gi-6/>."
-msgstr "新しい要素のための <_:gi-2/> を含む新しいファイル <_:ident-1/> を書き、これを <_:ident-3/> フォルダに追加する。どの <_:ref-4/> を使うべきかは他の仕様定義を見よ。この時点では <_:gi-5/> を使わないことに注意すること。代わりに <_:gi-6/> のみを使用する。"
+msgstr "新しい要素のための <_:gi-2/> を含む新しいファイル <_:ident-1/> を書き、これを <_:ident-3/> フォルダに追加します。どの <_:ref-4/> を使うべきかは他の仕様定義を見てください。この時点では <_:gi-5/> を使わないことに注意してください。代わりに <_:gi-6/> のみを使用します。"
 
 #. (itstool) path: item/ident
 #: tcw20.xml:118
@@ -367,7 +367,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:117
 msgid "Edit the source of the relevant chapter (presumably <_:ident-1/> in this example) to include a documentation of the element. Use a <_:gi-2/> to reference the description from your new spec within the body of the text, like this: <_:egXML-3/> and follow up with some discussion of usage."
-msgstr "関連する章のソース（この例ではおそらく <_:ident-1/>）を編集して、その要素に関するドキュメントを追加する。本文内から新しい仕様定義の記述を参照するには、<_:gi-2/> を使い次のようにする。<_:egXML-3/>そしてその要素の使用方法について何らかの説明を加える。"
+msgstr "関連する章のソース（この例ではおそらく <_:ident-1/>）を編集して、その要素に関連するドキュメントを追加します。本文内から新しい仕様定義の記述を参照するには、<_:gi-2/> を使い次のようにします。<_:egXML-3/>そしてその要素の使用方法について何らかの説明を加えます。"
 
 #. (itstool) path: item/eg
 #: tcw20.xml:133
@@ -377,12 +377,12 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:130
 msgid "Also in the relevant chapter, make sure you include an XInclude instruction to bring the specification file for your element into the Guidelines source. Normally you would add it to an existing <_:gi-1/> element somewhere in the chapter source which already contains similar links: <_:eg-2/>"
-msgstr "同時に、関連する章においては、その要素の仕様定義ファイルをガイドラインのソースに読み込むための、XInclude 命令が含まれていることを確認する。通常はその章のソースのどこかに、すでに同様のリンクを含む既存の <_:gi-1/> 要素があるので、そこに以下のように追加することになるだろう。<_:eg-2/>"
+msgstr "同時に、関連する章においては、その要素の仕様定義ファイルをガイドラインのソースに読み込むための、XInclude 命令が含まれていることを確認します。通常はその章のソースのどこかに、すでに同様のリンクを含む既存の <_:gi-1/> 要素があるので、そこに以下のように追加することになるでしょう。<_:eg-2/>"
 
 #. (itstool) path: div/p
 #: tcw20.xml:111
 msgid "Hence, to add a new element (say <_:gi-1/>) you might proceed as follows: <_:list-2/>"
-msgstr "したがって、新たに要素（ここでは仮に <_:gi-1/> としよう）を追加する場合は、以下の手順に従って進めねばならない。<_:list-2/>"
+msgstr "したがって、新たに要素（ここでは仮に <_:gi-1/> とします）を追加する場合は、以下の手順に従って進めねばなりません。<_:list-2/>"
 
 #. (itstool) path: div/head
 #: tcw20.xml:149
@@ -424,12 +424,12 @@ msgstr "現在のリリースの TEI のバージョン番号を挿入する"
 #. (itstool) path: div/p
 #: tcw20.xml:150
 msgid "In some places in the Guidelines source code, you will notice processing instructions which look like this: <_:egXML-1/> These processing instructions are replaced during the Guidelines build process by generated content. (That processing takes place in the XSL module P5/Utilities/expand.xsl.) In the case of the example above, the total number of elements defined in the current version of the Guidelines is calculated and inserted. This is a list of the processing instructions currently in use, and what they are replaced by: <_:list-2/> If you are writing a Guidelines section that can use one of these variables, feel free to insert the appropriate processing instruction. If you think of other content that could be generated in this way, raise an issue on GitHub so that it can be implemented."
-msgstr "ガイドラインのソースコードの幾つかの場所に、次のような見た目の処理命令があることに気づかれると思う。<_:egXML-1/>これらの処理命令は、ガイドラインのビルドの過程で、そこで生成された内容に置き換えられる（この処理は P5/Utilities/expand.xsl の XSL モジュールで行われる）。上の例の場合、現在のバージョンのガイドラインで定義されている要素の総数が計算され、挿入される。次のリストは、現在使われている処理命令の一覧と、それが何に置き換えられるかを示したものである。<_:list-2/>ガイドラインのセクションの執筆中に、これらの変数で置き換えが可能な個所があれば、適切な処理命令をそこに挿入することは自由に行ってもらってよい。何か他にもこの方法で生成可能な内容を思いついたときは、GitHub で issue を発行し、実装のための提起をしてもらいたい。"
+msgstr "ガイドラインのソースコードの幾つかの場所に、次のような見た目の処理命令があることに気づかれていることと思います。<_:egXML-1/>これらの処理命令は、ガイドラインのビルドの過程で、そこで生成された内容に置き換えられます（この処理は P5/Utilities/expand.xsl の XSL モジュールで行われます）。上の例の場合、現在のバージョンのガイドラインで定義されている要素の総数が計算され、挿入されます。以下のリストは、現在使われている処理命令の一覧と、それが何に置き換えられるかを示したものです。<_:list-2/>ガイドラインのセクションの執筆中に、これらの変数で置き換えが可能な個所があれば、適切な処理命令をそこに挿入することは自由に行ってください。何か他にもこの方法で生成可能な内容を思いついたときは、GitHub で issue を発行し、実装のための提起をしてください。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:177
 msgid "Style Notes"
-msgstr "スタイルについての注記"
+msgstr "スタイルについての注意事項"
 
 #. (itstool) path: div/head
 #: tcw20.xml:179
@@ -439,22 +439,22 @@ msgstr "一般"
 #. (itstool) path: p/ref
 #: tcw20.xml:180
 msgid "Style Guide for Editing the TEI Guidelines"
-msgstr "TEI ガイドライン編集のためのスタイルガイド"
+msgstr "TEI ガイドラインの編集のためのスタイルガイド"
 
 #. (itstool) path: div/p
 #: tcw20.xml:180
 msgid "See the <_:ref-1/>, which attempts to state preferred practice on vexed issues issues about spelling, punctuation, etc. The goal of these rules is to avoid inconsistency, and also (wherever possible) to avoid producing text which is markedly either British or American English."
-msgstr "<_:ref-1/> を参照されたい。これは綴りや句読点などに関して、頭痛の種になりがちな問題に、実践上の指針を示すことを試みたものである。これらの規則の目的は、非一貫性を避けることであり、同時に可能なかぎり、明らかにイギリス英語かアメリカ英語かのいずれかに偏った文章を避けることである。"
+msgstr "<_:ref-1/> を参照してください。これは綴りや句読点などに関して、厄介な悩みの種になりがちな問題に、実践上の指針を示そうとしたものです。これらの規則の目的は、非一貫性を避けることと、そして可能なかぎり、イギリス英語かアメリカ英語かのいずれかに明らかに偏った文章を避けることです。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:189
 msgid "Examples"
-msgstr "例示"
+msgstr "例"
 
 #. (itstool) path: div/p
 #: tcw20.xml:190
 msgid "The purpose of an example is to illustrate a specific element or feature. Do not include irrelevant encoding which does not contribute to this primary goal. If such encoding is unavoidable (eg to make your example valid), then it must be explained in the supporting text."
-msgstr "例示の目的は、特定の要素や機能の説明をすることである。この主目的に寄与しない無関係なエンコーディングは、含めてはならない。このようなエンコーディングを含めることが避けられないのであれば（例えば例示を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきである。"
+msgstr "例の目的は、特定の要素や機能の説明をすることです。この主要な目的に寄与しない無関係なエンコーディングは、含めてはなりません。そのようなエンコーディングを含めることが避けられないのであれば（例えば例示を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきです。"
 
 #. (itstool) path: item/gi
 #: tcw20.xml:197
@@ -522,17 +522,17 @@ msgstr ""
 #. (itstool) path: div/p
 #: tcw20.xml:194
 msgid "Wherever possible, choose your examples from real documents and provide bibliographic citations for them, either: <_:list-1/> Use the <_:att-2/> attribute on the <_:gi-3/> element to link an example to its source. Note that the <_:att-4/> attribute is mandatory on <_:gi-5/>: this is to ensure that the ODD processor knows which examples to choose in a given context."
-msgstr "例示は可能なかぎり実際の文書から選択し、次のいずれかの方法で、その書誌情報を示すべきである。<_:list-1/><_:gi-3/> 要素では <_:att-2/> 属性を使い、例示をそのソースにリンクする。<_:gi-5/> 要素では <_:att-4/> 属性が必須であることに注意すること。これは特定の文脈においてどの例示を選択すべきか、ODD プロセッサに確実に認識させるためである。"
+msgstr "例は可能なかぎり実際の文書から選択し、次のいずれかの方法でその書誌情報を示すべきです。<_:list-1/><_:gi-3/> 要素では <_:att-2/> 属性を使い、例をそのソースにリンクします。<_:gi-5/> 要素では <_:att-4/> 属性が必須であることに注意してください。これは所与の文脈においてどの例を選ぶべきか、ODD プロセッサに確実に認識させるためです。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:206
 msgid "All examples should be valid against a modified TEI schema in which any element can act as a root element; this validity is checked during the build process."
-msgstr ""
+msgstr "すべての例は、いずれの要素も root 要素となれるように修正された TEI スキーマに対して妥当でなければなりません。この妥当性はビルドの過程でチェックされます。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:208
 msgid "When you have added or edited examples, always check in the following Jenkins build that they are displaying correctly. In particular, note that if your examples include long lines without linebreaks, the result can be a horizontally-scrolling page and a broken table layout in the reference page. If you see this in the output, you can fix it by adding hard-coded linebreaks at suitable points in the example code."
-msgstr ""
+msgstr "例を追加したとき、あるいは編集したときは、それが正常に表示されるかどうか、続く Jenkins のビルドで常に確認しなけれななりません。特に例の中に、改行なしの長い文章が含まれるときは注意してください。というのも、これが表示されたときに水平スクロールを伴うものとなった場合、リファレンスページのレイアウトが崩れる可能性があるからです。このような出力に気がついた場合は、サンプルコードの適当な箇所に改行を挟み込むことにより、これを直すことができます。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:215
