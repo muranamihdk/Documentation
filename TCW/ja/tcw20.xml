@@ -54,7 +54,7 @@ $LastChangedRevision: 8769 $
   </teiHeader>
   <text>
     <body>
-      <p>この文書は、現在 TEI ガイドラインの編集において適用されている管理された方法を、厳格に説明することを目的としています。この状態の根拠 -- <emph>なぜ</emph>それはそのようであるのか -- について、一般的な解説が後でここに追加されるかもしれません。ガイドラインの文章の継続的な開発と保守に、積極的に貢献することを希望する理事会のメンバーに向けて、情報を提供することを意図しています。</p>
+      <p>この文書は、現在 TEI ガイドラインの編集において適用されている管理された方法を、厳密に説明することを目的としています。この状態の根拠 -- <emph>なぜ</emph>それはそのようであるのか -- について、全般的な解説が後でここに追加されるかもしれません。この文書が意図するのは、ガイドラインの文章の継続的な開発と保守に積極的に寄与することを希望する理事会のメンバーに向けて、情報を提供することです。</p>
       <div>
         <head>ガイドライン各章の構成</head>
         <p>ガイドラインのほとんどの章が、それぞれ別のモジュールを定義していることにはお気づきのことと思います。少なくとも理屈の上では、それぞれの章は次のようなほぼ同じ構成で組織されます。<list>
@@ -113,63 +113,40 @@ $LastChangedRevision: 8769 $
           <p/>
         </div>
         <div xml:id="examples">
-          <head>例</head>
-          <p>例の目的は、特定の要素や機能の説明をすることです。この主要な目的に寄与しない無関係なエンコーディングは、含めてはなりません。そのようなエンコーディングを含めることが避けられないのであれば（例えば例示を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきです。</p>
-          <p>例は可能なかぎり実際の文書から選択し、次のいずれかの方法でその書誌情報を示すべきです。<list>
+          <head>例示</head>
+          <p>例示の目的は、特定の要素や機能の説明をすることです。この主要な目的に寄与しない無関係なエンコーディングは、含めてはなりません。そのようなエンコーディングを含めることが避けられないのであれば（例えば例を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきです。</p>
+          <p>例示は可能なかぎり実際の文書から選択し、次のいずれかの方法でその書誌情報を示すべきです。<list>
               <item><gi>note</gi> 要素において、<att>place</att> 属性 の値を <val>bottom</val> か foot<val>foot</val> にし、<gi>egXML</gi> 要素を続ける（典拠が <gi>ptr</gi> 要素 の URL だけである場合）</item>
               <item><ident>BIB-Bibliography.xml</ident> ファイル中で完全な書誌情報の形で示す（可能であれば <gi>ptr</gi> 要素の URL とともに）</item>
             </list><gi>egXML</gi> 要素では <att>source</att> 属性を使い、例をそのソースにリンクします。<gi>exemplum</gi> 要素では <att>xml:lang</att> 属性が必須であることに注意してください。これは所与の文脈においてどの例を選ぶべきか、ODD プロセッサに確実に認識させるためです。</p>
-          <p>すべての例は、いずれの要素も root 要素となれるように修正された TEI スキーマに対して妥当でなければなりません。この妥当性はビルドの過程でチェックされます。</p>
-          <p>例を追加したとき、あるいは編集したときは、それが正常に表示されるかどうか、続く Jenkins のビルドで常に確認しなけれななりません。特に例の中に、改行なしの長い文章が含まれるときは注意してください。というのも、これが表示されたときに水平スクロールを伴うものとなった場合、リファレンスページのレイアウトが崩れる可能性があるからです。このような出力に気がついた場合は、サンプルコードの適当な箇所に改行を挟み込むことにより、これを直すことができます。</p>
+          <p>すべての例示は、いずれの要素も root 要素となれるように修正された TEI スキーマに対して妥当でなければなりません。この妥当性はビルドの過程でチェックされます。</p>
+          <p>例示を追加したとき、あるいは編集したときは、それが正常に表示されるかどうか、続く Jenkins のビルドで常に確認しなけれななりません。特に例の中に、改行なしの長い文章が含まれるときは注意してください。というのも、これが表示されたときに水平スクロールを伴うものとなった場合、リファレンスページのレイアウトが崩れる可能性があるからです。このような出力に気がついた場合は、サンプルコードの適当な箇所に改行を挟み込むことにより、これを直すことができます。</p>
         </div>
         <div xml:id="encoding">
-          <head>Good encoding practice</head>
-          <p>Good encoding practice will ensure not only valid but 
-            also highly functional Guidelines.</p>
-          <p>When referencing figures and to other sections of the 
-            Guidelines, use <gi>ptr</gi>, not <gi>ref</gi>, to ensure 
-            that the title and number of the referenced item is 
-            automatically inserted when the Guidelines are compiled.</p>
-          <p>The build process validates cross-references. 
-          Since the Guidelines is compiled into a single XML document 
-          at build time, IDs must be unique across the text and the
-          examples.  Consequently, any <att>xml:id</att> attribute
-          values appearing in your examples must be unique within the
-          text of the whole of the Guidelines. Furthermore, any
-          <att>target</att> (etc.) values which do not point to
-          anything in the source will be flagged with a warning during
-	  the build process. </p>
+          <head>優れたエンコード方法</head>
+          <p>優れた方法によるエンコードは、妥当性だけでなく、高い機能性を持つガイドラインも保証します。</p>
+          <p>図およびガイドラインの他のセクションを参照する場合は、<gi>ref</gi> ではなく、<gi>ptr</gi> を使用して、参照した項目のタイトルと番号が、ガイドラインのコンパイル時に自動的に挿入されるようにします。</p>
+          <p>ビルドプロセスは相互参照を検証します。ガイドラインはビルド時に単一の XML 文書にコンパイルされるため、ID はテキストと例示のすべてにわたって一意である必要があります。したがって、例示中に現れるすべての <att>xml:id</att> 属性値は、ガイドライン全体の文章の中で一意である必要があります。加えて、<att>target</att> 等の値が指し示すものがソースの中にない時は、ビルド処理中にそれらすべてに警告フラグが立てられます。</p>
         </div>
       </div>
       <div>
-        <head>Making a change to the Guidelines</head>
+        <head>ガイドラインに変更を加える</head>
 <!--    Substantially edited by MDH 2015-10-03 for shift to GitHub.   -->
-        <p>Most changes to the Guidelines are the result of a bug or feature request 
-        ticket on GitHub. Once a ticket is assigned to you, and you're sure there
-        is agreement to proceed with the change, follow the steps below.</p>
+        <p>ガイドラインのほとんどの変更は、GitHub におけるバグや、機能要求チケットの結果として行われます。チケットが割り当てられ、変更を進める合意があることを確認したら、以下の手順に従ってください。</p>
         
         <list>
-          <item>If you don't have a local clone of the git repo, go to the <ref target="https://github.com/TEIC/TEI">GitHub site</ref> and clone the repository following the instructions there. It's usually something like <code>git clone https://github.com/TEIC/TEI.git TEI</code> </item>
-          <item>If you have already checked out a copy, make sure to update it (<code>git pull</code>) <emph>before</emph>
-            you make any changes in it.</item>
-          <item>Make sure you are on the <code>dev</code> branch (we do not make direct changes to the master branch): <code>git checkout dev</code></item>
-          <item>Edit the appropriate file(s) to make your changes, or if the change requires it, create a new file. Make sure your source is still valid. The TEI source files should all 
-          contain xml-model processing instructions linking them to the latest version 
-          of the NVDL file used for validation of the P5 source.</item>
-          <item>If you have a locally installed P5 build environment, make sure you can still build,
-            and that the examples are still valid. You can set up a Docker-based build environment
-            by following the instructions in <ptr target="http://teic.github.io/TCW/testing_and_building.html"/>. If you have a build
-            environment nor the means to set one up, just use git to push your updated version to
-            GitHub and wait for our two <ident>Jenkins</ident> Continuous Integration servers (<ptr target="http://jenkins.tei-c.org/"/> and <ptr target="http://jenkins2.tei-c.org/"/>) to assess your work.</item>
-          <item>Check in your changes:
-            <list>
-              <item>If the file is new, add it to the git repository: <code>git add filename.xml</code></item>
-                </list>
-              </item>
-              <item>Commit your changes: <code>git commit -m "Your commit message" filename.xml</code> <emph>Be sure to add a detailed commit message which includes a link to the git issue ticket which prompted the change</emph>.</item>
-          <item>Push the change to the git repository: <code>git push origin dev</code></item>
-          <item>Make a note of the revision hash when git receives your change.</item>
-          <item>Assuming the change was successful (see below), add a comment to the GitHub issue ticket which includes the hash of the revision. You may also close the ticket if it is complete.</item>
+          <item>git リポジトリのローカルコピーをまだ作成していない場合は、<ref target="https://github.com/TEIC/TEI">GitHub site</ref> へ行き、そこにある指示に従ってリポジトリをクローンしてください。通常は次のようなコマンドを実行することになります。 <code>git clone https://github.com/TEIC/TEI.git TEI</code></item>
+          <item>コピーをすでに作成している場合は、必ず変更を加える<emph>前に</emph>、最新の状態になっていることを確認してください（<code>git pull</code> を実行します）。</item>
+          <item><code>dev</code> ブランチにいることを確認してください（<code>git checkout dev</code> を実行します）。ブランチに直接変更を加えることはしません。</item>
+          <item>適切なファイルを編集して変更を行ってください。必要なら新しいファイルを作成してください。変更後もソースファイルが妥当であることを確認してください。TEI のすべてのソースファイルには、P5 ソースの検証に使用される NVDL ファイルの最新版にリンクする、xml モデル処理命令が含まれている必要があります。</item>
+          <item>ローカル環境に P5 のビルド環境をインストールしている場合は、変更後もビルドが通ることと、ビルド後も例示が妥当であることを確認してください。<ptr target="http://teic.github.io/TCW/testing_and_building.html"/> にある指示に従えば、Docker ベースのビルド環境を用意することができます。いずれのビルド環境も用意できない場合は、単に git を使って更新バージョンを GitHub にプッシュし、<ident>Jenkins</ident> のふたつの継続的インテグレーションサーバ（<ptr target="http://jenkins.tei-c.org/"/> と <ptr target="http://jenkins2.tei-c.org/"/>）が変更を評価するのを待ってください。</item>
+          <item>変更をチェックインします。<list>
+              <item>ファイルが新しい場合は git リポジトリに追加します。<code>git add filename.xml</code></item>
+                </list></item>
+              <item>変更をコミットします。<code>git commit -m "Your commit message" filename.xml</code> <emph>変更の元となった GitHub のイシューチケットへのリンクを含む、詳細なコミットメッセージを追加することを忘れないでください。</emph>.</item>
+          <item>変更を git リポジトリにプッシュします。<code>git push origin dev</code></item>
+          <item>git が変更を受け付けた時に、このリビジョンのハッシュを書き留めておきます。</item>
+          <item>変更が成功したら、GitHub のイシューチケットに、リビジョンのハッシュを含むコメントを追加します。すべての変更が終わっていればチケットを閉じてもいいです。変更が成功しなかった場合は以下を参考にしてください。</item>
         </list>
         <p>Error messages may appear at any stage. Please do not leave the source in an invalid
           state (it makes life unnecessarily difficult for others). If you cannot immediately fix a

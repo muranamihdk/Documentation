@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-11-04 15:17+0900\n"
+"PO-Revision-Date: 2018-11-13 00:12+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -185,7 +185,7 @@ msgstr "なぜ"
 #. (itstool) path: body/p
 #: tcw20.xml:59
 msgid "This document is intended to set out the way things are currently managed in the editing of the TEI Guidelines. General notes on the rationale for this state -- <_:emph-1/> it is the way it is -- may be added here later. The intention is to provide information for Council members wishing to contribute actively to the continued development and maintenance of the text of the Guidelines."
-msgstr "この文書は、現在 TEI ガイドラインの編集において適用されている管理された方法を、厳格に説明することを目的としています。この状態の根拠 -- <_:emph-1/>それはそのようであるのか -- について、一般的な解説が後でここに追加されるかもしれません。ガイドラインの文章の継続的な開発と保守に、積極的に貢献することを希望する理事会のメンバーに向けて、情報を提供することを意図しています。"
+msgstr "この文書は、現在 TEI ガイドラインの編集において適用されている管理された方法を、厳密に説明することを目的としています。この状態の根拠 -- <_:emph-1/>それはそのようであるのか -- について、全般的な解説が後でここに追加されるかもしれません。この文書が意図するのは、ガイドラインの文章の継続的な開発と保守に積極的に寄与することを希望する理事会のメンバーに向けて、情報を提供することです。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:67
@@ -449,12 +449,12 @@ msgstr "<_:ref-1/> を参照してください。これは綴りや句読点な�
 #. (itstool) path: div/head
 #: tcw20.xml:189
 msgid "Examples"
-msgstr "例"
+msgstr "例示"
 
 #. (itstool) path: div/p
 #: tcw20.xml:190
 msgid "The purpose of an example is to illustrate a specific element or feature. Do not include irrelevant encoding which does not contribute to this primary goal. If such encoding is unavoidable (eg to make your example valid), then it must be explained in the supporting text."
-msgstr "例の目的は、特定の要素や機能の説明をすることです。この主要な目的に寄与しない無関係なエンコーディングは、含めてはなりません。そのようなエンコーディングを含めることが避けられないのであれば（例えば例示を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきです。"
+msgstr "例示の目的は、特定の要素や機能の説明をすることです。この主要な目的に寄与しない無関係なエンコーディングは、含めてはなりません。そのようなエンコーディングを含めることが避けられないのであれば（例えば例を妥当なXMLとするために必要な場合など）、本文の中でそのことについて説明すべきです。"
 
 #. (itstool) path: item/gi
 #: tcw20.xml:197
@@ -522,27 +522,27 @@ msgstr ""
 #. (itstool) path: div/p
 #: tcw20.xml:194
 msgid "Wherever possible, choose your examples from real documents and provide bibliographic citations for them, either: <_:list-1/> Use the <_:att-2/> attribute on the <_:gi-3/> element to link an example to its source. Note that the <_:att-4/> attribute is mandatory on <_:gi-5/>: this is to ensure that the ODD processor knows which examples to choose in a given context."
-msgstr "例は可能なかぎり実際の文書から選択し、次のいずれかの方法でその書誌情報を示すべきです。<_:list-1/><_:gi-3/> 要素では <_:att-2/> 属性を使い、例をそのソースにリンクします。<_:gi-5/> 要素では <_:att-4/> 属性が必須であることに注意してください。これは所与の文脈においてどの例を選ぶべきか、ODD プロセッサに確実に認識させるためです。"
+msgstr "例示は可能なかぎり実際の文書から選択し、次のいずれかの方法でその書誌情報を示すべきです。<_:list-1/><_:gi-3/> 要素では <_:att-2/> 属性を使い、例をそのソースにリンクします。<_:gi-5/> 要素では <_:att-4/> 属性が必須であることに注意してください。これは所与の文脈においてどの例を選ぶべきか、ODD プロセッサに確実に認識させるためです。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:206
 msgid "All examples should be valid against a modified TEI schema in which any element can act as a root element; this validity is checked during the build process."
-msgstr "すべての例は、いずれの要素も root 要素となれるように修正された TEI スキーマに対して妥当でなければなりません。この妥当性はビルドの過程でチェックされます。"
+msgstr "すべての例示は、いずれの要素も root 要素となれるように修正された TEI スキーマに対して妥当でなければなりません。この妥当性はビルドの過程でチェックされます。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:208
 msgid "When you have added or edited examples, always check in the following Jenkins build that they are displaying correctly. In particular, note that if your examples include long lines without linebreaks, the result can be a horizontally-scrolling page and a broken table layout in the reference page. If you see this in the output, you can fix it by adding hard-coded linebreaks at suitable points in the example code."
-msgstr "例を追加したとき、あるいは編集したときは、それが正常に表示されるかどうか、続く Jenkins のビルドで常に確認しなけれななりません。特に例の中に、改行なしの長い文章が含まれるときは注意してください。というのも、これが表示されたときに水平スクロールを伴うものとなった場合、リファレンスページのレイアウトが崩れる可能性があるからです。このような出力に気がついた場合は、サンプルコードの適当な箇所に改行を挟み込むことにより、これを直すことができます。"
+msgstr "例示を追加したとき、あるいは編集したときは、それが正常に表示されるかどうか、続く Jenkins のビルドで常に確認しなけれななりません。特に例の中に、改行なしの長い文章が含まれるときは注意してください。というのも、これが表示されたときに水平スクロールを伴うものとなった場合、リファレンスページのレイアウトが崩れる可能性があるからです。このような出力に気がついた場合は、サンプルコードの適当な箇所に改行を挟み込むことにより、これを直すことができます。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:215
 msgid "Good encoding practice"
-msgstr ""
+msgstr "優れたエンコード方法"
 
 #. (itstool) path: div/p
 #: tcw20.xml:216
 msgid "Good encoding practice will ensure not only valid but also highly functional Guidelines."
-msgstr ""
+msgstr "優れた方法によるエンコードは、妥当性だけでなく、高い機能性を持つガイドラインも保証します。"
 
 #. (itstool) path: p/gi
 #: tcw20.xml:219
@@ -552,7 +552,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: tcw20.xml:218
 msgid "When referencing figures and to other sections of the Guidelines, use <_:gi-1/>, not <_:gi-2/>, to ensure that the title and number of the referenced item is automatically inserted when the Guidelines are compiled."
-msgstr ""
+msgstr "図およびガイドラインの他のセクションを参照する場合は、<_:gi-2/> ではなく、<_:gi-1/> を使用して、参照した項目のタイトルと番号が、ガイドラインのコンパイル時に自動的に挿入されるようにします。"
 
 #. (itstool) path: p/att
 #: tcw20.xml:225 tcw20.xml:741 tcw20.xml:743
@@ -567,17 +567,17 @@ msgstr ""
 #. (itstool) path: div/p
 #: tcw20.xml:222
 msgid "The build process validates cross-references. Since the Guidelines is compiled into a single XML document at build time, IDs must be unique across the text and the examples. Consequently, any <_:att-1/> attribute values appearing in your examples must be unique within the text of the whole of the Guidelines. Furthermore, any <_:att-2/> (etc.) values which do not point to anything in the source will be flagged with a warning during the build process."
-msgstr ""
+msgstr "ビルドプロセスは相互参照を検証します。ガイドラインはビルド時に単一の XML 文書にコンパイルされるため、ID はテキストと例示のすべてにわたって一意である必要があります。したがって、例示中に現れるすべての <_:att-1/> 属性値は、ガイドライン全体の文章の中で一意である必要があります。加えて、<_:att-2/> 等の値が指し示すものがソースの中にない時は、ビルド処理中にそれらすべてに警告フラグが立てられます。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:234
 msgid "Making a change to the Guidelines"
-msgstr ""
+msgstr "ガイドラインに変更を加える"
 
 #. (itstool) path: div/p
 #: tcw20.xml:236
 msgid "Most changes to the Guidelines are the result of a bug or feature request ticket on GitHub. Once a ticket is assigned to you, and you're sure there is agreement to proceed with the change, follow the steps below."
-msgstr ""
+msgstr "ガイドラインのほとんどの変更は、GitHub におけるバグや、機能要求チケットの結果として行われます。チケットが割り当てられ、変更を進める合意があることを確認したら、以下の手順に従ってください。"
 
 #. (itstool) path: item/ref
 #: tcw20.xml:241
@@ -592,7 +592,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:241
 msgid "If you don't have a local clone of the git repo, go to the <_:ref-1/> and clone the repository following the instructions there. It's usually something like <_:code-2/>"
-msgstr ""
+msgstr "git リポジトリのローカルコピーをまだ作成していない場合は、<_:ref-1/> へ行き、そこにある指示に従ってリポジトリをクローンしてください。通常は次のようなコマンドを実行することになります。 <_:code-2/>"
 
 #. (itstool) path: item/code
 #: tcw20.xml:242
@@ -602,12 +602,12 @@ msgstr ""
 #. (itstool) path: item/emph
 #: tcw20.xml:242
 msgid "before"
-msgstr ""
+msgstr "前に"
 
 #. (itstool) path: list/item
 #: tcw20.xml:242
 msgid "If you have already checked out a copy, make sure to update it (<_:code-1/>) <_:emph-2/> you make any changes in it."
-msgstr ""
+msgstr "コピーをすでに作成している場合は、必ず変更を加える<_:emph-2/>、最新の状態になっていることを確認してください（<_:code-1/> を実行します）。"
 
 #. (itstool) path: item/code
 #: tcw20.xml:244
@@ -622,12 +622,12 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:244
 msgid "Make sure you are on the <_:code-1/> branch (we do not make direct changes to the master branch): <_:code-2/>"
-msgstr ""
+msgstr "<_:code-1/> ブランチにいることを確認してください（<_:code-2/> を実行します）。ブランチに直接変更を加えることはしません。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:245
 msgid "Edit the appropriate file(s) to make your changes, or if the change requires it, create a new file. Make sure your source is still valid. The TEI source files should all contain xml-model processing instructions linking them to the latest version of the NVDL file used for validation of the P5 source."
-msgstr ""
+msgstr "適切なファイルを編集して変更を行ってください。必要なら新しいファイルを作成してください。変更後もソースファイルが妥当であることを確認してください。TEI のすべてのソースファイルには、P5 ソースの検証に使用される NVDL ファイルの最新版にリンクする、xml モデル処理命令が含まれている必要があります。"
 
 #. (itstool) path: item/ident
 #: tcw20.xml:253
@@ -637,7 +637,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:248
 msgid "If you have a locally installed P5 build environment, make sure you can still build, and that the examples are still valid. You can set up a Docker-based build environment by following the instructions in <_:ptr-1/>. If you have a build environment nor the means to set one up, just use git to push your updated version to GitHub and wait for our two <_:ident-2/> Continuous Integration servers (<_:ptr-3/> and <_:ptr-4/>) to assess your work."
-msgstr ""
+msgstr "ローカル環境に P5 のビルド環境をインストールしている場合は、変更後もビルドが通ることと、ビルド後も例示が妥当であることを確認してください。<_:ptr-1/> にある指示に従えば、Docker ベースのビルド環境を用意することができます。いずれのビルド環境も用意できない場合は、単に git を使って更新バージョンを GitHub にプッシュし、<_:ident-2/> のふたつの継続的インテグレーションサーバ（<_:ptr-3/> と <_:ptr-4/>）が変更を評価するのを待ってください。"
 
 #. (itstool) path: item/code
 #: tcw20.xml:256
@@ -647,12 +647,12 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:256
 msgid "If the file is new, add it to the git repository: <_:code-1/>"
-msgstr ""
+msgstr "ファイルが新しい場合は git リポジトリに追加します。<_:code-1/>"
 
 #. (itstool) path: list/item
 #: tcw20.xml:254
 msgid "Check in your changes: <_:list-1/>"
-msgstr ""
+msgstr "変更をチェックインします。<_:list-1/>"
 
 #. (itstool) path: item/code
 #: tcw20.xml:259
@@ -662,12 +662,12 @@ msgstr ""
 #. (itstool) path: item/emph
 #: tcw20.xml:259
 msgid "Be sure to add a detailed commit message which includes a link to the git issue ticket which prompted the change"
-msgstr ""
+msgstr "変更の元となった GitHub のイシューチケットへのリンクを含む、詳細なコミットメッセージを追加することを忘れないでください。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:259
 msgid "Commit your changes: <_:code-1/> <_:emph-2/>."
-msgstr ""
+msgstr "変更をコミットします。<_:code-1/> <_:emph-2/>."
 
 #. (itstool) path: item/code
 #: tcw20.xml:260
@@ -677,17 +677,17 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw20.xml:260
 msgid "Push the change to the git repository: <_:code-1/>"
-msgstr ""
+msgstr "変更を git リポジトリにプッシュします。<_:code-1/>"
 
 #. (itstool) path: list/item
 #: tcw20.xml:261
 msgid "Make a note of the revision hash when git receives your change."
-msgstr ""
+msgstr "git が変更を受け付けた時に、このリビジョンのハッシュを書き留めておきます。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:262
 msgid "Assuming the change was successful (see below), add a comment to the GitHub issue ticket which includes the hash of the revision. You may also close the ticket if it is complete."
-msgstr ""
+msgstr "変更が成功したら、GitHub のイシューチケットに、リビジョンのハッシュを含むコメントを追加します。すべての変更が終わっていればチケットを閉じてもいいです。変更が成功しなかった場合は以下を参考にしてください。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:264
