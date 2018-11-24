@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-24 22:26+0900\n"
-"PO-Revision-Date: 2018-11-24 22:51+0000\n"
+"PO-Revision-Date: 2018-11-26 00:31+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -29,8 +29,9 @@ msgstr ""
 
 #. (itstool) path: titleStmt/author
 #: tcw22.xml:9
+#, fuzzy
 msgid "Lou Burnard"
-msgstr ""
+msgstr "Lou Burnard"
 
 #. (itstool) path: titleStmt/author
 #: tcw22.xml:10
