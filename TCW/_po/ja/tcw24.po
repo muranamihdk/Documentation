@@ -1,0 +1,798 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-11-24 22:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: titleStmt/title
+#: tcw24.xml:11
+msgid "Style Guide for Editing the TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#. (itstool) path: publicationStmt/publisher
+#: tcw24.xml:12
+#: tcw24.xml:15
+msgid "TEI Technical Council"
+msgstr ""
+
+#. (itstool) path: publicationStmt/date
+#: tcw24.xml:16
+msgid "2018"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: tcw24.xml:19
+msgid "The first draft of this document was created by moving the \"House Style: preferred orthography\" and \"House Style: notes on usage\" sections from TCW20, \"How to Edit the TEI Guidelines\" to their own document, TCW24, which will serve as a full style guide for the Guidelines."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:26
+msgid "Added section on modal verbs"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:27
+msgid "Added egXML guidance"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:28
+msgid "Link to BCP 14"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:29
+msgid "Fixed ptrs"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:30
+msgid "\"TEI header\" is preferred"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:31
+msgid "Explained -ize vs. -ise. Also a markup fix."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:32
+msgid "desc's for attributes should also be verbal phrases"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:33
+msgid "Added note about desc elements containing verbal phrases; some light copyediting"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:35
+msgid "Adding prose about use of first-person/\"we\" and second-person/\"you\" in the Guidelines."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw24.xml:37
+msgid "started first draft: moving sections from TCW20, \"How to Edit the TEI Guidelines\" to their own document. Re-ordered some sections, proofread, added some examples, and added discussion of hyphenation."
+msgstr ""
+
+#. (itstool) path: body/p
+#: tcw24.xml:44
+msgid "This document aims to capture decisions about House Style for writing and editing the TEI Guidelines, in order to maintain consistency throughout the Guidelines."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:47
+msgid "Tone and voice"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:48
+msgid "The Guidelines are a reference manual, not a tutorial. You should not talk down to the reader, but assume they have a reasonably well-informed knowledge of the subjects under discussion. Make copious use of cross references, rather than repetition."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:51
+msgid "Bear in mind however that your reader may not have English as their first language. Avoid needlessly complex sentences and unnecessarily obscure terminology."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:53
+msgid "Choose clarity and concision over adherence to any particular voice. However, you should be careful in your use of the first person, avoiding the implication that a community of scholars, or the whole TEI community, takes a certain view. The use of \"we\" is appropriate in passages of formal textual exposition, where \"we\" refers to both the reader and the authorial voice. For instance: \"Each chapter of the Guidelines presents a group of related elements, and also defines a corresponding set of declarations, which we call a module.\""
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:60
+msgid "Avoid the use of a first-person authorial voice that does not include the reader as part of \"we.\" For instance: \"We do not describe them in detail here,\" which refers to a particular editorial decision made by the authors of the Guidelines. In this case, \"They are not described in detail here\" is preferred."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:64
+msgid "As a test, ask yourself whether the material being asserted, typically a technical term or usage, is something the reader is expected to internalize and use themselves thereafter. If so, use \"we.\" If not, it is more appropriate to use the passive voice."
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw24.xml:69
+msgid "BCP 14"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:67
+msgid "In general, avoid imperative constructions (\"you should...\"). However, key words like \"should\", \"must\", \"must not\", \"recommended\", etc. should be used in accordance with <_:ref-1/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:73
+msgid "General notes on usage"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:74
+msgid "This is a list of notes on usage preferences and conventions, which we expect to expand over time."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:77
+msgid "Gender-neutral pronouns"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:78
+msgid "We prefer the usage \"they\", \"their\" etc. where the third person singular is required, but gender is unspecified. For instance: \"The encoder may follow their own preference here.\" This is less ungainly than \"his/her\" etc."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:81
+msgid "Technical terms"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: tcw24.xml:84
+msgid "note"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:82
+msgid "Make sure that technical terms are glossed on their first appearance. For instance, XML-related terminology should be introduced in the chapter on XML. If you want to provide other references, do so as footnotes, using the <_:gi-1/> element."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:85
+msgid "References"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:86
+msgid "Provide bibliographic citations for any other standards (etc) referenced, following the existing style. Do not introduce bibliographic citations simply in order to demonstrate your learning."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:89
+msgid "Descriptions in specifications"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: tcw24.xml:91
+msgid "desc"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:90
+msgid "The description of an element, attribute, model class, or attribute class contained in <_:gi-1/> should always be a verbal phrase beginning with a present-tense verb (\"contains a ...\", \"groups together ...\", etc.)"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:96
+msgid "Naming conventions"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:97
+msgid "TEI naming conventions have evolved over time, but remain fairly consistent."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:99
+msgid "generic identifiers"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: tcw24.xml:101
+msgid "bibl"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: tcw24.xml:103
+msgid "biblStruct"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:100
+msgid "Element and attribute identifiers should be a single natural language word in lowercase if possible. For instance: <_:gi-1/>. If more than one word is conjoined to form a name, then the first letter of the second and any subsequent word should be uppercased. For instance: <_:gi-2/>. Hyphens, underscores, dots etc are not used within element or attribute names."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:105
+msgid "class names"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw24.xml:107
+msgid "model."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw24.xml:108
+msgid "att."
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw24.xml:110
+msgid "att.linking.foo"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw24.xml:110
+msgid "foo"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw24.xml:111
+msgid "att.linking"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:106
+msgid "Class names are made up three parts: a name, constructed like an element name, with a prefix and optionally a suffix. The prefix is one of <_:code-1/> or <_:code-2/> and indicates whether this is a model or an attribute class. The suffix, if present, is used to indicate subclassing. For example <_:ident-3/> is the <_:ident-4/> subclass of the attribute class <_:ident-5/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:112
+msgid "xml:id values"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: tcw24.xml:116
+#: tcw24.xml:124
+msgid "div"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:116
+msgid "every <_:gi-1/>, whether or not it is explicitly linked to elsewhere"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw24.xml:117
+msgid "BIB.xml"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:117
+msgid "every bibliographic reference in the <_:ident-1/> file"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:113
+msgid "The conventions for these vary somewhat. Most of the older chapters of the guidelines have consistently constructed identifiers, derived from the individual section headings. Identifiers must be provided for:- <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:122
+msgid "Capitalization of headings"
+msgstr ""
+
+#. (itstool) path: p/title
+#: tcw24.xml:123
+msgid "Chicago Manual of Style"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: tcw24.xml:124
+msgid "head"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:123
+msgid "Use title case as defined in the <_:title-1/> for all headings (i.e. all text in <_:gi-2/> elements that occur as children of <_:gi-3/> elements)."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:130
+msgid "Preferred orthography"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:138
+msgid "Word or Term"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:139
+msgid "Authority/explanation"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:142
+msgid "code point (n.); code-point (adj.)"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:143
+msgid "UCG [discussed on TEI Council list]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:146
+msgid "cross-reference"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:147
+#: tcw24.xml:176
+#: tcw24.xml:188
+msgid "MW, OED"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:150
+msgid "data set"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/label
+#: tcw24.xml:151
+#: tcw24.xml:234
+msgid "OED"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:154
+msgid "datatype"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:155
+msgid "[OED, ORDS have 'data type', but Guidelines consistently use single word dozens of places]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:159
+msgid "email (not *e-mail)"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:160
+msgid "commoner usage; consistency with JTEI; name of TEI element; bug #664"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:163
+msgid "end-tag"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/label
+#: tcw24.xml:164
+#: tcw24.xml:196
+#: tcw24.xml:200
+#: tcw24.xml:208
+#: tcw24.xml:212
+#: tcw24.xml:224
+#: tcw24.xml:239
+msgid "ORDS"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:167
+msgid "GitHub"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:171
+msgid "TEI header; the &lt;teiHeader&gt;"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:172
+msgid "[discussed on TEI Council list in January/February 2013]"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:175
+msgid "high-level (adj.)"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:179
+msgid "line break"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:183
+msgid "lowercase/uppercase"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:184
+msgid "MW, ORDS"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:187
+msgid "proofread"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:191
+msgid "SourceForge"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:195
+msgid "start-tag"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:199
+msgid "stylesheet"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:203
+msgid "typeface"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/label
+#: tcw24.xml:204
+#: tcw24.xml:232
+msgid "MW"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:207
+msgid "the Web"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:211
+msgid "web page"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:215
+msgid "web site"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:216
+msgid "ORDS, OED"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:219
+msgid "well-formed (even in a predicate usage: \"the XML is well-formed\")"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/label
+#: tcw24.xml:220
+#: tcw24.xml:244
+msgid "W3CXML"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: tcw24.xml:223
+msgid "whitespace"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:131
+msgid "The goal of these rules is to avoid inconsistency, and also (wherever possible) to avoid producing text which is markedly either British or American English. For example, use the \"-ize\" suffix instead of \"-ise\" for words that are a Latinized version of a Greek suffix because while both spellings are given in the Oxford English Dictionary, only the \"-ize\" form is used in American English. The following table lists the preferred word-spacing and hyphenation for a number of frequently-used terms: <_:table-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:230
+msgid "CMS"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:231
+msgid "Chicago Manual of Style, 15th ed."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:233
+msgid "Merriam-Webster's Collegiate Dictionary, 11th ed."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:235
+msgid "Oxford English Dictionary, 2d ed. online (<_:ptr-1/>)"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:237
+msgid "ODE"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:238
+msgid "Oxford Dictionary of English (aka NODE), 2d ed."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:240
+msgid "O'Reilly Default Stylesheet, <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:242
+msgid "UCG"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:243
+msgid "Unicode Consortium Glossary, <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:245
+msgid "W3C XML Recommendation, <_:ptr-1/>"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:228
+msgid "The abbreviations above refer to the following list of authorities, which may also be consulted for other vexed issues: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:250
+msgid "Punctuation"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:252
+msgid "Em dashes"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:253
+msgid "Only em dashes should be used parenthetically (do not use en dashes or hyphens for this purpose). There should be no spaces around them when they are used in this way. The only exception to the above (currently) is where we refer to the titles of ISO documents, where we must follow the ISO practice of using spaces."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:257
+msgid "En dashes"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:258
+msgid "En dashes should be used for numerical ranges such as dates, page-ranges, etc. En dashes should not have spaces around them."
+msgstr ""
+
+#. (itstool) path: head/gi
+#: tcw24.xml:263
+msgid "egXML"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:263
+msgid "Conventions in <_:gi-1/>"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:265
+msgid "Elided elements"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw24.xml:269
+msgid "&lt;!-- ... --&gt;"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:266
+msgid "Very often, examples will omit markup, even markup that would ordinarily be necessary for the example to be valid. Such elisions should be marked with an ellipsis inside a comment, usually on its own line, thus: <_:lb-1/> <_:code-2/>."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:270
+msgid "Elided text"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw24.xml:272
+msgid "[...]"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:271
+msgid "Similarly, examples often omit text that doesn't serve the purpose of the example. Such text is to be marked with an ellipsis in square brackets, thus: <_:code-1/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:277
+msgid "The use of modal verbs"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw24.xml:279
+msgid "https://tools.ietf.org/html/bcp14"
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:282
+msgid "MUST"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:283
+msgid "This word, or the terms \"REQUIRED\" or \"SHALL\", mean that this is an absolute requirement of the TEI Guidelines for production of a TEI conformant file."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:285
+msgid "MUST NOT"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:286
+msgid "This phrase, or the phrase \"SHALL NOT\", mean that this is an absolute prohibition of the TEI Guidelines for produciton of a TEI conformant file."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:288
+msgid "SHOULD"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:289
+msgid "This word, or the adjective \"RECOMMENDED\", mean that there may exist valid reasons in particular circumstances to ignore a particular recommendation, but the full implications must be understood and carefully weighed before choosing a different course."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:292
+msgid "SHOULD NOT"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:293
+msgid "This phrase, or the phrase \"NOT RECOMMENDED\" mean that there may exist valid reasons in particular circumstances when the particular behavior is acceptable or even useful, but the full implications should be understood and the case carefully weighed before implementing any behavior so described."
+msgstr ""
+
+#. (itstool) path: list/label
+#: tcw24.xml:296
+msgid "MAY"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw24.xml:297
+msgid "This word, or the adjective \"OPTIONAL\", mean that a recommendation is truly optional. One user may choose to follow the recommendation because a particular project requires it or feels that it enhances their work while another project may choose to not follow this recommendation."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw24.xml:278
+msgid "In general the TEI guidelines try to be careful when using modal verbs and phrases such as 'must', 'must not, 'should', 'should not' and 'may'. In terms of the meanings, these generally follow <_:ref-1/> in the different meanings of these words. In particular: <_:list-2/> Periodic reviews of new prose must be carried out by the TEI Technical Council to ensure the use of modal verbs and phrases is clear."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw24.xml:307
+msgid "Some other (mostly superseded) documents on the topic of style"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw24.xml:310
+msgid "TEI ED W9"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw24.xml:311
+msgid "Points of Style For Drafts of TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw24.xml:312
+msgid "2 Mar 1990"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw24.xml:313
+msgid "in Waterloo Script format"
+msgstr ""
+
+#. (itstool) path: listBibl/bibl
+#: tcw24.xml:310
+msgid "<_:idno-1/> <_:title-2/>, <_:date-3/> (<_:ref-4/>)"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw24.xml:317
+msgid "TEI ED W11"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw24.xml:318
+msgid "Notes on House Style"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw24.xml:319
+msgid "14 Sep 1992"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw24.xml:320
+msgid "in Waterloo script"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw24.xml:321
+msgid "formatted text"
+msgstr ""
+
+#. (itstool) path: listBibl/bibl
+#: tcw24.xml:316
+#: tcw24.xml:333
+msgid "<_:idno-1/> <_:title-2/>, <_:date-3/> (<_:ref-4/>, <_:ref-5/>)"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw24.xml:325
+msgid "TEI ED W55"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw24.xml:326
+msgid "Form for Draft Chapters of the TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw24.xml:327
+msgid "5 june 1996"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw24.xml:328
+#: tcw24.xml:336
+msgid "in TEI P2 format"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw24.xml:329
+#: tcw24.xml:337
+msgid "in HTML format"
+msgstr ""
+
+#. (itstool) path: bibl/ref
+#: tcw24.xml:330
+msgid "in ODD format"
+msgstr ""
+
+#. (itstool) path: listBibl/bibl
+#: tcw24.xml:325
+msgid "<_:idno-1/> <_:title-2/>, <_:date-3/> (<_:ref-4/>, <_:ref-5/>, <_:ref-6/>)"
+msgstr ""
+
+#. (itstool) path: bibl/idno
+#: tcw24.xml:333
+msgid "TEI ED W57"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: tcw24.xml:334
+msgid "Procedures for Correcting Errors in the TEI Guidelines"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: tcw24.xml:335
+msgid "July 23, 1994"
+msgstr ""
+

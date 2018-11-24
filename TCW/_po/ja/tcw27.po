@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-11-24 22:28+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: titleStmt/title
+#: tcw27.xml:6
+msgid "Procedure for handling practices that are no longer recommended or deprecated"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: tcw27.xml:8
+msgid "Kevin Hawkins"
+msgstr ""
+
+#. (itstool) path: edition/date
+#: tcw27.xml:12
+msgid "2013-05-16"
+msgstr ""
+
+#. (itstool) path: publicationStmt/p
+#: tcw27.xml:16
+msgid "freely available"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw27.xml:19
+msgid "http://wiki.tei-c.org/index.php/Practices_no_longer_recommended_or_now_deprecated"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: tcw27.xml:19
+msgid "Manually reformatted from <_:ref-1/>"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw27.xml:23
+msgid "Removed step about creating Schematron warning: Syd says they're generated automatically based on presence of @validUntil."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw27.xml:24
+msgid "Added standard wording for Schematron warnings and instruction to notify TEI-L of planned deprecations"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw27.xml:25
+msgid "Copyediting"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw27.xml:26
+msgid "Added more missing markup from wiki"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw27.xml:27
+msgid "Added link to tcw09 (Birnbaum doctrine)"
+msgstr ""
+
+#. (itstool) path: body/p
+#: tcw27.xml:33
+msgid "At its April 2013 face-to-face meeting in Providence, the Technical Council agreed to the following policy for handling practices that are \"no longer recommended\" or \"deprecated\"."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw27.xml:38
+msgid "No longer recommended"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw27.xml:40
+msgid "While the TEI Guidelines often offer more than one way of encoding a particular phenomenon, in this case the Council agrees to identify a preferred method without making any definite plans to remove the non-preferred way from the Guidelines. In this case:"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: tcw27.xml:45
+msgid "remarks"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw27.xml:45
+msgid "The <_:gi-1/> element is used in the spec to indicate the preferred practice."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw27.xml:47
+msgid "The prose in one or more chapters is revised to indicate this preferred practice. Examples showing the non-preferred practice are maintained but preferably only in the section of the Guidelines where that element or attribute is discussed, not in passing elsewhere."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw27.xml:55
+msgid "Deprecated"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw27.xml:57
+msgid "Birnbaum doctrine"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw27.xml:57
+msgid "Following the <_:ref-1/>, the Council has made the serious decision to break backwards compatibility by changing the content model of an element or class to remove an element or attribute, or to remove an element or attribute entirely from the Guidelines. In this case:"
+msgstr ""
+
+#. (itstool) path: item/att
+#. (itstool) path: p/att
+#: tcw27.xml:62
+#: tcw27.xml:74
+msgid "validUntil"
+msgstr ""
+
+#. (itstool) path: item/ident
+#: tcw27.xml:64
+msgid "att.deprecated"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw27.xml:62
+msgid "The appropriate specification is given a <_:att-1/> attribute indicating the intended date after which the specification will be withdrawn. Specifications which can be deprecated this way are all members of the class <_:ident-2/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw27.xml:65
+msgid "An announcement is sent to TEI-L that the Technical Council has decided to depreacate elementName and will drop it as early as YYYY-MM-DD. If anyone strongly objects, they should reply to the list so that the Council might reconsider."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw27.xml:68
+msgid "Any examples of the deprecated practice are removed from the Guidelines, and any prose recommending them is reworded as appropriate."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw27.xml:70
+msgid "We will try to remember to include a mention of the deprecation in the release notes created for the following release."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw27.xml:74
+msgid "After the date specified in <_:att-1/>:"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw27.xml:76
+msgid "The element or attribute is actually removed from the spec."
+msgstr ""
+

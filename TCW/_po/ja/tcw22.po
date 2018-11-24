@@ -1,0 +1,898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-11-24 22:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: titleStmt/title
+#: tcw22.xml:6
+msgid "Building a TEI Release"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: tcw22.xml:7
+msgid "Martin Holmes"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: tcw22.xml:8
+msgid "James Cummings"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: tcw22.xml:9
+msgid "Lou Burnard"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: tcw22.xml:10
+msgid "Sebastian Rahtz"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#: tcw22.xml:11
+msgid "David Sewell"
+msgstr ""
+
+#. (itstool) path: titleStmt/author
+#. (itstool) id: tcw22.xml#HC
+#: tcw22.xml:12
+msgid "Hugh Cayless"
+msgstr ""
+
+#. (itstool) path: publicationStmt/publisher
+#: tcw22.xml:15
+msgid "TEI Technical Council"
+msgstr ""
+
+#. (itstool) path: publicationStmt/date
+#: tcw22.xml:16
+msgid "2018"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: tcw22.xml:19
+msgid "This document was originally a section of tcw20.xml, but has now been spun off into its own document."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:24
+msgid "Recommendations for issue handling that facilitate preparing the Release Notes."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:25
+msgid "Beginning edits arising out of the experiences releasing 3.0.0. More to come."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:27
+msgid "Fixed error in git command as just reported on tei-council"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:29
+msgid "Edits for new release process."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:30
+msgid "Updates for new Jenkins server subdomains."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:31
+msgid "Update for use of ant build process for oxygen-tei rather than the old .sh file."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:33
+msgid "More updates to account for the shift from SF SVN to GitHub."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:35
+msgid "Updates to account for the shift from SF SVN to GitHub."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:37
+msgid "Updates arising out of release process for 2.8.0."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:38
+msgid "Added link to http://wiki.tei-c.org/index.php/IRC"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:39
+msgid "Updates to take account of oxygen-tei's move from Google Code to GitHub, along with a couple of other tweaks."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:41
+msgid "Updates for changes in procedure ahead of the 2.6.0 release."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:43
+msgid "Updates following move of some code from SourceForge to GitHub, and automation of the P5 version number in output."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:45
+msgid "Updates following Primrose Path release experience."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:47
+msgid "Newsfeed blog is no longer in SourceForge."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:48
+msgid "A few changes based on messages to tei-council on 2012-06-19 and 2012-06-20."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:50
+msgid "Improvements suggested by various Council members based on experiences with version 2.1.0."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:52
+msgid "Explained version numbers and added reminder about including readme file in announcement."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: tcw22.xml:54
+msgid "Document forked from tcw20.xml."
+msgstr ""
+
+#. (itstool) path: body/p
+#: tcw22.xml:60
+msgid "This document aims to provide a set of detailed instructions enabling a \"release technician\" (the Council member tasked with implementing a new release of the TEI) to prepare for and manage the release process. It assumes that the new packages will be taken from one of the Jenkins servers rather than being built locally by the release technician. This is easier and more reliable, because we ensure that the Jenkins servers are regularly updated and are correctly configured to build the TEI products."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw22.xml:68
+msgid "Packages on GitHub"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw22.xml:70
+msgid "TEIC"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw22.xml:71
+msgid "TEIC/TEI"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw22.xml:73
+msgid "TEIC/Stylesheets"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw22.xml:74
+msgid "TEIC/Roma"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: tcw22.xml:75
+msgid "TEIC/oxygen-tei"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw22.xml:69
+msgid "The TEI maintains a number of distinct repository on GitHub, under the <_:ref-1/> organization. The main repository for the developing P5 Guidelines and associated schemas is <_:ref-2/>, and the TEI Stylesheets, the code for the Roma web application, and the source code for the Oxygen TEI plugin can be found in <_:ref-3/>, <_:ref-4/>, and <_:ref-5/> respectively."
+msgstr ""
+
+#. (itstool) path: p/ident
+#: tcw22.xml:77
+msgid "P5"
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw22.xml:76
+msgid "The rest of this section describes how to make a new release for the main <_:ident-1/> package, but similar procedures apply to the others. The instructions assume you are working on a Linux or MacOSX system with a command line, and know (more or less) how to do basic command-line operations such as running scripts and logging into a server with ssh."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw22.xml:84
+msgid "What you will need before you start"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:87
+msgid "An account on GitHub, and committer privileges over the TEI repository. If you have ever pushed a change to the master branch TEI repository, you should have all the required permissions."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:90
+msgid "Shell access on the TEI SourceForge project. Contact one of the admins to have this turned on. Normal committers don't have shell access. NOTE: THIS IS ONLY REQUIRED IF WE CONTINUE TO RELEASE PRODUCTS THROUGH THE SOURCEFORGE WEBSITE. COUNCIL IS STILL IN THE PROCESS OF DECIDING WHETHER WE SHOULD CONTINUE TO DO THIS."
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:98
+msgid "https://en.wikipedia.org/wiki/Ssh-keygen"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:96
+msgid "Generate an SSH key pair (if you don't have one already). If this is new to you, look at <_:ref-1/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:100
+msgid "Send the public key to the Council Chair, who will forward it on to the system administrator."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:94
+msgid "The release manager will need SSH login access to the tei account on the tei-c.org server. This involves two steps: <_:list-1/> Make sure you get this set up well in advance of the release day, and make sure you can ssh tei@tei-c.org successfully."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:105
+msgid "Some familiarity with the two TEI Jenkins Continuous Integration Servers (their URLs are below). Take a little time to watch them work, and see how a push to the GitHub repository causes them to start building TEI packages. There are three specific build jobs associated with P5, and they run in a fixed sequence."
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:109
+msgid "TEI Council Slack"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:109
+msgid "Access to the <_:ref-1/> which will be the communication channel during the release process."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:111
+msgid "Several hours of time. You won't be busy all the time, but the process from beginning to end takes several hours, especially if something goes a bit wrong and you have to retrace your steps. It's best to start first thing in the morning, and prepare to be busy all day."
+msgstr ""
+
+#. (itstool) path: div/p
+#: tcw22.xml:116
+msgid "NOTE: THE FOLLOWING ITEMS ARE ONLY RELEVANT IF WE CONTINUE TO RELEASE PRODUCTS ON THE SOURCEFORGE WEBSITE."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:121
+msgid "log in to the tei server (ssh tei@tei-c.org; this requires that you've completed the other public key step above)."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:123
+msgid "cat ~/.ssh/id_rsa.pub"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:123
+msgid "<_:code-1/> and copy the contents to the clipboard."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:124
+msgid "paste the result into a text editor and remove any linebreaks added by the terminal."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:126
+msgid "copy-paste the result into https://sourceforge.net/auth/shell_services"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:119
+msgid "A copy of the public key that will enable you to sync the release zip with SourceForge. <_:list-1/> What this does is to enable you (when logged in as tei to tei-c.org) to connect to SourceForge (as your SF user) to upload the release files."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:131
+msgid "ssh sfuser,tei@frs.sourceforge.net"
+msgstr ""
+
+#. (itstool) path: item/q
+#: tcw22.xml:133
+msgid "Welcome! This is a restricted Shell Account. You can only copy files to/from here."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:130
+msgid "Test it by trying to log into SourceForge via ssh from the tei-c.org server:<_:lb-1/> <_:code-2/><_:lb-3/> where \"sfuser\" is your SourceForge user name. You should not see a prompt for a password (because of the ssh keys you have set up). Instead, you should immediately see <_:q-4/> If you see this, then everything is set up correctly."
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw22.xml:141
+msgid "Issue Handling Recommendations"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:143
+msgid "Assign tickets to release milestone"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:144
+msgid "Use ticket reference in any commits addressing or fixing the issue"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:145
+msgid "At least for the final commit addressing the issue try to prepare the commit message so it can be used for Release Notes"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:146
+msgid "Label the issue as Release Note (green label) if it’s important to include the note about it in Release Notes"
+msgstr ""
+
+#. (itstool) path: div/head
+#: tcw22.xml:151
+msgid "Step-by-step instructions"
+msgstr ""
+
+#. (itstool) path: list/head
+#: tcw22.xml:154
+msgid "1-2 weeks before release:"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:155
+msgid "Ask one of the Jenkins maintainers (currently Martin Holmes, and Peter Stadler) to run a link check on the Guidelines and fix broken links in the dev branch"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:157
+msgid "Ask for the TEI-C GPG key passphrase. You'll need it for signing the Debian packages. (The GPG private key itself is hosted on the server at the default location.)"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:165
+#: tcw22.xml:172
+msgid "git checkout dev"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:166
+msgid "git checkout -b release-X.X.X"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:167
+msgid "git push -u origin release-X.X.X"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:159
+msgid "At least one week before releasing, we enter a review period, during which the only changes made to the code to be released should be to fix errors, rather than to add new features. A release branch will be created by the release technician, to which ONLY release-blocking bug fixes and corrections to typographical errors will be pushed. The release technician should announce a temporary hold on pushes to the dev branch on the Council list, then create the branch and push it to GitHub using the following commands:<_:lb-1/> <_:code-2/> (make sure you start from the dev branch)<_:lb-3/> <_:code-4/><_:lb-5/> <_:code-6/><_:lb-7/> After the release branch has been pushed, the release technician should inform the Council list and ask the maintainers of the TEI Jenkins systems to add a build of the release branch so that commits pushed there are properly tested."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:173
+msgid "git merge release-X.X.X"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:171
+msgid "Pushes to the release branch should be merged back into dev regularly:<_:lb-1/> <_:code-2/><_:lb-3/> <_:code-4/>"
+msgstr ""
+
+#. (itstool) path: list/head
+#: tcw22.xml:176
+msgid "On release day:"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:180
+msgid "git pull origin"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:181
+msgid "git checkout --track origin/release-X.X.X"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:177
+msgid "The instructions below for Git commands are assumed to be run in the release-X.X.X branch unless otherwise specified. If you did not create the release branch, you can set up a copy of it using the following commands:<_:lb-1/> <_:code-2/> (to make sure your copy knows about the release branch)<_:lb-3/> <_:code-4/>"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:183
+msgid "Ensure that P5/ReleaseNotes/readme-X.X.X.xml has been written"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:189
+msgid "system used by the Unicode Consortium"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:187
+msgid "Confirm the version number for the new release in consultation with Council. TEI version numbers are based on the <_:ref-1/> but with the first digit for major changes, the second for schema-changing revisions, and the third for non-schema-changing revisions. When the first or second digit is incremented, the following digit or digits is set to zero. During initial development, the version number is followed by \"alpha\"; during the pre-release checking stage, it's followed by \"beta\"; and when the release takes place, \"beta\" is removed and the version number has only digits and periods."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:196
+msgid "Create the new file by cloning a previous one."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:200
+msgid "git log --after=2015-08-01"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:197
+msgid "Consult the git log log to check for all the significant changes since the last release. You can do this by opening a terminal in the root of a working copy of the TEI repository and running:<_:lb-1/> <_:code-2/><_:lb-3/> where the date is that of the previous release."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:202
+msgid "git add"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:202
+msgid "Add the new file into the repository with <_:code-1/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:183
+msgid "<_:hi-1/><_:lb-2/> Normally, this will have been created by the TEI Council chair at the point when the repository moved from its \"alpha\" stage to \"beta\", so you should not have to do this, but in case you do: <_:list-3/>"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:209
+msgid "Edit the P5/VERSION file to the correct number"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:211
+msgid "2.8.2beta"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:213
+msgid "2.8.2"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:216
+msgid "2.8.3alpha"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:209
+msgid "<_:hi-1/><_:lb-2/> This file consists only of the bare version number, followed by \"alpha\" or \"beta\":<_:lb-3/> <_:code-4/><_:lb-5/> For the release process, you need to remove the letters from the end, leaving a pure version number:<_:lb-6/> <_:code-7/><_:lb-8/> This changes the release from beta (or possibly alpha) to the actual release version number. After the release process has been completed, the number should be incremented appropriately, and \"alpha\" added to the end of it:<_:lb-9/> <_:code-10/><_:lb-11/> signifying that the versions built subsequent to the release are now in the alpha stage."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:219
+msgid "Announce a freeze on pushes to the release branch on the TEI Technical Council mailing list"
+msgstr ""
+
+#. (itstool) path: hi/code
+#. (itstool) path: item/code
+#: tcw22.xml:221
+#: tcw22.xml:229
+msgid "master"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:221
+msgid "Merge the release branch into <_:code-1/>"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:222
+#: tcw22.xml:230
+msgid "git checkout master"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:223
+#: tcw22.xml:231
+msgid "git merge --no-ff -m \"YOUR COMMIT MESSAGE\" release-X.X.X"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:224
+msgid "Repeat the steps above for the Stylesheets:"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:226
+msgid "Edit the Stylesheets/VERSION number to the correct release number (usually just remove the 'a')."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:228
+msgid "make log"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:228
+msgid "Run <_:code-1/> to generate the changelog. Then commit the changes."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:229
+msgid "Merge the release branch into <_:code-1/><_:lb-2/> <_:code-3/><_:lb-4/> <_:code-5/>"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:235
+msgid "Push your changes"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:236
+msgid "git push origin master"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:244
+msgid "Note"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:235
+msgid "<_:hi-1/> for both P5 and the Stylesheets to the git repository, <_:code-2/><_:lb-3/> and watch Jenkins build P5 for you.<_:lb-4/> This should be the final push for this version, and it will trigger the Jenkins servers to rebuild the TEI packages. This is where you'll find the Jenkins servers: <_:list-5/> And now you wait while the Jenkins servers build the packages. This can take a couple of hours, so be patient. Both of the Jenkins servers should behave identically, and they should both build all three TEI packages successfully. <_:hi-6/>: The P5 and Stylesheets builds have circular dependencies, so the first build of either the Stylesheets or the Guidelines may fail just because there isn't yet a current build of the other for it to use. This isn't a cause for panic, but it may mean that (e.g.) the Stylesheets build needs to run twice."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:248
+msgid "Ensure all changes have been committed, built, and successfully passed tests on the continuous integration server"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:248
+msgid "<_:hi-1/><_:lb-2/> When all builds have completed on both servers, click on the job number of the last build for each of the three TEI jobs to make sure that it was triggered by the commit that you made in the previous step (you should see your own commit message on the build page). Make sure that all builds were successful (they should have green balls next to them)."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:254
+msgid "NOTE: INSTRUCTIONS FROM HERE ON ASSUME THAT WE ARE RELEASING PRODUCTS ON THE SOURCEFORGE WEBSITE."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:256
+msgid "Log into TEI server and run the tei-install.sh script:"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:257
+msgid "ssh tei@tei-c.org"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:258
+msgid "cd ~/private/git/P5"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:258
+#: tcw22.xml:261
+msgid "git pull"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:258
+msgid "cd Utilities"
+msgstr ""
+
+#. (itstool) path: item/emph
+#: tcw22.xml:262
+msgid "in"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:266
+msgid "./tei-install.sh --package=TEIP5 --version=X.X.X --sfuser=username --install"
+msgstr ""
+
+#. (itstool) path: item/emph
+#: tcw22.xml:267
+msgid "go test the version this puts in the Vault"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:266
+msgid "Install on tei-c.org: <_:code-1/> and then <_:emph-2/>."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:269
+msgid "./tei-install.sh --package=TEIP5 --version=X.X.X --sfuser=username --makecurrent"
+msgstr ""
+
+#. (itstool) path: item/emph
+#: tcw22.xml:271
+msgid "test that it appears on website correctly"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:269
+msgid "If that looks good and everyone agrees then: <_:code-1/> and then <_:emph-2/>."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:272
+msgid "./tei-install.sh --package=TEIP5 --version=X.X.X --sfuser=username --upload"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:272
+msgid "If the website looks right then: <_:code-1/> and then move on to the next step."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:254
+msgid "<_:hi-1/> <_:hi-2/><_:lb-3/> <_:code-4/><_:lb-5/> <_:code-6/> then run <_:code-7/><_:lb-8/>then <_:code-9/> (this is where the scripts are, cf. <_:ptr-10/>).<_:lb-11/> Running <_:code-12/> will update the local copy of the git repository because the scripts that the release technician is using are <_:emph-13/> git. If something goes wrong, and you need to edit the scripts described here, make certain that any changes make it back into the dev branch on GitHub. Wherever possible there should be no special local magic files.<_:lb-14/> Do the following three steps: <_:list-15/> In each of these steps, replace the Xs with your release version. Supply your SourceForge user name, and type your SourceForge password when prompted. By default, the script will pull the release package from the first Jenkins server, but you can supply the URL of the other server if necessary with the --Jenkins parameter, e.g. --Jenkins=http://jenkins2.tei-c.org/. Make sure the script completes successfully each time changing the final parameter from --install, to --makecurrent, and then --upload."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:285
+msgid "./tei-install.sh --package=Stylesheets --version=X.X.X --sfuser=username --upload"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:283
+msgid "To upload the Stylesheets to SourceForge, run the install script again with the following parameters:<_:lb-1/> <_:code-2/><_:lb-3/> Remember, the version number is the Stylesheets version, which will be different from the Guidelines version."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:290
+msgid "Check the TEI website and all downloadable files are displaying the correct version"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:292
+msgid "the newly released version on the TEI site"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:290
+msgid "<_:hi-1/><_:lb-2/> Everything should now be done, so go to <_:ref-3/> and browse the Guidelines. Check that your version number is displayed in the footer of the page, and check that at least one change made since the last release is being reflected online."
+msgstr ""
+
+#. (itstool) path: hi/ref
+#: tcw22.xml:297
+msgid "OxGarage"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:297
+msgid "Check <_:ref-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:297
+msgid "<_:hi-1/> to see whether it picked up the new Stylesheets and TEI sources automatically. If not, you'll need to ask Ian (the one with root access to the TEI server) to update (i.e. nuke, pull and recreate) the OxGarage docker container."
+msgstr ""
+
+#. (itstool) path: hi/ref
+#: tcw22.xml:302
+msgid "Roma"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:302
+msgid "Update <_:ref-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:302
+msgid "<_:hi-1/> <_:lb-2/>Ask Ian to update (i.e. nuke, pull and recreate) the Roma docker container. Visit Roma and generate a simple schema to confirm it works, and check that the version number is right in the footer."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:307
+msgid "NOTE: AGAIN THIS ASSUMES THAT WE ARE STILL RELEASING PRODUCTS ON SOURCEFORGE."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:309
+msgid "Make your release the default downloadable version from Sourceforge"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:307
+msgid "<_:hi-1/> <_:hi-2/><_:lb-3/> Go to the SourceForge site:<_:lb-4/> <_:ptr-5/><_:lb-6/> log in, and click the information button on your new release. Make it the default download for all operating systems. Now make sure that the main Download button links to your package."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:316
+msgid "Update tags on GitHub"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:320
+msgid "git tag -a P5_Release_X.X.X -m \"Release X.X.X of the TEI Guidelines.\""
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:322
+msgid "git push origin P5_Release_X.X.X"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:315
+msgid "<_:hi-1/><_:lb-2/> Every time a new release is made, a \"tag\" is created consisting of a pointer to the state of the P5 tree at release time. You can do this from the command line on your own computer. Still in the master branch, do:<_:lb-3/> <_:code-4/><_:lb-5/> where X.X.X is your new release. Then<_:lb-6/> <_:code-7/>"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:325
+msgid "Make a Release on GitHub"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:326
+msgid "TEI Tags"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:332
+msgid "Jenkins"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:325
+msgid "<_:hi-1/><_:lb-2/> Go to the <_:ref-3/> page on GitHub. You should see the tag you just pushed there. Click on \"Add release notes\". Give it a title, generally \"Release X.X.X\" and add a link to the release notes README, which should be at http://www.tei-c.org/release/doc/tei-p5-doc/readme-X.X.X.html. Add a copy of the zipped release from <_:ref-4/>."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:334
+msgid "Update the Debian Package repository with the new release"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:337
+msgid "http://packages.tei-c.org/deb/"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:338
+msgid "ant"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:339
+msgid "~/packages.tei-c.org/deb/"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:340
+msgid "Peter's GitHub"
+msgstr ""
+
+#. (itstool) path: item/emph
+#: tcw22.xml:341
+msgid "Since the repository index needs to be signed, you'll need the passphrase for the GPG key."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:334
+msgid "<_:hi-1/><_:lb-2/> The TEI Debian packages are regularily created during each Jenkins build. For each release you need to update the TEI Debian repository at <_:ref-3/> which can be done by simply running <_:code-4/> on the TEI server within the <_:code-5/> directory. (The ANT script is currently hosted at <_:ref-6/>.) <_:emph-7/> Make sure you've received it in advance!"
+msgstr ""
+
+#. (itstool) path: hi/ref
+#: tcw22.xml:346
+msgid "Previous releases of P5"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:345
+msgid "Update the list of <_:ref-1/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:345
+msgid "<_:hi-1/><_:lb-2/> If you have editing privileges on the OpenCMS system on tei-c.org, add the new release to the top of the release table. If not, ask one of the other Council members who does (currently Hugh Cayless and James Cummings) to make the change."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:352
+msgid "Update the oXygen-ready distribution of TEI."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:357
+msgid "Check that you have ant (at least version 1.8) installed on your machine."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:358
+msgid "Check that the latest versions of the TEI Stylesheets and TEI P5 packages are available for download from the SourceForge Files section, since the oxygen-tei update/upload script retrieves them from there."
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:363
+msgid "https://github.com/TEIC/oxygen-tei"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:361
+msgid "Check out or update a local copy of the source code from <_:ref-1/> to your local system."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:366
+msgid "oxygen-tei/lib"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:364
+msgid "Make sure the build script knows where to find your oxygen.jar file (from the Oxygen installed on your system) by copying the file into <_:code-1/> or symlinking it."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:367
+msgid "cd into the oxygen-tei folder (it should contain folders called \"frameworks\" and \"jenkins\")."
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:370
+msgid "ant release"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:369
+msgid "Run the ant build process with the \"release\" parameter: <_:lb-1/> <_:code-2/><_:lb-3/> This builds the plugin using the latest stable versions of P5 and the Stylesheets, then offers to upload the result to the TEI's SourceForge repo to become a release of the TEI-maintained version of the plugin. This also creates an updated updateSite.oxygen file, by retrieving the latest updateSite.oxygen file from the tei-c.org site, and asks the user to provide the new version number before creating a new version of updateSite.oxygen. It also offers to upload that file to tei-c.org, if the user has shell access."
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:352
+msgid "<_:hi-1/><_:lb-2/> This involves building the new package of oxygen-tei, and then updating the distribution file on the TEI server so that the oXygen software knows about the new release. You may prefer to hand this off to one of the maintainers (currently James Cummings, Syd Bauman or Martin Holmes) to do this for you if you're not familiar with the project. <_:list-3/>"
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:402
+msgid "Inform the TEI Technical Council Chair so they can announce the release"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: tcw22.xml:409
+msgid "http://www.tei-c.org/Guidelines/P5/index.xml#previous"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:402
+msgid "<_:hi-1/><_:lb-2/> Once you are sure that everything is working correctly, inform the Council Chair. They will announce the release to the TEI-L mailing list, including the text of P5/ReleaseNotes/readme-X.X.X.xml in plain text form (which can be generated using the \"readme\" profile for teitotxt), and place an announcement on the Text Encoding Initiative Newsfeed blog in the category of 'News'. They will also update the table of previous releases at <_:ref-3/>."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:410
+msgid "Lift the freeze on committing changes to the repository"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:410
+msgid "<_:hi-1/><_:lb-2/> Write to the TEI Council list and let them know that they can once again start committing changes to the repository."
+msgstr ""
+
+#. (itstool) path: item/hi
+#: tcw22.xml:414
+msgid "Increment the build number for the next release cycle"
+msgstr ""
+
+#. (itstool) path: item/code
+#: tcw22.xml:420
+msgid "2.9.0a"
+msgstr ""
+
+#. (itstool) path: list/item
+#: tcw22.xml:414
+msgid "<_:hi-1/><_:lb-2/> After the release process has been completed, the release number for both P5 and the Stylesheets needs to be updated. Edit the P5/VERSION file and the Stylesheets/VERSION file to the correct numbers. These files contain nothing except the bare version number. It should be incremented appropriately, and \"a\" added to the end of it, so if for example the release was number 2.8.0, you would change the number in the file to:<_:lb-3/> <_:code-4/><_:lb-5/> signifying that the versions built subsequent to the release are now in the alpha stage."
+msgstr ""
+
