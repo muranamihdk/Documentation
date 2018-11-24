@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-29 16:00+0900\n"
-"PO-Revision-Date: 2018-10-30 12:28+0900\n"
+"PO-Revision-Date: 2018-11-24 22:51+0000\n"
+"Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: ja\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #. (itstool) path: titleStmt/title
 #: testing_and_building.xml:9
@@ -19,8 +19,9 @@ msgstr "TEI ガイドラインとスタイルシートをビルドしてテス�
 
 #. (itstool) path: titleStmt/author
 #: testing_and_building.xml:10
+#, fuzzy
 msgid "Hugh Cayless"
-msgstr ""
+msgstr "Hugh Cayless"
 
 #. (itstool) path: publicationStmt/publisher
 #: testing_and_building.xml:13
@@ -29,13 +30,14 @@ msgstr "TEI 技術評議会"
 
 #. (itstool) path: publicationStmt/date
 #: testing_and_building.xml:14
+#, fuzzy
 msgid "2016"
-msgstr ""
+msgstr "2016"
 
 #. (itstool) path: sourceDesc/p
 #: testing_and_building.xml:17
 msgid "Born digital document."
-msgstr ""
+msgstr "この文書は電子版が原本（ボーン・デジタル）である。"
 
 #. (itstool) path: div/head
 #: testing_and_building.xml:24
@@ -49,23 +51,27 @@ msgstr "ガイドラインとスタイルシートを色々とビルドしてテ
 
 #. (itstool) path: p/ref
 #: testing_and_building.xml:40
+#, fuzzy
 msgid "Learn Enough Command Line to Be Dangerous"
-msgstr ""
+msgstr "Learn Enough Command Line to Be Dangerous"
 
 #. (itstool) path: p/ref
 #: testing_and_building.xml:43
+#, fuzzy
 msgid "How to Install and Use the Linux Bash Shell on Windows 10"
-msgstr ""
+msgstr "How to Install and Use the Linux Bash Shell on Windows 10"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:45
+#, fuzzy
 msgid "git clone git@github.com:TEIC/TEI.git"
-msgstr ""
+msgstr "git clone git@github.com:TEIC/TEI.git"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:46
+#, fuzzy
 msgid "git clone git@github.com:TEIC/Stylesheets.git"
-msgstr ""
+msgstr "git clone git@github.com:TEIC/Stylesheets.git"
 
 #. (itstool) path: div/p
 #: testing_and_building.xml:33
@@ -74,83 +80,108 @@ msgstr "自分用の開発・テスト環境を構築するための第一歩は
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:49
+#, fuzzy
 msgid "/Users/hcayless/Development/TEIC"
-msgstr ""
+msgstr "/Users/hcayless/Development/TEIC"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:59
+#, fuzzy
 msgid "docker pull teic/teidev-docker"
-msgstr ""
+msgstr "docker pull teic/teidev-docker"
 
 #. (itstool) path: div/p
 #: testing_and_building.xml:48
 msgid "It’s probably a good idea to keep these side-by-side. I put mine in a directory called: <_:code-1/>. As you will see, it’s a good idea to do this somewhere under the Users directory, whether you’re on Mac or Windows. If you’re running Ubuntu or some other Linux, you can put them where you like. Let’s assume you’ve got working copies of the TEI and Stylesheets repos, and that you’ve made some changes you’d like to test before you push them back up to GitHub and make them available to everyone. The TEI has set up a pre-built test environment in Docker that you can use. First, you should get Docker. On a Mac, go to <_:ptr-2/>, on Windows, <_:ptr-3/>, and on Linux, <_:ptr-4/>. Once you have docker installed, you can run <_:lb-5/><_:code-6/> <_:lb-7/>to grab a copy of the pre-built image."
-msgstr "これらのリポジトリは同じディレクトリに保存するのがおそらくはいいでしょう。私は <_:code-1/> という名前のディレクトリに保存しています。この先わかるでしょうが、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu かその他の Linux を使用しているなら、好きなところでいいです。すでに TEI および Stylesheets リポジトリの作業用コピーを用意していて、そこで行われた変更を GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境を入手してください。Mac なら <_:ptr-2/> で、Windowsなら <_:ptr-3/> で、Linuxなら <_:ptr-4/> で入手することができます。Docker をインストールしたら、次のコマンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<_:lb-5/><_:code-6/> <_:lb-7/>"
+msgstr ""
+"これらのリポジトリは同じディレクトリに保存するのがおそらくはよいでしょう。私は <_:code-1/> "
+"という名前のディレクトリに保存しています。この先わかるでしょうが、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu "
+"かその他の Linux を使用しているなら、好きなところでいいです。すでに TEI および Stylesheets "
+"リポジトリの作業用コピーを用意していて、そこで行われた変更を GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI "
+"では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境を入手してください。Mac なら <_:ptr-2/> で、"
+"Windowsなら <_:ptr-3/> で、Linuxなら <_:ptr-4/> で入手することができます。Docker "
+"をインストールしたら、次のコマンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<_:lb-5/><_:code-6/> <_:"
+"lb-7/>"
 
 #. (itstool) path: p/ref
 #: testing_and_building.xml:64
+#, fuzzy
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wikipedia"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:71
+#, fuzzy
 msgid "docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ=America/New_York teic/teidev-docker"
 msgstr ""
+"docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ="
+"America/New_York teic/teidev-docker"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:75 testing_and_building.xml:80
+#, fuzzy
 msgid "/tei"
-msgstr ""
+msgstr "/tei"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:76
+#, fuzzy
 msgid "-v"
-msgstr ""
+msgstr "-v"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:76
+#, fuzzy
 msgid "cd tei"
-msgstr ""
+msgstr "cd tei"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:76
+#, fuzzy
 msgid "ls"
-msgstr ""
+msgstr "ls"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:79
+#, fuzzy
 msgid "local.mk"
-msgstr ""
+msgstr "local.mk"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:79
+#, fuzzy
 msgid "TEI/P5"
-msgstr ""
+msgstr "TEI/P5"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:80
+#, fuzzy
 msgid "cd TEI/P5"
-msgstr ""
+msgstr "cd TEI/P5"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:81
+#, fuzzy
 msgid "echo \"XSL=/tei/Stylesheets\" &gt; local.mk"
-msgstr ""
+msgstr "echo \"XSL=/tei/Stylesheets\" &gt; local.mk"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:85
+#, fuzzy
 msgid "exit"
-msgstr ""
+msgstr "exit"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:86 testing_and_building.xml:89
+#, fuzzy
 msgid "docker start -ai tei"
-msgstr ""
+msgstr "docker start -ai tei"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:88
+#, fuzzy
 msgid "teidocker"
-msgstr ""
+msgstr "teidocker"
 
 #. (itstool) path: div/p
 #: testing_and_building.xml:61
