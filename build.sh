@@ -33,16 +33,8 @@ echo "git pull origin localize_ja"
 git pull origin localize_ja
 echo
 
-FILES = (tcw20 tcw22 tcw24 tcw27 tcw29 testing_and_building)
-for FILE in "${FILES}"
+for FILE in tcw20 tcw22 tcw24 tcw27 tcw29 testing_and_building
 do
-  SOURCE_DIR=`dirname $SOURCE`
-  SOURCE_DIR="${SOURCE_DIR#$PREFIX_PATH/}"
-  SOURCE_DIR="${SOURCE_DIR#$MO_DIR/}"
-  SOURCE_DIR="${SOURCE_DIR#$TARGET_LANG/}"
-  TARGET_DIR="${PREFIX_PATH}/${SOURCE_DIR}"
-  ORIGINAL_DIR=${TARGET_DIR/\/$TARGET_LANG/\/$SOURCE_LANG}
-
   if [ ! -f TCW/_po/ja/"$FILE".po ]
   then
     echo Skipped: No "$FILE".po
@@ -51,20 +43,20 @@ do
 
   if [ ! -f TCW/_mo/ja/"$FILE".mo ]
   then
-    echo "msgfmt TCW/_po/ja/${FILE}.po -o TCW/_mo/ja/${FILE}.mo"
+    #echo "msgfmt TCW/_po/ja/${FILE}.po -o TCW/_mo/ja/${FILE}.mo"
     msgfmt TCW/_po/ja/"${FILE}".po -o TCW/_mo/ja/"${FILE}".mo
     echo Created: "$FILE".mo
 
-    echo "itstool -m TCW/_mo/ja/${FILE}.mo TCW/${FILE}.xml -o TCW/ja/${FILE}.xml"
+    #echo "itstool -m TCW/_mo/ja/${FILE}.mo TCW/${FILE}.xml -o TCW/ja/${FILE}.xml"
     itstool -m TCW/_mo/ja/"${FILE}".mo TCW/"${FILE}".xml -o TCW/ja/"${FILE}".xml
     echo Created: ja/"$FILE".xml
-  elif [ TCW/_po/"$FILE".po -nt TCW/_mo/"$FILE".mo ]
+  elif [ TCW/_po/ja/"$FILE".po -nt TCW/_mo/ja/"$FILE".mo ]
   then
-    echo "msgfmt TCW/_po/ja/${FILE}.po -o TCW/_mo/ja/${FILE}.mo"
+    #echo "msgfmt TCW/_po/ja/${FILE}.po -o TCW/_mo/ja/${FILE}.mo"
     msgfmt TCW/_po/ja/"${FILE}".po -o TCW/_mo/ja/"${FILE}".mo
     echo Updated: "$FILE".mo
 
-    echo "itstool -m TCW/_mo/ja/${FILE}.mo TCW/${FILE}.xml -o TCW/ja/${FILE}.xml"
+    #echo "itstool -m TCW/_mo/ja/${FILE}.mo TCW/${FILE}.xml -o TCW/ja/${FILE}.xml"
     itstool -m TCW/_mo/ja/"${FILE}".mo TCW/"${FILE}".xml -o TCW/ja/"${FILE}".xml
     echo Updated: ja/"$FILE".xml
   fi
