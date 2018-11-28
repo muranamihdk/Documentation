@@ -43,20 +43,16 @@ do
 
   if [ ! -f TCW/_mo/ja/"$FILE".mo ]
   then
-    #echo "msgfmt TCW/_po/ja/${FILE}.po -o TCW/_mo/ja/${FILE}.mo"
     msgfmt TCW/_po/ja/"${FILE}".po -o TCW/_mo/ja/"${FILE}".mo
     echo Created: "$FILE".mo
 
-    #echo "itstool -m TCW/_mo/ja/${FILE}.mo TCW/${FILE}.xml -o TCW/ja/${FILE}.xml"
     itstool -m TCW/_mo/ja/"${FILE}".mo TCW/"${FILE}".xml -o TCW/ja/"${FILE}".xml
     echo Created: ja/"$FILE".xml
   elif [ TCW/_po/ja/"$FILE".po -nt TCW/_mo/ja/"$FILE".mo ]
   then
-    #echo "msgfmt TCW/_po/ja/${FILE}.po -o TCW/_mo/ja/${FILE}.mo"
     msgfmt TCW/_po/ja/"${FILE}".po -o TCW/_mo/ja/"${FILE}".mo
     echo Updated: "$FILE".mo
 
-    #echo "itstool -m TCW/_mo/ja/${FILE}.mo TCW/${FILE}.xml -o TCW/ja/${FILE}.xml"
     itstool -m TCW/_mo/ja/"${FILE}".mo TCW/"${FILE}".xml -o TCW/ja/"${FILE}".xml
     echo Updated: ja/"$FILE".xml
   fi
