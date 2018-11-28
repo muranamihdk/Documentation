@@ -11,7 +11,7 @@ if [ $(curl \
 | jq -r '.needs_commit') = false ]
 then
   echo "No changes to commit"
-  #exit 0
+  exit 0
 fi
 
 if [ $(curl \
