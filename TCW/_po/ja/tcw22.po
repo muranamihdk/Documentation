@@ -2,12 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-24 22:26+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-11-26 00:31+0000\n"
+"Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #. (itstool) path: titleStmt/title
 #: tcw22.xml:6
@@ -26,8 +29,9 @@ msgstr ""
 
 #. (itstool) path: titleStmt/author
 #: tcw22.xml:9
+#, fuzzy
 msgid "Lou Burnard"
-msgstr ""
+msgstr "Lou Burnard"
 
 #. (itstool) path: titleStmt/author
 #: tcw22.xml:10
@@ -42,8 +46,9 @@ msgstr ""
 #. (itstool) path: titleStmt/author
 #. (itstool) id: tcw22.xml#HC
 #: tcw22.xml:12
+#, fuzzy
 msgid "Hugh Cayless"
-msgstr ""
+msgstr "Hugh Cayless"
 
 #. (itstool) path: publicationStmt/publisher
 #: tcw22.xml:15
@@ -895,4 +900,3 @@ msgstr ""
 #: tcw22.xml:414
 msgid "<_:hi-1/><_:lb-2/> After the release process has been completed, the release number for both P5 and the Stylesheets needs to be updated. Edit the P5/VERSION file and the Stylesheets/VERSION file to the correct numbers. These files contain nothing except the bare version number. It should be incremented appropriately, and \"a\" added to the end of it, so if for example the release was number 2.8.0, you would change the number in the file to:<_:lb-3/> <_:code-4/><_:lb-5/> signifying that the versions built subsequent to the release are now in the alpha stage."
 msgstr ""
-
