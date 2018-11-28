@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 $LastChangedDate: 2012-08-09$
 $LastChangedBy: rebeccawelzenbach$
@@ -165,7 +165,7 @@ $LastChangedRevision: 0001$
             </row>
             <row>
               <cell>GitHub</cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row>
               <cell>TEI header; the &lt;teiHeader&gt;</cell>
@@ -189,7 +189,7 @@ $LastChangedRevision: 0001$
             </row>
             <row>
               <cell>SourceForge</cell>
-              <cell></cell>
+              <cell/>
             </row>
             <row>
               <cell>start-tag</cell>
@@ -232,13 +232,11 @@ $LastChangedRevision: 0001$
             <label> MW</label>
             <item> Merriam-Webster's Collegiate Dictionary, 11th ed.</item>
             <label> OED</label>
-            <item> Oxford English Dictionary, 2d ed. online (<ptr target="http://dictionary.oed.com/"
-            />)</item>
+            <item> Oxford English Dictionary, 2d ed. online (<ptr target="http://dictionary.oed.com/"/>)</item>
             <label> ODE</label>
             <item> Oxford Dictionary of English (aka NODE), 2d ed.</item>
             <label> ORDS</label>
-            <item> O'Reilly Default Stylesheet, <ptr
-              target="http://www.oreilly.com/oreilly/author/stylesheet.html"/></item>
+            <item> O'Reilly Default Stylesheet, <ptr target="http://www.oreilly.com/oreilly/author/stylesheet.html"/></item>
             <label> UCG</label>
             <item> Unicode Consortium Glossary, <ptr target="http://unicode.org/glossary/"/></item>
             <label> W3CXML</label>

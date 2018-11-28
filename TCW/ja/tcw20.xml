@@ -148,9 +148,7 @@ $LastChangedRevision: 8769 $
           <item>git が変更を受け付けた時に、このリビジョンのハッシュを書き留めておきます。</item>
           <item>変更が成功したら、GitHub のイシューチケットに、リビジョンのハッシュを含むコメントを追加します。すべての変更が終わっていればチケットを閉じてもいいです。変更が成功しなかった場合は以下を参考にしてください。</item>
         </list>
-        <p>Error messages may appear at any stage. Please do not leave the source in an invalid
-          state (it makes life unnecessarily difficult for others). If you cannot immediately fix a
-          validity error, revert your change while you think about it. If you are working on a particularly complex change involving multiple files, it may be better to create a branch in which to work on your changes, and then to merge the branch when you are confident that the work is successfully completed. See any guide to git for instructions on how to approach that. Bear in mind that our Jenkins servers only build the dev branch, so you cannot depend on them to test-build your working branch.</p>
+        <p>どこかの段階でエラーメッセージが表示されるかもしれません。ソースを不正な状態で放置しないでください（それは他人の人生を不必要に難しくします）。妥当性エラーをすぐに直せない場合は、それを考えている間、変更は元に戻しておいてください。複数のファイルが関係するとりわけ複雑な変更に取り組んでいるときは、変更の作業をするブランチを作った方がいいかもしれません。そして成功のうちに作業が完成したと確信が持ててから、ブランチをマージするのです。どう着手したらいいかの指示は、なんでもいいので Git のガイドブックをみてください。我々の Jenkins サーバは dev ブランチだけをビルドするということを、心に置いておいてください。このため、作業ブランチのテストビルドのためには、 Jenkins サーバには頼れません。</p>
         
         <p>The Jenkins servers monitor the Git repository, and when they detect a change, they check it out and commence building several targets, just as you would build them on your local machine. There are a couple of advantages to letting the Jenkins servers check your build for you:</p>
         

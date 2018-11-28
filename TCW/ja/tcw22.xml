@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -13,7 +13,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>TEI Technical Council</publisher>
-        <date>2016</date>
+        <date>2018</date>
       </publicationStmt>
       <sourceDesc>
         <p>This document was originally a section of tcw20.xml, but has now been spun off into its
@@ -57,10 +57,6 @@
   <text>
     <body>
 
-      <p>NOTE: THIS DOCUMENT is currently in transition, as we move from keeping our code repository
-        on SourceForge and releasing our products there to a process based on GitHub. It is
-        therefore potentially incomplete. </p>
-
       <p>This document aims to provide a set of detailed instructions enabling a "release
         technician" (the Council member tasked with implementing a new release of the TEI) to
         prepare for and manage the release process. It assumes that the new packages will be taken
@@ -98,8 +94,7 @@
           <item> The release manager will need SSH login access to the tei account on the tei-c.org
             server. This involves two steps: <list type="ordered">
               <item>Generate an SSH key pair (if you don't have one already). If this is new to you,
-                look at <ref target="https://en.wikipedia.org/wiki/Ssh-keygen"
-                  >https://en.wikipedia.org/wiki/Ssh-keygen</ref>.</item>
+                look at <ref target="https://en.wikipedia.org/wiki/Ssh-keygen">https://en.wikipedia.org/wiki/Ssh-keygen</ref>.</item>
 
               <item>Send the public key to the Council Chair, who will forward it on to the system
                 administrator.</item>
@@ -189,8 +184,7 @@
             point when the repository moved from its "alpha" stage to "beta", so you should not have
             to do this, but in case you do: <list>
               <item>Confirm the version number for the new release in consultation with Council. TEI
-                version numbers are based on the <ref target="http://www.unicode.org/versions/"
-                  >system used by the Unicode Consortium</ref> but with the first digit for major
+                version numbers are based on the <ref target="http://www.unicode.org/versions/">system used by the Unicode Consortium</ref> but with the first digit for major
                 changes, the second for schema-changing revisions, and the third for
                 non-schema-changing revisions. When the first or second digit is incremented, the
                 following digit or digits is set to zero. During initial development, the version
@@ -291,26 +285,21 @@
           Remember, the version number is the Stylesheets version, which will be different from
           the Guidelines version.</item>
 
-          <item>Still in ~/private/git/P5/Utilities, run<lb/>
-            <code>./tei-database-rebuild.sh</code><lb/> This will update the eXist-db used by Roma.
-            The script takes no parameters but expects a configuration file in the user’s home
-            directory at ~/etc/tei-exist.conf with the appropriate paths and credentials. For the
-            main server at tei-c.org this should already be set and no adjustments should be needed.
-            This is the database used by Roma, so this operation will ensure that Roma is using the
-            new version. Ask Martin, Peter, or James to check the version of P5 used by
-            Roma, to ensure that this has succeeded, and fix it manually if it has not. This
-            procedure is undergoing revision right now, so it would not be surprising if there were
-            a minor glitch here. Eventually, a new process will be put in place and this
-            instructions will be updated. </item>
-
           <item><hi rend="bold">Check the TEI website and all downloadable files are displaying the
-              correct version</hi><lb/> Everything should now be done, so go to <ref
-              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">the newly
+              correct version</hi><lb/> Everything should now be done, so go to <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">the newly
               released version on the TEI site</ref> and browse the Guidelines. Check that your
             version number is displayed in the footer of the page, and check that at least one
-            change made since the last release is being reflected online. Visit Roma at <ptr
-              target="http://www.tei-c.org/Roma/"/>, and generate a simple schema to confirm it
-            works, and check that the version number is right in the footer. </item>
+            change made since the last release is being reflected online. </item>
+          
+          <item><hi rend="bold">Check <ref target="http://oxgarage.tei-c.org/">OxGarage</ref></hi> 
+            to see whether it picked up the new Stylesheets and TEI sources automatically.
+            If not, you'll need to ask Ian (the one with root access to the TEI server) to 
+            update (i.e. nuke, pull and recreate) the OxGarage docker container. </item>
+          
+          <item><hi rend="bold">Update <ref target="http://roma.tei-c.org/">Roma</ref></hi> 
+            <lb/>Ask Ian to update (i.e. nuke, pull and recreate) the Roma docker container. 
+            Visit Roma and generate a simple schema to confirm it
+            works, and check that the version number is right in the footer.</item>
 
           <item><hi rend="bold">NOTE: AGAIN THIS ASSUMES THAT WE ARE STILL RELEASING PRODUCTS ON
               SOURCEFORGE.</hi>
@@ -330,14 +319,11 @@
             <code>git push origin P5_Release_X.X.X</code>
           </item>
 
-          <item><hi rend="bold">Make a Release on GitHub</hi><lb/> Go to the <ref
-              target="https://github.com/TEIC/TEI/tags">TEI Tags</ref> page on GitHub. You should
+          <item><hi rend="bold">Make a Release on GitHub</hi><lb/> Go to the <ref target="https://github.com/TEIC/TEI/tags">TEI Tags</ref> page on GitHub. You should
             see the tag you just pushed there. Click on "Add release notes". Give it a title,
             generally "Release X.X.X" and add a link to the release notes README, which should be at
             http://www.tei-c.org/release/doc/tei-p5-doc/readme-X.X.X.html. Add a copy of the zipped
-            release from <ref
-              target="http://jenkins.tei-c.org/job/TEIP5/lastSuccessfulBuild/artifact/P5/tei-2.9.1.zip"
-              >Jenkins</ref>. </item>
+            release from <ref target="http://jenkins.tei-c.org/job/TEIP5/lastSuccessfulBuild/artifact/P5/tei-2.9.1.zip">Jenkins</ref>. </item>
 
           <item><hi rend="bold">Update the Debian Package repository with the new release</hi><lb/>
             The TEI Debian packages are regularily created during each Jenkins build. 
@@ -350,8 +336,7 @@
             Make sure you've received it in advance! 
           </item>
 
-          <item><hi rend="bold">Update the list of <ref
-                target="http://www.tei-c.org/Guidelines/P5/index.xml#previous">Previous releases of
+          <item><hi rend="bold">Update the list of <ref target="http://www.tei-c.org/Guidelines/P5/index.xml#previous">Previous releases of
                 P5</ref></hi><lb/> If you have editing privileges on the OpenCMS system on
             tei-c.org, add the new release to the top of the release table. If not, ask one of the
             other Council members who does (currently Hugh Cayless and James Cummings) to make the
@@ -366,9 +351,7 @@
               <item>Check that the latest versions of the TEI Stylesheets and TEI P5 packages are
                 available for download from the SourceForge Files section, since the oxygen-tei
                 update/upload script retrieves them from there.</item>
-              <item>Check out or update a local copy of the source code from <ref
-                  target="https://github.com/TEIC/oxygen-tei"
-                  >https://github.com/TEIC/oxygen-tei</ref> to your local system.</item>
+              <item>Check out or update a local copy of the source code from <ref target="https://github.com/TEIC/oxygen-tei">https://github.com/TEIC/oxygen-tei</ref> to your local system.</item>
               <item>Make sure the build script knows where to find your oxygen.jar file (from the
                 Oxygen installed on your system) by copying the file into
                   <code>oxygen-tei/lib</code> or symlinking it.</item>
@@ -413,8 +396,7 @@
             text of P5/ReleaseNotes/readme-X.X.X.xml in plain text form (which can be generated
             using the "readme" profile for teitotxt), and place an announcement on the Text Encoding
             Initiative Newsfeed blog in the category of 'News'. They will also update the table of
-            previous releases at <ref target="http://www.tei-c.org/Guidelines/P5/index.xml#previous"
-              >http://www.tei-c.org/Guidelines/P5/index.xml#previous</ref>.</item>
+            previous releases at <ref target="http://www.tei-c.org/Guidelines/P5/index.xml#previous">http://www.tei-c.org/Guidelines/P5/index.xml#previous</ref>.</item>
           <item><hi rend="bold">Lift the freeze on committing changes to the repository</hi><lb/>
             Write to the TEI Council list and let them know that they can once again start
             committing changes to the repository.</item>
@@ -437,4 +419,3 @@
 
   </text>
 </TEI>
-
