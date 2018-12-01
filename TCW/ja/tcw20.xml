@@ -148,9 +148,9 @@ $LastChangedRevision: 8769 $
           <item>git が変更を受け付けた時に、このリビジョンのハッシュを書き留めておきます。</item>
           <item>変更が成功したら、GitHub のイシューチケットに、リビジョンのハッシュを含むコメントを追加します。すべての変更が終わっていればチケットを閉じてもいいです。変更が成功しなかった場合は以下を参考にしてください。</item>
         </list>
-        <p>どこかの段階でエラーメッセージが表示されるかもしれません。ソースを不正な状態で放置しないでください（それは他人の人生を不必要に難しくします）。妥当性エラーをすぐに直せない場合は、それを考えている間、変更は元に戻しておいてください。複数のファイルが関係するとりわけ複雑な変更に取り組んでいるときは、変更の作業をするブランチを作った方がいいかもしれません。そして成功のうちに作業が完成したと確信が持ててから、ブランチをマージするのです。どう着手したらいいかの指示は、なんでもいいので Git のガイドブックをみてください。我々の Jenkins サーバは dev ブランチだけをビルドするということを、心に置いておいてください。このため、作業ブランチのテストビルドのためには、 Jenkins サーバには頼れません。</p>
+        <p>いずれかの段階でエラーメッセージが表示されるかもしれません。ソースを不正な状態で放置しないでください（それは他の人の人生を不必要に難しくします）。妥当性エラーをすぐに直せない場合は、それについて考えている間、変更は元に戻しておいてください。複数のファイルが関係するとりわけ複雑な変更に取り組んでいるときは、変更の作業をするブランチを作った方がいいかもしれません。そして成功のうちに作業が完成したと確信が持ててから、ブランチをマージするのです。どう着手したらいいかの指示は、なんでもいいので Git のガイドブックをみてください。我々の Jenkins サーバは dev ブランチだけをビルドするということを、心に置いておいてください。このため、作業ブランチのテストビルドのためには、 Jenkins サーバには頼れません。</p>
         
-        <p>The Jenkins servers monitor the Git repository, and when they detect a change, they check it out and commence building several targets, just as you would build them on your local machine. There are a couple of advantages to letting the Jenkins servers check your build for you:</p>
+        <p>JenkinsサーバはGitリポジトリをモニタし、変更を検知すると、ちょうどローカルのマシンでビルドをするのと同じように、チェックアウトし、いくつかのターゲットをビルドし始めます。Jenkinsサーバにビルドをチェックさせることには、いくつかの利点があります。</p>
         
         <list>
           <item>You don't have to have all the various packages and other software required for a build installed on your system. This means you can make a quick fix to the Guidelines on any computer you happen to be using, without installing a lot of extra software.</item>
