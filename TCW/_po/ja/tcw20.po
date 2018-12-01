@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-11-28 03:46+0000\n"
+"PO-Revision-Date: 2018-12-01 14:16+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -694,16 +694,18 @@ msgstr "変更が成功したら、GitHub のイシューチケットに、リ�
 #: tcw20.xml:264
 msgid "Error messages may appear at any stage. Please do not leave the source in an invalid state (it makes life unnecessarily difficult for others). If you cannot immediately fix a validity error, revert your change while you think about it. If you are working on a particularly complex change involving multiple files, it may be better to create a branch in which to work on your changes, and then to merge the branch when you are confident that the work is successfully completed. See any guide to git for instructions on how to approach that. Bear in mind that our Jenkins servers only build the dev branch, so you cannot depend on them to test-build your working branch."
 msgstr ""
-"どこかの段階でエラーメッセージが表示されるかもしれません。ソースを不正な状態で放置しないでください（それは他人の人生を不必要に難しくします）。妥当性エラー"
-"をすぐに直せない場合は、それを考えている間、変更は元に戻しておいてください。複数のファイルが関係するとりわけ複雑な変更に取り組んでいるときは、変更の作業を"
-"するブランチを作った方がいいかもしれません。そして成功のうちに作業が完成したと確信が持ててから、ブランチをマージするのです。どう着手したらいいかの指示は、"
-"なんでもいいので Git のガイドブックをみてください。我々の Jenkins サーバは dev "
+"いずれかの段階でエラーメッセージが表示されるかもしれません。ソースを不正な状態で放置しないでください（それは他の人の人生を不必要に難しくします）。妥当性エ"
+"ラーをすぐに直せない場合は、それについて考えている間、変更は元に戻しておいてください。複数のファイルが関係するとりわけ複雑な変更に取り組んでいるときは、変"
+"更の作業をするブランチを作った方がいいかもしれません。そして成功のうちに作業が完成したと確信が持ててから、ブランチをマージするのです。どう着手したらいいか"
+"の指示は、なんでもいいので Git のガイドブックをみてください。我々の Jenkins サーバは dev "
 "ブランチだけをビルドするということを、心に置いておいてください。このため、作業ブランチのテストビルドのためには、 Jenkins サーバには頼れません。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:268
 msgid "The Jenkins servers monitor the Git repository, and when they detect a change, they check it out and commence building several targets, just as you would build them on your local machine. There are a couple of advantages to letting the Jenkins servers check your build for you:"
 msgstr ""
+"JenkinsサーバはGitリポジトリをモニタし、変更を検知すると、ちょうどローカルのマシンでビルドをするのと同じように、チェックアウトし、いくつかのター"
+"ゲットをビルドし始めます。Jenkinsサーバにビルドをチェックさせることには、いくつかの利点があります。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:271
