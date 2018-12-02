@@ -10,7 +10,7 @@ if [ $(curl \
  http://www3420ue.sakura.ne.jp:8080/api/projects/tcw/repository/ \
 | jq -r '.needs_commit') = false ]
 then
-  echo "No changes to commit"
+  echo "No changes to commit at Weblate"
   exit 0
 fi
 
@@ -21,10 +21,10 @@ if [ $(curl \
  http://www3420ue.sakura.ne.jp:8080/api/components/tcw/tcw20/repository/ \
 | jq -r '.result') = false ]
 then
-  echo "Commit Failure."
+  echo "Commit at Weblate Failure."
   exit 1
 else
-  echo "Commit Success."
+  echo "Commit at Weblate Success."
 fi
 
 echo

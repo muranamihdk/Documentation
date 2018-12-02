@@ -85,9 +85,9 @@ if [ $(curl \
  http://www3420ue.sakura.ne.jp:8080/api/components/tcw/tcw20/repository/ \
 | jq -r '.result') = false ]
 then
-  echo "Pull@Weblate Failure."
+  echo "Pull at Weblate Failure."
   exit 1
 else
-  echo "Pull@Weblate Success."
+  echo "Pull at Weblate Success."
   echo
 fi
