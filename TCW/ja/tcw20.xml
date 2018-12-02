@@ -188,20 +188,17 @@ $LastChangedRevision: 8769 $
           on ticket #1657. 
         -->
         <div xml:id="appendices">
-          <head>Adding or Editing an Appendix</head>
+          <head>付録を追加する、あるいは編集する</head>
           
-          <p>The Appendices to the <title level="m">TEI Guidelines</title> mostly constitute lists of features (elements, attributes, classes etc.) which have been automatically harvested from the Guidelines compiled source (<ident>p5.xml</ident> or <ident>p5subset.xml</ident>) during the build process. When adding a new appendix of this type, you need to:
+          <p><title level="m">TEI Guidelines</title> の付録の大部分は、ビルドの過程でコンパイルされたガイドラインのソース（<ident>p5.xml</ident> もしくは <ident>p5subset.xml</ident>）から自動的に抽出された、（要素、属性、クラスなどの）機能リストから成ります。このタイプの新しい付録を追加するには、以下の作業が必要です。<list rend="numbered">
+          <item><ident>TEI/P5/Source/Guidelines/en/</ident> フォルダに新しく <ident>APPENDIXTHING.xml</ident> ファイルを作ります。既存の他の付録のファイルに倣ってください。基本パターンとしては、あなたが作成したリストへの、ごく短い導入を提供します（以下を参照してください）。規約ではこのファイルにはすべて大文字で名前をつけ、小文字の <ident>.xml</ident> を後につけます。</item>
           
-          <list rend="numbered">
-          <item>Create a new <ident>APPENDIXTHING.xml</ident> file in the <ident>TEI/P5/Source/Guidelines/en/</ident> folder. Model this on the already-existing files for other appendices. The basic pattern is to provide a very short introduction to the list you're creating (see below). The convention is to name this file with an all-caps name followed by lower-case <ident>.xml</ident>.</item>
+          <item><ident>TEI/P5/Source/guidelines-en.xml</ident> のファイルのちょうど最後近くに、新しいファイルを <title level="m">Guidelines</title> に読み込むための XInclude の行を追加してください。ここでも、すでにそこにある例に倣ってください。新しい付録は、他の付録との並びの中で、意味のある位置になるよう置いてください。</item>
           
-          <item>Add a line to <ident>TEI/P5/Source/guidelines-en.xml</ident> (right near the end of the file) to XInclude your file in the <title level="m">Guidelines</title>. Again, follow the examples already there. Put your new appendix in the sequence in a location that makes sense in relation to the other appendices.</item>
+          <item>その付録のためのリストが自動で作られるものであるなら、リストや表が生成されるよう、Stylesheets リポジトリ中の適切なファイル（ほとんどの場合は <ident>Stylesheets/common/common_tagdocs.xsl</ident>）を編集してください（以下を参照してください）。</item>
           
-          <item>If your appendix listing is to be created automatically, edit the appropriate file in the Stylesheets repository (most likely <ident>Stylesheets/common/common_tagdocs.xsl</ident>) to enable it to generate the list or table (see below).</item>
-          
-          <item>If your auto-generated appendix content uses headings that should be translated for other language versions of the Guidelines, add the appropriate language entries to <ident>Stylesheets/i18n.xml</ident> (if they're not already there).</item>
-          </list>
-          </p>
+          <item>自動で生成された付録の中で、他言語のガイドラインでは翻訳されるべき見出しを使用している場合は、適切な言語エントリを <ident>Stylesheets/i18n.xml</ident> に（まだそれがなければ）追加してください。</item>
+          </list></p>
           
           <p>Auto-generated appendix listings will require two things: a TEI <gi>divGen</gi> element which acts as a trigger to cause the list to be generated, and a Stylesheets template which processes the <gi>divGen</gi> to create the output. For example, the list of deprecations consists of this <ident>DEPRECATIONS.xml</ident> file:
             
