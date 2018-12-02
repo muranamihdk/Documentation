@@ -153,12 +153,12 @@ $LastChangedRevision: 8769 $
         <p>JenkinsサーバはGitリポジトリをモニタし、変更を検知すると、ちょうどローカルのマシンでビルドをするのと同じように、チェックアウトし、いくつかのターゲットをビルドし始めます。Jenkinsサーバにビルドをチェックさせることには、いくつかの利点があります。</p>
         
         <list>
-          <item>You don't have to have all the various packages and other software required for a build installed on your system. This means you can make a quick fix to the Guidelines on any computer you happen to be using, without installing a lot of extra software.</item>
-          <item>The required packages on the Jenkins servers tend to be updated regularly, and we're watching them to make sure they work properly.</item>
-          <item>Jenkins attempts to let you know by email if there's a problem, and provides useful debugging tools.</item>
+          <item>ビルドに必要な種々のパッケージやその他ソフトウェアなどすべてを、あなたのシステムにインストールしておく必要がありません。これが意味するのは、たまたま使っているどのコンピュータであっても、大量の特別なソフトウェアをインストールすることなしに、ガイドラインを素早く修正できるということです。</item>
+          <item>Jenkinsサーバの必要なパッケージは定期的にアップデートされがちなので、それらが適切に作動していることを確かめるために私たちは常に監視しています。</item>
+          <item>Jenkinsはもし何か問題があればメールであなたに知らせようとするとともに、便利なデバッグツールを提供しています。</item>
         </list>
         
-        <p>If you submit a change, and later get an email from one of the Jenkins servers telling you that the build failed, it will provide a link to the build information on the server. Here's what to do:</p>
+        <p>変更を送信した後に、ビルドが失敗したというメールがJenkinsサーバのひとつから届くと、そこにはサーバのビルド情報へのリンクが掲載されています。この場合すべきことは以下のようになります。</p>
         
         <list>
           <item>First, check that the build is broken on both Jenkins servers. If it's only broken on one of them, it may have been caused by a lag in updates to packages on that server. </item>
