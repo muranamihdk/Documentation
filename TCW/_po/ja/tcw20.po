@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-01 14:16+0000\n"
+"PO-Revision-Date: 2018-12-02 00:04+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -711,21 +711,26 @@ msgstr ""
 #: tcw20.xml:271
 msgid "You don't have to have all the various packages and other software required for a build installed on your system. This means you can make a quick fix to the Guidelines on any computer you happen to be using, without installing a lot of extra software."
 msgstr ""
+"ビルドに必要な種々のパッケージやその他ソフトウェアなどすべてを、あなたのシステムにインストールしておく必要がありません。これが意味するのは、たまたま使って"
+"いるどのコンピュータであっても、大量の特別なソフトウェアをインストールすることなしに、ガイドラインを素早く修正できるということです。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:272
 msgid "The required packages on the Jenkins servers tend to be updated regularly, and we're watching them to make sure they work properly."
 msgstr ""
+"Jenkinsサーバの必要なパッケージは定期的にアップデートされがちなので、それらが適切に作動していることを確かめるために私たちは常に監視しています。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:273
 msgid "Jenkins attempts to let you know by email if there's a problem, and provides useful debugging tools."
-msgstr ""
+msgstr "Jenkinsはもし何か問題があればメールであなたに知らせようとするとともに、便利なデバッグツールを提供しています。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:276
 msgid "If you submit a change, and later get an email from one of the Jenkins servers telling you that the build failed, it will provide a link to the build information on the server. Here's what to do:"
 msgstr ""
+"変更を送信した後に、ビルドが失敗したというメールがJenkinsサーバのひとつから届くと、そこにはサーバのビルド情報へのリンクが掲載されています。この場合"
+"すべきことは以下のようになります。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:279
