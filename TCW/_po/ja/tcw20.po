@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-02 00:04+0000\n"
+"PO-Revision-Date: 2018-12-02 05:46+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -810,7 +810,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: tcw20.xml:306
 msgid "Adding or Editing an Appendix"
-msgstr ""
+msgstr "付録を追加する、あるいは編集する"
 
 #. (itstool) path: p/title
 #: tcw20.xml:308
@@ -847,6 +847,9 @@ msgstr ""
 #: tcw20.xml:311
 msgid "Create a new <_:ident-1/> file in the <_:ident-2/> folder. Model this on the already-existing files for other appendices. The basic pattern is to provide a very short introduction to the list you're creating (see below). The convention is to name this file with an all-caps name followed by lower-case <_:ident-3/>."
 msgstr ""
+"<_:ident-2/> フォルダに新しく <_:ident-1/> ファイルを作ります。既存の他の付録のファイルに倣ってください。基本パターンとしては、"
+"あなたが作成したリストへの、ごく短い導入を提供します（以下を参照してください）。規約ではこのファイルにはすべて大文字で名前をつけ、小文字の <_:"
+"ident-3/> を後につけます。"
 
 #. (itstool) path: item/ident
 #: tcw20.xml:313
@@ -863,6 +866,8 @@ msgstr ""
 #: tcw20.xml:313
 msgid "Add a line to <_:ident-1/> (right near the end of the file) to XInclude your file in the <_:title-2/>. Again, follow the examples already there. Put your new appendix in the sequence in a location that makes sense in relation to the other appendices."
 msgstr ""
+"<_:ident-1/> のファイルのちょうど最後近くに、新しいファイルを <_:title-2/> に読み込むための XInclude "
+"の行を追加してください。ここでも、すでにそこにある例に倣ってください。新しい付録は、他の付録との並びの中で、意味のある位置になるよう置いてください。"
 
 #. (itstool) path: item/ident
 #. (itstool) path: p/ident
@@ -874,6 +879,8 @@ msgstr ""
 #: tcw20.xml:315
 msgid "If your appendix listing is to be created automatically, edit the appropriate file in the Stylesheets repository (most likely <_:ident-1/>) to enable it to generate the list or table (see below)."
 msgstr ""
+"その付録のためのリストが自動で作られるものであるなら、リストや表が生成されるよう、Stylesheets リポジトリ中の適切なファイル（ほとんどの場合は "
+"<_:ident-1/>）を編集してください（以下を参照してください）。"
 
 #. (itstool) path: item/ident
 #. (itstool) path: p/ident
@@ -885,11 +892,16 @@ msgstr ""
 #: tcw20.xml:317
 msgid "If your auto-generated appendix content uses headings that should be translated for other language versions of the Guidelines, add the appropriate language entries to <_:ident-1/> (if they're not already there)."
 msgstr ""
+"自動で生成された付録の中で、他言語のガイドラインでは翻訳されるべき見出しを使用している場合は、適切な言語エントリを <_:ident-1/> "
+"に（まだそれがなければ）追加してください。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:308
 msgid "The Appendices to the <_:title-1/> mostly constitute lists of features (elements, attributes, classes etc.) which have been automatically harvested from the Guidelines compiled source (<_:ident-2/> or <_:ident-3/>) during the build process. When adding a new appendix of this type, you need to: <_:list-4/>"
 msgstr ""
+"<_:title-1/> の付録の大部分は、ビルドの過程でコンパイルされたガイドラインのソース（<_:ident-2/> もしくは <_:ident-3/"
+">）から自動的に抽出された、（要素、属性、クラスなどの）機能リストから成ります。このタイプの新しい付録を追加するには、以下の作業が必要です。<_:"
+"list-4/>"
 
 #. (itstool) path: p/gi
 #: tcw20.xml:321 tcw20.xml:747
