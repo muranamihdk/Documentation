@@ -211,7 +211,7 @@ $LastChangedRevision: 8769 $
       &lt;!-- .. --&gt;
     &lt;/xsl:element&gt;
   &lt;/xsl:template&gt;
-</eg> このテンプレートは、出力フォーマットにかかわらず、廃止されたものをリストアップする、表を作成します。 表の見出しは次のように作られることに注目してください。<eg>
+</eg> このテンプレートは、出力フォーマットにかかわらず、廃止されたものをリストアップする表を作成します。 表の見出しは次のように作られることに注目してください。<eg>
   &lt;xsl:element namespace="{$outputNS}" name="{$cellName}"&gt;
     &lt;xsl:element namespace="{$outputNS}" name="{$hiName}"&gt;
       &lt;xsl:attribute name="{$rendName}"&gt;
@@ -223,12 +223,12 @@ $LastChangedRevision: 8769 $
       &lt;xsl:sequence select="tei:i18n('Identifier')"/&gt;
     &lt;/xsl:element&gt;
   &lt;/xsl:element&gt;
-</eg> ここではキーワード <val>Identifier</val> が <ident>Stylesheets/i18n.xml</ident> ファイルの中の適切な言語への翻訳を見つけるために使われています。 もしこれらのアイテムがファイル中に既に存在すれば単純にそれを使えばいいです。しかし今のところ存在しない見出しを作ったときは、それを以下のように <ident>Stylesheets/i18n.xml</ident> に追加する必要があります。<egXML xmlns="http://www.tei-c.org/ns/Examples">
+</eg> ここではキーワード <val>Identifier</val> が <ident>Stylesheets/i18n.xml</ident> ファイルの中の適切な言語への翻訳を見つけるために使われています。 もしこれらのアイテムがファイル中に既に存在すれば単純にそれを使えばいいです。しかしまだ存在しない見出しを作ったときは、それを以下のように <ident>Stylesheets/i18n.xml</ident> に追加する必要があります。<egXML xmlns="http://www.tei-c.org/ns/Examples">
   <entry>
     <key>Identifier</key>
     <text xml:lang="en" lang3="eng">Identifier</text>
   </entry>
-  </egXML> そしてもしあなたがどの <title level="m">Guidelines</title> 言語でもよいので該当する翻訳を加えるために適任である場合は、それを英語版のに並べて追加することができます。<egXML xmlns="http://www.tei-c.org/ns/Examples">
+  </egXML> そしてもしあなたがどの <title level="m">Guidelines</title> 言語でもよいので該当する翻訳を加えるために適任である場合は、それを英語版に並べて追加することができます。<egXML xmlns="http://www.tei-c.org/ns/Examples">
   <entry>
     <key>Description</key>
     <text xml:lang="en" lang3="eng">Description</text>
