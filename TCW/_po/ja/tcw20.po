@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-09 13:39+0000\n"
+"PO-Revision-Date: 2018-12-09 14:00+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -965,8 +965,8 @@ msgstr "付録「廃止」について"
 #: tcw20.xml:329
 msgid "This appendix gives you a list of all items (elements, attributes, attribute values, datatypes etc.) which are deprecated in this revision of the TEI Guidelines (revision &lt;?insert revision?&gt; of TEI P5 &lt;?insert version?&gt;)."
 msgstr ""
-"この付録は、TEI ガイドラインのこのリビジョン (revision &lt;1?insert revision?&gt;2 of TEI P5 &lt;"
-"3?insert version?&gt;4) で廃止された、すべてのアイテム（要素、属性、属性値、データ型等）のリストを与えるものです。"
+"この付録は、TEI ガイドラインのこのリビジョン (revision &lt;?insert revision?&gt; of TEI P5 &lt;"
+"?insert version?&gt;) で廃止された、すべてのアイテム（要素、属性、属性値、データ型等）のリストを与えるものです。"
 
 #. (itstool) path: p/code
 #: tcw20.xml:339
