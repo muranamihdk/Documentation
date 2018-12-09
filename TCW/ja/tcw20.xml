@@ -150,45 +150,38 @@ $LastChangedRevision: 8769 $
         </list>
         <p>いずれかの段階でエラーメッセージが表示されるかもしれません。ソースを不正な状態で放置しないでください（それは他の人の人生を不必要に難しくします）。妥当性エラーをすぐに直せない場合は、それについて考えている間、変更は元に戻しておいてください。複数のファイルが関係するとりわけ複雑な変更に取り組んでいるときは、変更の作業をするブランチを作った方がいいかもしれません。そして成功のうちに作業が完成したと確信が持ててから、ブランチをマージするのです。どう着手したらいいかの指示は、なんでもいいので Git のガイドブックをみてください。我々の Jenkins サーバは dev ブランチだけをビルドするということを、心に置いておいてください。このため、作業ブランチのテストビルドのためには、 Jenkins サーバには頼れません。</p>
         
-        <p>JenkinsサーバはGitリポジトリをモニタし、変更を検知すると、ちょうどローカルのマシンでビルドをするのと同じように、チェックアウトし、いくつかのターゲットをビルドし始めます。Jenkinsサーバにビルドをチェックさせることには、いくつかの利点があります。</p>
+        <p>Jenkins サーバは Git リポジトリをモニタし、変更を検知すると、ちょうどローカルのマシンでビルドをするのと同じように、チェックアウトし、いくつかのターゲットをビルドし始めます。Jenkins サーバにビルドをチェックさせることには、いくつかの利点があります。</p>
         
         <list>
           <item>ビルドに必要な種々のパッケージやその他ソフトウェアなどすべてを、あなたのシステムにインストールしておく必要がありません。これが意味するのは、たまたま使っているどのコンピュータであっても、大量の特別なソフトウェアをインストールすることなしに、ガイドラインを素早く修正できるということです。</item>
-          <item>Jenkinsサーバの必要なパッケージは定期的にアップデートされがちなので、それらが適切に作動していることを確かめるために私たちは常に監視しています。</item>
-          <item>Jenkinsはもし何か問題があればメールであなたに知らせようとするとともに、便利なデバッグツールを提供しています。</item>
+          <item>Jenkins サーバの必要なパッケージは定期的にアップデートされがちなので、それらが適切に作動していることを確かめるために私たちは常に監視しています。</item>
+          <item>Jenkins はもし何か問題があればメールであなたに知らせようとするとともに、便利なデバッグツールを提供しています。</item>
         </list>
         
-        <p>変更を送信した後に、ビルドが失敗したというメールがJenkinsサーバのひとつから届くと、そこにはサーバのビルド情報へのリンクが掲載されています。この場合すべきことは以下のようになります。</p>
+        <p>変更を送信した後に、ビルドが失敗したというメールが Jenkins サーバのひとつから届くと、そこにはサーバのビルド情報へのリンクが掲載されています。この場合すべきことは以下のようになります。</p>
         
         <list>
-          <item>First, check that the build is broken on both Jenkins servers. If it's only broken on one of them, it may have been caused by a lag in updates to packages on that server. </item>
-          <item>If both servers have completed a build since your commit, and both are showing an error, then you need to check where the error is occurring. On the page for that build on the Jenkins server site, click on <q>Parsed Console Output</q> on the left menu. You'll see links to <q>Errors</q> and <q>Warnings</q>; these will show you the exact point in the build script where the errors or warnings occurred. This may give you a useful clue to the cause of the failure.</item>
-          <item>If you still can't figure out the problem, email the Council list with a link to the build information, and someone will be able to help.</item>
-          <item>Once you know what the problem is, fix it by editing the source again and committing the change to the git repository. Jenkins will then do its stuff, and you'll know whether your fix worked as expected.</item>
+          <item>最初に、両方の Jenkins サーバでビルドが失敗していることを確認してください。もし片方だけで失敗している場合は、そのサーバのパッケージのアップデートが遅れていることによって引き起こされているのかもしれません。</item>
+          <item>コミットの後に両方のサーバでビルドが終了していて、両方でエラーが表示されている場合は、どこでエラーが起こっているかを確認する必要があります。Jenkins サーバのサイトの、そのビルドのページで、左のメニューの <q>Parsed Console Output</q> をクリックしてください。<q>Errors</q> と <q>Warnings</q> へのリンクが見えると思います。これによりビルドスクリプト中のエラーや警告が起こったまさにその場所を見ることができます。ここから、失敗の原因の有力な手がかりを得ることができるかもしれません。</item>
+          <item>それでもまだ問題を見つけることができないのなら、評議会のメーリングリストに、ビルド情報へのリンクとともに投稿してください。そうすれば誰かが助けてくれるでしょう。</item>
+          <item>問題が何かわかったら、再度ソースを編集して修正して、変更を git リポジトリにコミットしてください。Jenkins がやるべきことをやって、そうしたら修正が期待通りに効いているかどうかがわかります。</item>
         </list>
         
-        <p>Error messages appearing during the <ident>make test</ident> phase (the <q>TEIP5-Test</q> job on Jenkins) usually indicate that
-          your changes are in conflict with the Birnbaum Doctrine, which decrees that changes in the
-          Guideline schemas should not invalidate existing documents. You may wish to discuss the
-          specific issue with other Council members.</p>
+        <p><ident>make test</ident> の段階（Jenkins の <q>TEIP5-Test</q> ジョブ）で表示されるエラーメッセージは通常、変更がバーンバウムドクトリンに抵触していることを示しています。このドクトリンは、ガイドラインのスキーマの変更は、現在ある文書の妥当性を破壊してはならないというものです。特定の問題については、他の評議会メンバーと議論した方がいいかもしれませんね。</p>
 
 	
 <!-- The following div added by MDH 2013-11-10 per https://sourceforge.net/p/tei/bugs/612/. -->
         <div>
-            <head>Images</head>
+            <head>画像</head>
             
-            <p>If you use an image in your  Guidelines change, you will need to add it to the git repository
-                    in the <ident>P5/Images</ident> directory. If you have asked for and received permission 
-                    from a rights-holder to use the image, include all of the relevant correspondence in a zip 
-                    file named the same as the image file (so for an image <ident>fred.png</ident>, include
-                    permission documents in a file called <ident>fred.zip</ident>).</p>
+            <p>ガイドラインの変更で画像を使用したときは、git リポジトリの <ident>P5/Images</ident> ディレクトリにそれを追加する必要があります。画像の権利者に画像の使用の許可を求めて許可をもらったら、すべての関連するやり取りを、画像ファイルと同じ名前の zip ファイルに含めなければなりません（<ident>fred.png</ident> という画像ファイルのための許諾文書は、<ident>fred.zip</ident> という名前のファイルに含めるということになります）。</p>
         </div>
         
 <!--      This div added by MDH 2018-09-16 following work
           on ticket #1657. 
         -->
         <div xml:id="appendices">
-          <head>付録を追加する、あるいは編集する</head>
+          <head>付録を追加する・あるいは編集する</head>
           
           <p><title level="m">TEI Guidelines</title> の付録の大部分は、ビルドの過程でコンパイルされたガイドラインのソース（<ident>p5.xml</ident> もしくは <ident>p5subset.xml</ident>）から自動的に抽出された、（要素、属性、クラスなどの）機能リストから成ります。このタイプの新しい付録を追加するには、以下の作業が必要です。<list rend="numbered">
           <item><ident>TEI/P5/Source/Guidelines/en/</ident> フォルダに新しく <ident>APPENDIXTHING.xml</ident> ファイルを作ります。既存の他の付録のファイルに倣ってください。基本パターンとしては、あなたが作成したリストへの、ごく短い導入を提供します（以下を参照してください）。規約ではこのファイルにはすべて大文字で名前をつけ、小文字の <ident>.xml</ident> を後につけます。</item>
@@ -200,32 +193,16 @@ $LastChangedRevision: 8769 $
           <item>自動で生成された付録の中で、他言語のガイドラインでは翻訳されるべき見出しを使用している場合は、適切な言語エントリを <ident>Stylesheets/i18n.xml</ident> に（まだそれがなければ）追加してください。</item>
           </list></p>
           
-          <p>Auto-generated appendix listings will require two things: a TEI <gi>divGen</gi> element which acts as a trigger to cause the list to be generated, and a Stylesheets template which processes the <gi>divGen</gi> to create the output. For example, the list of deprecations consists of this <ident>DEPRECATIONS.xml</ident> file:
-            
-            
-    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>自動生成付録リストにはふたつのものが必要です。リストが生成されるためのきっかけとなる TEI <gi>divGen</gi> 要素と、<gi>divGen</gi> を処理して出力を作る、スタイルシートのテンプレートです。例えば、廃止されたもののリストは、この <ident>DEPRECATIONS.xml</ident> ファイルから構成されます。<egXML xmlns="http://www.tei-c.org/ns/Examples">
     <div type="div1" xml:id="DEPRECATIONS">
-      <head>Deprecations</head>
+      <head>廃止</head>
       <div>
-        <head>About the Deprecation Appendix</head>
-        <p>This appendix gives you a list of all items (elements,
-          attributes, attribute values, datatypes etc.) which are deprecated
-          in this revision of the TEI Guidelines (revision &lt;?insert
-revision?&gt; of TEI P5 &lt;?insert version?&gt;).</p>
+        <head>付録「廃止」について</head>
+        <p>この付録は、TEI ガイドラインのこのリビジョン (revision &lt;1?insert revision?&gt;2 of TEI P5 &lt;3?insert version?&gt;4) で廃止された、すべてのアイテム（要素、属性、属性値、データ型等）のリストを与えるものです。</p>
       </div>
       <divGen type="deprecationcat"/>
     </div>
-    </egXML>
-            
-            Note that there are two kinds of auto-generated content here: first, the two processing instructions 
-            <code>&lt;?insert revision?&gt;</code> and 
-            <code>&lt;?insert version?&gt;</code>, which are self-explanatory and can simply be used, and 
-            <code>&lt;divGen type="deprecationcat"/&gt;</code>, which was created specifically for this appendix file, and for which processing had to be explicitly written.
-            
-            If you now look at <ident>Stylesheets/common/common_tagdocs.xsl</ident>, you'll find this template:
-            
-            
-<eg>
+    </egXML> ここには2種類の自動生成コンテンツがあることに注目してください。ひとつめは、<code>&lt;?insert revision?&gt;</code> と <code>&lt;?insert version?&gt;</code> のふたつの処理命令です。これらはその名前から説明するまでもないでしょう。簡単に使うことができます。もうひとつは <code>&lt;divGen type="deprecationcat"/&gt;</code> です。これはこの付録ファイルのために特に作られたもので、そのための処理をあえて書く必要があります。<ident>Stylesheets/common/common_tagdocs.xsl</ident> を見ると、次のようなテンプレートがあるのに気づかれるでしょう。<eg>
   &lt;xsl:template match="tei:divGen[@type = 'deprecationcat']"&gt;
     &lt;xsl:element namespace="{$outputNS}" name="{$tableName}"&gt;
       &lt;xsl:attribute name="{$rendName}"&gt;
@@ -234,12 +211,7 @@ revision?&gt; of TEI P5 &lt;?insert version?&gt;).</p>
       &lt;!-- .. --&gt;
     &lt;/xsl:element&gt;
   &lt;/xsl:template&gt;
-</eg>
-            
-            This template creates a table in whatever the target output format is, listing the deprecations. Note that the table headings are created like this:
-            
-            
-<eg>
+</eg> このテンプレートは、出力フォーマットにかかわらず、廃止されたものをリストアップする、表を作成します。 表の見出しは次のように作られることに注目してください。<eg>
   &lt;xsl:element namespace="{$outputNS}" name="{$cellName}"&gt;
     &lt;xsl:element namespace="{$outputNS}" name="{$hiName}"&gt;
       &lt;xsl:attribute name="{$rendName}"&gt;
@@ -251,22 +223,12 @@ revision?&gt; of TEI P5 &lt;?insert version?&gt;).</p>
       &lt;xsl:sequence select="tei:i18n('Identifier')"/&gt;
     &lt;/xsl:element&gt;
   &lt;/xsl:element&gt;
-</eg>
-            
-            
-            where the keyword <val>Identifier</val> is used to look up the appropriate language translation in the <ident>Stylesheets/i18n.xml</ident> file. If those items already exist in the file, you can simply use them, but if you are creating headings which do not yet have entries, you will need to add them to <ident>Stylesheets/i18n.xml</ident> like this:
-            
-            
-  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+</eg> ここではキーワード <val>Identifier</val> が <ident>Stylesheets/i18n.xml</ident> ファイルの中の適切な言語への翻訳を見つけるために使われています。 もしこれらのアイテムがファイル中に既に存在すれば単純にそれを使えばいいです。しかし今のところ存在しない見出しを作ったときは、それを以下のように <ident>Stylesheets/i18n.xml</ident> に追加する必要があります。<egXML xmlns="http://www.tei-c.org/ns/Examples">
   <entry>
     <key>Identifier</key>
     <text xml:lang="en" lang3="eng">Identifier</text>
   </entry>
-  </egXML>
-            
-            and if you are competent to add the equivalent translations in any of the <title level="m">Guidelines</title> languages, you can add them alongside the English version:
-            
-  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+  </egXML> そしてもしあなたがどの <title level="m">Guidelines</title> 言語でもよいので該当する翻訳を加えるために適任である場合は、それを英語版のに並べて追加することができます。<egXML xmlns="http://www.tei-c.org/ns/Examples">
   <entry>
     <key>Description</key>
     <text xml:lang="en" lang3="eng">Description</text>
@@ -274,8 +236,7 @@ revision?&gt; of TEI P5 &lt;?insert version?&gt;).</p>
     <text xml:lang="fr" lang3="fra">Description</text>
     <text xml:lang="it" lang3="ita">Descrizione</text>
   </entry>
-  </egXML>
-            Only when all these pieces are in place can the new appendix function correctly. It would normally be appropriate to do work on this scale in a branch of the repo, but this is a little complicated by the fact that you need to edit two repositories separately. It is fine to make the changes in the TEI repository first, resulting in an appendix page that simply lacks its listing, then do the Stylesheets changes to make the listing.</p>
+  </egXML> これらすべての断片の準備が整ったときのみ、新しい付録は正しく機能することができます。通常はこの規模の作業をするのはリポジトリのブランチで行うのが適当でしょう。しかしこれはふたつのリポジトリを別々に編集しなければいけないという事実によって少しばかり複雑です。最初に TEI リポジトリに変更を加えて、結果として付録ページに単純にリストが欠けていたら、それからスタイルシートをリストを作るように変更を加えるのがよいでしょう。</p>
             
             <p>Of course, a simple <soCalled>manual</soCalled> appendix consisting of some explanatory prose can be created simply by adding the <ident>APPENDIXTHING.xml</ident> file and XIncluding it in <ident>guidelines-en.xml</ident>, with no Stylesheets changes required.</p>
             
