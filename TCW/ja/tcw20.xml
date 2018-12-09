@@ -198,7 +198,7 @@ $LastChangedRevision: 8769 $
       <head>廃止</head>
       <div>
         <head>付録「廃止」について</head>
-        <p>この付録は、TEI ガイドラインのこのリビジョン (revision &lt;1?insert revision?&gt;2 of TEI P5 &lt;3?insert version?&gt;4) で廃止された、すべてのアイテム（要素、属性、属性値、データ型等）のリストを与えるものです。</p>
+        <p>この付録は、TEI ガイドラインのこのリビジョン (revision &lt;?insert revision?&gt; of TEI P5 &lt;?insert version?&gt;) で廃止された、すべてのアイテム（要素、属性、属性値、データ型等）のリストを与えるものです。</p>
       </div>
       <divGen type="deprecationcat"/>
     </div>
