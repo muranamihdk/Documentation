@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-10-29 16:00+0900\n"
-"PO-Revision-Date: 2018-11-24 22:51+0000\n"
+"PO-Revision-Date: 2018-12-09 13:31+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -225,8 +225,9 @@ msgstr ""
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:101 testing_and_building.xml:110
+#, fuzzy
 msgid "make test"
-msgstr ""
+msgstr "make test"
 
 #. (itstool) path: p/code
 #: testing_and_building.xml:103
