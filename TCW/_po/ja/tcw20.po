@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-02 05:46+0000\n"
+"PO-Revision-Date: 2018-12-09 13:31+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -704,8 +704,9 @@ msgstr ""
 #: tcw20.xml:268
 msgid "The Jenkins servers monitor the Git repository, and when they detect a change, they check it out and commence building several targets, just as you would build them on your local machine. There are a couple of advantages to letting the Jenkins servers check your build for you:"
 msgstr ""
-"JenkinsサーバはGitリポジトリをモニタし、変更を検知すると、ちょうどローカルのマシンでビルドをするのと同じように、チェックアウトし、いくつかのター"
-"ゲットをビルドし始めます。Jenkinsサーバにビルドをチェックさせることには、いくつかの利点があります。"
+"Jenkins サーバは Git "
+"リポジトリをモニタし、変更を検知すると、ちょうどローカルのマシンでビルドをするのと同じように、チェックアウトし、いくつかのターゲットをビルドし始めます。"
+"Jenkins サーバにビルドをチェックさせることには、いくつかの利点があります。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:271
@@ -718,130 +719,161 @@ msgstr ""
 #: tcw20.xml:272
 msgid "The required packages on the Jenkins servers tend to be updated regularly, and we're watching them to make sure they work properly."
 msgstr ""
-"Jenkinsサーバの必要なパッケージは定期的にアップデートされがちなので、それらが適切に作動していることを確かめるために私たちは常に監視しています。"
+"Jenkins サーバの必要なパッケージは定期的にアップデートされがちなので、それらが適切に作動していることを確かめるために私たちは常に監視しています。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:273
 msgid "Jenkins attempts to let you know by email if there's a problem, and provides useful debugging tools."
-msgstr "Jenkinsはもし何か問題があればメールであなたに知らせようとするとともに、便利なデバッグツールを提供しています。"
+msgstr "Jenkins はもし何か問題があればメールであなたに知らせようとするとともに、便利なデバッグツールを提供しています。"
 
 #. (itstool) path: div/p
 #: tcw20.xml:276
 msgid "If you submit a change, and later get an email from one of the Jenkins servers telling you that the build failed, it will provide a link to the build information on the server. Here's what to do:"
 msgstr ""
-"変更を送信した後に、ビルドが失敗したというメールがJenkinsサーバのひとつから届くと、そこにはサーバのビルド情報へのリンクが掲載されています。この場合"
-"すべきことは以下のようになります。"
+"変更を送信した後に、ビルドが失敗したというメールが Jenkins "
+"サーバのひとつから届くと、そこにはサーバのビルド情報へのリンクが掲載されています。この場合すべきことは以下のようになります。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:279
 msgid "First, check that the build is broken on both Jenkins servers. If it's only broken on one of them, it may have been caused by a lag in updates to packages on that server."
 msgstr ""
+"最初に、両方の Jenkins サーバでビルドが失敗していることを確認してください。もし片方だけで失敗している場合は、そのサーバのパッケージのアップデート"
+"が遅れていることによって引き起こされているのかもしれません。"
 
 #. (itstool) path: item/q
 #: tcw20.xml:280
+#, fuzzy
 msgid "Parsed Console Output"
-msgstr ""
+msgstr "Parsed Console Output"
 
 #. (itstool) path: item/q
 #: tcw20.xml:280
+#, fuzzy
 msgid "Errors"
-msgstr ""
+msgstr "Errors"
 
 #. (itstool) path: item/q
 #: tcw20.xml:280
+#, fuzzy
 msgid "Warnings"
-msgstr ""
+msgstr "Warnings"
 
 #. (itstool) path: list/item
 #: tcw20.xml:280
 msgid "If both servers have completed a build since your commit, and both are showing an error, then you need to check where the error is occurring. On the page for that build on the Jenkins server site, click on <_:q-1/> on the left menu. You'll see links to <_:q-2/> and <_:q-3/>; these will show you the exact point in the build script where the errors or warnings occurred. This may give you a useful clue to the cause of the failure."
 msgstr ""
+"コミットの後に両方のサーバでビルドが終了していて、両方でエラーが表示されている場合は、どこでエラーが起こっているかを確認する必要があります。"
+"Jenkins サーバのサイトの、そのビルドのページで、左のメニューの <_:q-1/> をクリックしてください。<_:q-2/> と <_:q-3/> "
+"へのリンクが見えると思います。これによりビルドスクリプト中のエラーや警告が起こったまさにその場所を見ることができます。ここから、失敗の原因の有力な手がかり"
+"を得ることができるかもしれません。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:281
 msgid "If you still can't figure out the problem, email the Council list with a link to the build information, and someone will be able to help."
 msgstr ""
+"それでもまだ問題を見つけることができないのなら、評議会のメーリングリストに、ビルド情報へのリンクとともに投稿してください。そうすれば誰かが助けてくれるでし"
+"ょう。"
 
 #. (itstool) path: list/item
 #: tcw20.xml:282
 msgid "Once you know what the problem is, fix it by editing the source again and committing the change to the git repository. Jenkins will then do its stuff, and you'll know whether your fix worked as expected."
 msgstr ""
+"問題が何かわかったら、再度ソースを編集して修正して、変更を git リポジトリにコミットしてください。Jenkins "
+"がやるべきことをやって、そうしたら修正が期待通りに効いているかどうかがわかります。"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:285
+#, fuzzy
 msgid "make test"
-msgstr ""
+msgstr "make test"
 
 #. (itstool) path: p/q
 #: tcw20.xml:285
+#, fuzzy
 msgid "TEIP5-Test"
-msgstr ""
+msgstr "TEIP5-Test"
 
 #. (itstool) path: div/p
 #: tcw20.xml:285
 msgid "Error messages appearing during the <_:ident-1/> phase (the <_:q-2/> job on Jenkins) usually indicate that your changes are in conflict with the Birnbaum Doctrine, which decrees that changes in the Guideline schemas should not invalidate existing documents. You may wish to discuss the specific issue with other Council members."
 msgstr ""
+"<_:ident-1/> の段階（Jenkins の <_:q-2/> ジョブ）で表示されるエラーメッセージは通常、変更がバーンバウムドクトリンに抵触して"
+"いることを示しています。このドクトリンは、ガイドラインのスキーマの変更は、現在ある文書の妥当性を破壊してはならないというものです。特定の問題については、他"
+"の評議会メンバーと議論した方がいいかもしれませんね。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:293
 msgid "Images"
-msgstr ""
+msgstr "画像"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:296
+#, fuzzy
 msgid "P5/Images"
-msgstr ""
+msgstr "P5/Images"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:298
+#, fuzzy
 msgid "fred.png"
-msgstr ""
+msgstr "fred.png"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:299
+#, fuzzy
 msgid "fred.zip"
-msgstr ""
+msgstr "fred.zip"
 
 #. (itstool) path: div/p
 #: tcw20.xml:295
 msgid "If you use an image in your Guidelines change, you will need to add it to the git repository in the <_:ident-1/> directory. If you have asked for and received permission from a rights-holder to use the image, include all of the relevant correspondence in a zip file named the same as the image file (so for an image <_:ident-2/>, include permission documents in a file called <_:ident-3/>)."
 msgstr ""
+"ガイドラインの変更で画像を使用したときは、git リポジトリの <_:ident-1/> "
+"ディレクトリにそれを追加する必要があります。画像の権利者に画像の使用の許可を求めて許可をもらったら、すべての関連するやり取りを、画像ファイルと同じ名前の "
+"zip ファイルに含めなければなりません（<_:ident-2/> という画像ファイルのための許諾文書は、<_:ident-3/> "
+"という名前のファイルに含めるということになります）。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:306
 msgid "Adding or Editing an Appendix"
-msgstr "付録を追加する、あるいは編集する"
+msgstr "付録を追加する・あるいは編集する"
 
 #. (itstool) path: p/title
 #: tcw20.xml:308
+#, fuzzy
 msgid "TEI Guidelines"
-msgstr ""
+msgstr "TEI Guidelines"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:308
+#, fuzzy
 msgid "p5.xml"
-msgstr ""
+msgstr "p5.xml"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:308
+#, fuzzy
 msgid "p5subset.xml"
-msgstr ""
+msgstr "p5subset.xml"
 
 #. (itstool) path: item/ident
 #. (itstool) path: p/ident
 #: tcw20.xml:311 tcw20.xml:398
+#, fuzzy
 msgid "APPENDIXTHING.xml"
-msgstr ""
+msgstr "APPENDIXTHING.xml"
 
 #. (itstool) path: item/ident
 #: tcw20.xml:311
+#, fuzzy
 msgid "TEI/P5/Source/Guidelines/en/"
-msgstr ""
+msgstr "TEI/P5/Source/Guidelines/en/"
 
 #. (itstool) path: item/ident
 #: tcw20.xml:311
+#, fuzzy
 msgid ".xml"
-msgstr ""
+msgstr ".xml"
 
 #. (itstool) path: list/item
 #: tcw20.xml:311
@@ -853,14 +885,16 @@ msgstr ""
 
 #. (itstool) path: item/ident
 #: tcw20.xml:313
+#, fuzzy
 msgid "TEI/P5/Source/guidelines-en.xml"
-msgstr ""
+msgstr "TEI/P5/Source/guidelines-en.xml"
 
 #. (itstool) path: item/title
 #. (itstool) path: p/title
 #: tcw20.xml:313 tcw20.xml:385
+#, fuzzy
 msgid "Guidelines"
-msgstr ""
+msgstr "Guidelines"
 
 #. (itstool) path: list/item
 #: tcw20.xml:313
@@ -872,8 +906,9 @@ msgstr ""
 #. (itstool) path: item/ident
 #. (itstool) path: p/ident
 #: tcw20.xml:315 tcw20.xml:343
+#, fuzzy
 msgid "Stylesheets/common/common_tagdocs.xsl"
-msgstr ""
+msgstr "Stylesheets/common/common_tagdocs.xsl"
 
 #. (itstool) path: list/item
 #: tcw20.xml:315
@@ -885,8 +920,9 @@ msgstr ""
 #. (itstool) path: item/ident
 #. (itstool) path: p/ident
 #: tcw20.xml:317 tcw20.xml:375
+#, fuzzy
 msgid "Stylesheets/i18n.xml"
-msgstr ""
+msgstr "Stylesheets/i18n.xml"
 
 #. (itstool) path: list/item
 #: tcw20.xml:317
@@ -905,76 +941,115 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #: tcw20.xml:321 tcw20.xml:747
+#, fuzzy
 msgid "divGen"
-msgstr ""
+msgstr "divGen"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:321
+#, fuzzy
 msgid "DEPRECATIONS.xml"
-msgstr ""
+msgstr "DEPRECATIONS.xml"
 
 #. (itstool) path: div/head
 #: tcw20.xml:326
 msgid "Deprecations"
-msgstr ""
+msgstr "廃止"
 
 #. (itstool) path: div/head
 #: tcw20.xml:328
 msgid "About the Deprecation Appendix"
-msgstr ""
+msgstr "付録「廃止」について"
 
 #. (itstool) path: div/p
 #: tcw20.xml:329
 msgid "This appendix gives you a list of all items (elements, attributes, attribute values, datatypes etc.) which are deprecated in this revision of the TEI Guidelines (revision &lt;?insert revision?&gt; of TEI P5 &lt;?insert version?&gt;)."
 msgstr ""
+"この付録は、TEI ガイドラインのこのリビジョン (revision &lt;1?insert revision?&gt;2 of TEI P5 &lt;"
+"3?insert version?&gt;4) で廃止された、すべてのアイテム（要素、属性、属性値、データ型等）のリストを与えるものです。"
 
 #. (itstool) path: p/code
 #: tcw20.xml:339
+#, fuzzy
 msgid "&lt;?insert revision?&gt;"
-msgstr ""
+msgstr "&lt;?insert revision?&gt;"
 
 #. (itstool) path: p/code
 #: tcw20.xml:341
+#, fuzzy
 msgid "&lt;divGen type=\"deprecationcat\"/&gt;"
-msgstr ""
+msgstr "&lt;divGen type=\"deprecationcat\"/&gt;"
 
 #. (itstool) path: p/eg
 #: tcw20.xml:346
+#, fuzzy
 msgid "&lt;xsl:template match=\"tei:divGen[@type = 'deprecationcat']\"&gt; &lt;xsl:element namespace=\"{$outputNS}\" name=\"{$tableName}\"&gt; &lt;xsl:attribute name=\"{$rendName}\"&gt; &lt;xsl:text&gt;deprecationcat&lt;/xsl:text&gt; &lt;/xsl:attribute&gt; &lt;!-- .. --&gt; &lt;/xsl:element&gt; &lt;/xsl:template&gt;"
 msgstr ""
+"&lt;xsl:template match=\"tei:divGen[@type = 'deprecationcat']\"&gt; &lt;xsl:"
+"element namespace=\"{$outputNS}\" name=\"{$tableName}\"&gt; &lt;xsl:"
+"attribute name=\"{$rendName}\"&gt; "
+"&lt;xsl:text&gt;deprecationcat&lt;/xsl:text&gt; &lt;/xsl:attribute&gt; "
+"&lt;!-- .. --&gt; &lt;/xsl:element&gt; &lt;/xsl:template&gt;"
 
 #. (itstool) path: p/eg
 #: tcw20.xml:360
+#, fuzzy
 msgid "&lt;xsl:element namespace=\"{$outputNS}\" name=\"{$cellName}\"&gt; &lt;xsl:element namespace=\"{$outputNS}\" name=\"{$hiName}\"&gt; &lt;xsl:attribute name=\"{$rendName}\"&gt; &lt;xsl:text&gt;label&lt;/xsl:text&gt; &lt;/xsl:attribute&gt; &lt;xsl:attribute name=\"{$langAttributeName}\"&gt; &lt;xsl:value-of select=\"$documentationLanguage\"/&gt; &lt;/xsl:attribute&gt; &lt;xsl:sequence select=\"tei:i18n('Identifier')\"/&gt; &lt;/xsl:element&gt; &lt;/xsl:element&gt;"
 msgstr ""
+"&lt;xsl:element namespace=\"{$outputNS}\" name=\"{$cellName}\"&gt; &lt;xsl:"
+"element namespace=\"{$outputNS}\" name=\"{$hiName}\"&gt; &lt;xsl:attribute "
+"name=\"{$rendName}\"&gt; &lt;xsl:text&gt;label&lt;/xsl:text&gt; "
+"&lt;/xsl:attribute&gt; &lt;xsl:attribute name=\"{$langAttributeName}\"&gt; "
+"&lt;xsl:value-of select=\"$documentationLanguage\"/&gt; "
+"&lt;/xsl:attribute&gt; &lt;xsl:sequence select=\"tei:i18n('Identifier')\""
+"/&gt; &lt;/xsl:element&gt; &lt;/xsl:element&gt;"
 
 #. (itstool) path: p/val
 #. (itstool) path: entry/key
 #. (itstool) path: entry/text
 #: tcw20.xml:375 tcw20.xml:380 tcw20.xml:381
+#, fuzzy
 msgid "Identifier"
-msgstr ""
+msgstr "Identifier"
 
 #. (itstool) path: entry/key
 #. (itstool) path: entry/text
 #: tcw20.xml:389 tcw20.xml:390 tcw20.xml:392
+#, fuzzy
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. (itstool) path: entry/text
 #: tcw20.xml:391
+#, fuzzy
 msgid "Beschreibung"
-msgstr ""
+msgstr "Beschreibung"
 
 #. (itstool) path: entry/text
 #: tcw20.xml:393
+#, fuzzy
 msgid "Descrizione"
-msgstr ""
+msgstr "Descrizione"
 
 #. (itstool) path: div/p
 #: tcw20.xml:321
 msgid "Auto-generated appendix listings will require two things: a TEI <_:gi-1/> element which acts as a trigger to cause the list to be generated, and a Stylesheets template which processes the <_:gi-2/> to create the output. For example, the list of deprecations consists of this <_:ident-3/> file: <_:egXML-4/> Note that there are two kinds of auto-generated content here: first, the two processing instructions <_:code-5/> and <_:code-6/>, which are self-explanatory and can simply be used, and <_:code-7/>, which was created specifically for this appendix file, and for which processing had to be explicitly written. If you now look at <_:ident-8/>, you'll find this template: <_:eg-9/> This template creates a table in whatever the target output format is, listing the deprecations. Note that the table headings are created like this: <_:eg-10/> where the keyword <_:val-11/> is used to look up the appropriate language translation in the <_:ident-12/> file. If those items already exist in the file, you can simply use them, but if you are creating headings which do not yet have entries, you will need to add them to <_:ident-13/> like this: <_:egXML-14/> and if you are competent to add the equivalent translations in any of the <_:title-15/> languages, you can add them alongside the English version: <_:egXML-16/> Only when all these pieces are in place can the new appendix function correctly. It would normally be appropriate to do work on this scale in a branch of the repo, but this is a little complicated by the fact that you need to edit two repositories separately. It is fine to make the changes in the TEI repository first, resulting in an appendix page that simply lacks its listing, then do the Stylesheets changes to make the listing."
 msgstr ""
+"自動生成付録リストにはふたつのものが必要です。リストが生成されるためのきっかけとなる TEI <_:gi-1/> 要素と、<_:gi-2/> "
+"を処理して出力を作る、スタイルシートのテンプレートです。例えば、廃止されたもののリストは、この <_:ident-3/> ファイルから構成されます。<_:"
+"egXML-4/> ここには2種類の自動生成コンテンツがあることに注目してください。ひとつめは、<_:code-5/> と <_:code-6/> "
+"のふたつの処理命令です。これらはその名前から説明するまでもないでしょう。簡単に使うことができます。もうひとつは <_:code-7/> "
+"です。これはこの付録ファイルのために特に作られたもので、そのための処理をあえて書く必要があります。<_:ident-8/> "
+"を見ると、次のようなテンプレートがあるのに気づかれるでしょう。<_:eg-9/> "
+"このテンプレートは、出力フォーマットにかかわらず、廃止されたものをリストアップする、表を作成します。 "
+"表の見出しは次のように作られることに注目してください。<_:eg-10/> ここではキーワード <_:val-11/> が <_:ident-12/> "
+"ファイルの中の適切な言語への翻訳を見つけるために使われています。 "
+"もしこれらのアイテムがファイル中に既に存在すれば単純にそれを使えばいいです。しかし今のところ存在しない見出しを作ったときは、それを以下のように <_:"
+"ident-13/> に追加する必要があります。<_:egXML-14/> そしてもしあなたがどの <_:title-15/> "
+"言語でもよいので該当する翻訳を加えるために適任である場合は、それを英語版のに並べて追加することができます。<_:egXML-16/> これらすべての断片の"
+"準備が整ったときのみ、新しい付録は正しく機能することができます。通常はこの規模の作業をするのはリポジトリのブランチで行うのが適当でしょう。しかしこれはふた"
+"つのリポジトリを別々に編集しなければいけないという事実によって少しばかり複雑です。最初に TEI "
+"リポジトリに変更を加えて、結果として付録ページに単純にリストが欠けていたら、それからスタイルシートをリストを作るように変更を加えるのがよいでしょう。"
 
 #. (itstool) path: p/soCalled
 #: tcw20.xml:398
