@@ -238,7 +238,7 @@ $LastChangedRevision: 8769 $
   </entry>
   </egXML> これらすべての断片の準備が整ったときのみ、新しい付録は正しく機能することができます。通常はこの規模の作業をするのはリポジトリのブランチで行うのが適当でしょう。しかしこれはふたつのリポジトリを別々に編集しなければいけないという事実によって少しばかり複雑です。最初に TEI リポジトリに変更を加えて、結果として付録ページに単純にリストが欠けていたら、それからスタイルシートをリストを作るように変更を加えるのがよいでしょう。</p>
             
-            <p>Of course, a simple <soCalled>manual</soCalled> appendix consisting of some explanatory prose can be created simply by adding the <ident>APPENDIXTHING.xml</ident> file and XIncluding it in <ident>guidelines-en.xml</ident>, with no Stylesheets changes required.</p>
+            <p>もちろん、いくつかの説明の文章から構成される単純な <soCalled>マニュアル</soCalled> 付録は、単純に <ident>APPENDIXTHING.xml</ident> ファイルを追加して、それを  <ident>guidelines-en.xml</ident> の中で XIncluding することによって作ることができますので、スタイルシートを変更する必要はありません。</p>
             
         </div>
 
