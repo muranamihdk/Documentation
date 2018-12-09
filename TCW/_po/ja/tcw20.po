@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-09 13:31+0000\n"
+"PO-Revision-Date: 2018-12-09 13:39+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -1054,17 +1054,20 @@ msgstr ""
 #. (itstool) path: p/soCalled
 #: tcw20.xml:398
 msgid "manual"
-msgstr ""
+msgstr "マニュアル"
 
 #. (itstool) path: p/ident
 #: tcw20.xml:398
+#, fuzzy
 msgid "guidelines-en.xml"
-msgstr ""
+msgstr "guidelines-en.xml"
 
 #. (itstool) path: div/p
 #: tcw20.xml:398
 msgid "Of course, a simple <_:soCalled-1/> appendix consisting of some explanatory prose can be created simply by adding the <_:ident-2/> file and XIncluding it in <_:ident-3/>, with no Stylesheets changes required."
 msgstr ""
+"もちろん、いくつかの説明の文章から構成される単純な <_:soCalled-1/> 付録は、単純に <_:ident-2/> ファイルを追加して、"
+"それを  <_:ident-3/> の中で XIncluding することによって作ることができますので、スタイルシートを変更する必要はありません。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:407
