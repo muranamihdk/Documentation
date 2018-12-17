@@ -571,14 +571,11 @@ In order to do that, we have to use the "detest" system. In <ident>trunk/P5/Test
   </div>
         <div>
           <head>命名規約</head>
-          <p>TEI naming conventions have evolved over time, but remain fairly consistent. </p>
+          <p>TEIの命名規約は時が経つにつれて発展してきましたが、比較的一貫したものです。</p>
           <list type="gloss">
-            <label>generic identifiers</label>
-            <item>An element and attribute identifiers should be a single natural language word in
-              lowercase if possible. If more than one word is conjoined to form a name, then the
-              first letter of the second and any subsequent word should be uppercased. Hyphens,
-              underscores, dots etc are not used within element or attribute names. </item>
-            <label>class names</label>
+            <label>一般的な識別子</label>
+            <item>要素と属性の識別子は可能な限り自然言語の一つの単語を小文字表記したものでなければなりません。名前を複数の単語の結合で構成する場合は、ふたつ目以降のそれぞれの単語の先頭の文字は大文字でなければなりません。ハイフンやアンダースコアやドットなどは要素や属性の名前の中では使いません。</item>
+            <label>クラス名</label>
             <item>Class names are made up three parts: a name, constructed like an element name,
               with a prefix and optionally a suffix. The prefix is one of <code>model.</code> or
                 <code>att.</code> and indicates whether this is a model or an attribute class. The

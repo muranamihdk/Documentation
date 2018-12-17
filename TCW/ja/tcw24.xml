@@ -94,15 +94,15 @@ $LastChangedRevision: 0001$
       </div>
       <div xml:id="house-style-naming-conventions">
         <head>命名規約</head>
-        <p>TEI naming conventions have evolved over time, but remain fairly consistent. </p>
+        <p>TEIの命名規約は時が経つにつれて発展してきましたが、比較的一貫したものです。</p>
         <list type="gloss">
-          <label>generic identifiers</label>
+          <label>一般的な識別子</label>
           <item>Element and attribute identifiers should be a single natural language word in
             lowercase if possible. For instance: <gi>bibl</gi>. If more than one word is conjoined
             to form a name, then the first letter of the second and any subsequent word should be
             uppercased. For instance: <gi>biblStruct</gi>. Hyphens, underscores, dots etc are not
             used within element or attribute names. </item>
-          <label>class names</label>
+          <label>クラス名</label>
           <item>Class names are made up three parts: a name, constructed like an element name, with
             a prefix and optionally a suffix. The prefix is one of <code>model.</code> or
             <code>att.</code> and indicates whether this is a model or an attribute class. The
