@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-24 22:27+0900\n"
-"PO-Revision-Date: 2018-12-17 14:05+0000\n"
+"PO-Revision-Date: 2018-12-17 15:00+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -197,12 +197,12 @@ msgstr "命名規約"
 #. (itstool) path: div/p
 #: tcw24.xml:97
 msgid "TEI naming conventions have evolved over time, but remain fairly consistent."
-msgstr ""
+msgstr "TEIの命名規約は時が経つにつれて発展してきましたが、比較的一貫したものです。"
 
 #. (itstool) path: list/label
 #: tcw24.xml:99
 msgid "generic identifiers"
-msgstr ""
+msgstr "一般的な識別子"
 
 #. (itstool) path: item/gi
 #: tcw24.xml:101
@@ -222,7 +222,7 @@ msgstr ""
 #. (itstool) path: list/label
 #: tcw24.xml:105
 msgid "class names"
-msgstr ""
+msgstr "クラス名"
 
 #. (itstool) path: item/code
 #: tcw24.xml:107
