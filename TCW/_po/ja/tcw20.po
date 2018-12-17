@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-17 14:05+0000\n"
+"PO-Revision-Date: 2018-12-17 15:00+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -2151,22 +2151,24 @@ msgstr "命名規約"
 #. (itstool) path: div/p
 #: tcw20.xml:753
 msgid "TEI naming conventions have evolved over time, but remain fairly consistent."
-msgstr ""
+msgstr "TEIの命名規約は時が経つにつれて発展してきましたが、比較的一貫したものです。"
 
 #. (itstool) path: list/label
 #: tcw20.xml:755
 msgid "generic identifiers"
-msgstr ""
+msgstr "一般的な識別子"
 
 #. (itstool) path: list/item
 #: tcw20.xml:756
 msgid "An element and attribute identifiers should be a single natural language word in lowercase if possible. If more than one word is conjoined to form a name, then the first letter of the second and any subsequent word should be uppercased. Hyphens, underscores, dots etc are not used within element or attribute names."
 msgstr ""
+"要素と属性の識別子は可能な限り自然言語の一つの単語を小文字表記したものでなければなりません。名前を複数の単語の結合で構成する場合は、ふたつ目以降のそれぞれ"
+"の単語の先頭の文字は大文字でなければなりません。ハイフンやアンダースコアやドットなどは要素や属性の名前の中では使いません。"
 
 #. (itstool) path: list/label
 #: tcw20.xml:760
 msgid "class names"
-msgstr ""
+msgstr "クラス名"
 
 #. (itstool) path: item/code
 #: tcw20.xml:762
