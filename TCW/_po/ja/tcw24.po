@@ -2,12 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-24 22:27+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-12-17 14:05+0000\n"
+"Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.3\n"
 
 #. (itstool) path: titleStmt/title
 #: tcw24.xml:11
@@ -189,7 +192,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: tcw24.xml:96
 msgid "Naming conventions"
-msgstr ""
+msgstr "命名規約"
 
 #. (itstool) path: div/p
 #: tcw24.xml:97
@@ -260,8 +263,9 @@ msgstr ""
 #. (itstool) path: p/gi
 #: tcw24.xml:116
 #: tcw24.xml:124
+#, fuzzy
 msgid "div"
-msgstr ""
+msgstr "div"
 
 #. (itstool) path: list/item
 #: tcw24.xml:116
@@ -795,4 +799,3 @@ msgstr ""
 #: tcw24.xml:335
 msgid "July 23, 1994"
 msgstr ""
-
