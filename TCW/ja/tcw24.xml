@@ -93,7 +93,7 @@ $LastChangedRevision: 0001$
         </list>
       </div>
       <div xml:id="house-style-naming-conventions">
-        <head>Naming conventions</head>
+        <head>命名規約</head>
         <p>TEI naming conventions have evolved over time, but remain fairly consistent. </p>
         <list type="gloss">
           <label>generic identifiers</label>
