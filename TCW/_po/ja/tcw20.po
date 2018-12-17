@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-09 14:06+0000\n"
+"PO-Revision-Date: 2018-12-17 14:05+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Weblate 3.3\n"
 
 #. (itstool) path: titleStmt/title
 #: tcw20.xml:15
@@ -1439,628 +1439,714 @@ msgstr ""
 #. (itstool) path: div/head
 #: tcw20.xml:600
 msgid "Building the release"
-msgstr ""
+msgstr "リリースのビルド"
 
 #. (itstool) path: p/ref
 #: tcw20.xml:603
 msgid "TCW22: Building a TEI Release"
-msgstr ""
+msgstr "TCW22: リリース版TEIをビルドする"
 
 #. (itstool) path: div/p
 #: tcw20.xml:602
 msgid "Note: the original content of this section has been removed, because a longer document dedicated to documenting the release process has been created. Please refer to <_:ref-1/>."
 msgstr ""
+"注：このセクションに元々あった文章は、リリースプロセスについてだけ書かれたより長い文書が別に作られましたので、削除されました。<_:ref-1/> "
+"を参照してください。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:610
 msgid "Reference section"
-msgstr ""
+msgstr "参考セクション"
 
 #. (itstool) path: div/head
 #: tcw20.xml:612
 msgid "Chapter codes"
-msgstr ""
+msgstr "章コード"
 
 #. (itstool) path: div/p
 #: tcw20.xml:613
 msgid "Following a lengthy debate in the Council as to whether the two-character codes originally used to identify individual chapters should be dropped in favour of longer more human-readable names, a compromise solution was reached in which the two character codes were retained as prefixes to longer human-readable names. The same two-character codes are also used to identify the HTML and PDF files generated during the release process."
 msgstr ""
+"元々個々の章を識別するために使われていた2文字のコードについては、より人間にとってわかりやすい長い名前に変更し、廃止すべきかどうかについて、評議会で長い議"
+"論が行われました。その結果、妥協の解決策として、2文字コードは接頭辞として、人間に読みやすいより長い名前の前につけて残すことになりました。同じ2文字のコー"
+"ドが、リリースプロセスの間に生成されるHTMLファイルやPDFファイルでも、識別のために使われます。"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:626
 msgid "Section"
-msgstr ""
+msgstr "章番号"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:626
 msgid "Title"
-msgstr ""
+msgstr "章タイトル"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:626
 msgid "filename"
-msgstr ""
+msgstr "ファイル名"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:628
+#, fuzzy
 msgid "[i]"
-msgstr ""
+msgstr "[i]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:628
 msgid "Releases of the TEI Guidelines"
-msgstr ""
+msgstr "TEIガイドラインリリース履歴"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:629
+#, fuzzy
 msgid "TitlePageVerso.xml"
-msgstr ""
+msgstr "TitlePageVerso.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:631
+#, fuzzy
 msgid "[ii]"
-msgstr ""
+msgstr "[ii]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:631
 msgid "Dedication"
-msgstr ""
+msgstr "献辞"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:632
+#, fuzzy
 msgid "Dedication.xml"
-msgstr ""
+msgstr "Dedication.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:634
+#, fuzzy
 msgid "[iii]"
-msgstr ""
+msgstr "[iii]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:634
 msgid "Preface and Acknowledgments"
-msgstr ""
+msgstr "序文と謝辞"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:635
+#, fuzzy
 msgid "FM1-IntroductoryNote.xml"
-msgstr ""
+msgstr "FM1-IntroductoryNote.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:637
+#, fuzzy
 msgid "[iv]"
-msgstr ""
+msgstr "[iv]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:637
 msgid "About These Guidelines"
-msgstr ""
+msgstr "このガイドラインについて"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:638
+#, fuzzy
 msgid "AB-About.xml"
-msgstr ""
+msgstr "AB-About.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:640
+#, fuzzy
 msgid "[v]"
-msgstr ""
+msgstr "[v]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:640
 msgid "A Gentle Introduction to XML"
-msgstr ""
+msgstr "やさしいXML入門"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:641
+#, fuzzy
 msgid "SG-GentleIntroduction.xml"
-msgstr ""
+msgstr "SG-GentleIntroduction.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:643
+#, fuzzy
 msgid "[vi]"
-msgstr ""
+msgstr "[vi]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:643
 msgid "Languages and Character Sets"
-msgstr ""
+msgstr "言語と文字セット"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:644
+#, fuzzy
 msgid "CH-LanguagesCharacterSets.xml"
-msgstr ""
+msgstr "CH-LanguagesCharacterSets.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:646
+#, fuzzy
 msgid "[1]"
-msgstr ""
+msgstr "[1]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:646
 msgid "The TEI Infrastructure"
-msgstr ""
+msgstr "TEIの基盤構造"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:647
+#, fuzzy
 msgid "ST-Infrastructure.xml"
-msgstr ""
+msgstr "ST-Infrastructure.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:649
+#, fuzzy
 msgid "[2]"
-msgstr ""
+msgstr "[2]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:649
 msgid "The TEI Header"
-msgstr ""
+msgstr "TEIヘッダ"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:650
+#, fuzzy
 msgid "HD-Header.xml"
-msgstr ""
+msgstr "HD-Header.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:652
+#, fuzzy
 msgid "[3]"
-msgstr ""
+msgstr "[3]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:652
 msgid "Elements Available in All TEI Documents"
-msgstr ""
+msgstr "すべてのTEI文書で使用可能な要素"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:653
+#, fuzzy
 msgid "CO-CoreElements.xml"
-msgstr ""
+msgstr "CO-CoreElements.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:655
+#, fuzzy
 msgid "[4]"
-msgstr ""
+msgstr "[4]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:655
 msgid "Default Text Structure"
-msgstr ""
+msgstr "前提となる文章構造"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:656
+#, fuzzy
 msgid "DS-DefaultTextStructure.xml"
-msgstr ""
+msgstr "DS-DefaultTextStructure.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:658
+#, fuzzy
 msgid "[5]"
-msgstr ""
+msgstr "[5]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:658
 msgid "Representation of Non-standard Characters and Glyphs"
-msgstr ""
+msgstr "非標準的な文字と字形の表示"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:659
+#, fuzzy
 msgid "WD-NonStandardCharacters.xml"
-msgstr ""
+msgstr "WD-NonStandardCharacters.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:662
+#, fuzzy
 msgid "[6]"
-msgstr ""
+msgstr "[6]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:662
 msgid "Verse"
-msgstr ""
+msgstr "詩歌"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:662
+#, fuzzy
 msgid "VE-Verse.xml"
-msgstr ""
+msgstr "VE-Verse.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:665
+#, fuzzy
 msgid "[7]"
-msgstr ""
+msgstr "[7]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:665
 msgid "Performance Texts"
-msgstr ""
+msgstr "演じられるテキスト"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:666
+#, fuzzy
 msgid "DR-PerformanceTexts.xml"
-msgstr ""
+msgstr "DR-PerformanceTexts.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:668
+#, fuzzy
 msgid "[8]"
-msgstr ""
+msgstr "[8]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:668
 msgid "Transcriptions of Speech"
-msgstr ""
+msgstr "発話の書き起こし"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:669
+#, fuzzy
 msgid "TS-TranscriptionsofSpeech.xml"
-msgstr ""
+msgstr "TS-TranscriptionsofSpeech.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:671
+#, fuzzy
 msgid "[9]"
-msgstr ""
+msgstr "[9]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:671
 msgid "Dictionaries"
-msgstr ""
+msgstr "辞書"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:672
+#, fuzzy
 msgid "DI-PrintDictionaries.xml"
-msgstr ""
+msgstr "DI-PrintDictionaries.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:674
+#, fuzzy
 msgid "[10]"
-msgstr ""
+msgstr "[10]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:674
 msgid "Manuscript Description"
-msgstr ""
+msgstr "写本・手稿の記述"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:675
+#, fuzzy
 msgid "MS-ManuscriptDescription.xml"
-msgstr ""
+msgstr "MS-ManuscriptDescription.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:677
+#, fuzzy
 msgid "[11]"
-msgstr ""
+msgstr "[11]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:677
 msgid "Representation of Primary Sources"
-msgstr ""
+msgstr "一次資料の再現"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:678
+#, fuzzy
 msgid "PH-PrimarySources.xml"
-msgstr ""
+msgstr "PH-PrimarySources.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:680
+#, fuzzy
 msgid "[12]"
-msgstr ""
+msgstr "[12]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:680
 msgid "Critical Apparatus"
-msgstr ""
+msgstr "校訂版"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:681
+#, fuzzy
 msgid "TC-CriticalApparatus.xml"
-msgstr ""
+msgstr "TC-CriticalApparatus.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:683
+#, fuzzy
 msgid "[13]"
-msgstr ""
+msgstr "[13]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:683
 msgid "Names, Dates, People, and Places"
-msgstr ""
+msgstr "名前、日付、人物、場所"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:684
+#, fuzzy
 msgid "ND-NamesDates.xml"
-msgstr ""
+msgstr "ND-NamesDates.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:686
+#, fuzzy
 msgid "[14]"
-msgstr ""
+msgstr "[14]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:686
 msgid "Tables, Formulæ, and Graphics"
-msgstr ""
+msgstr "表、数式、図"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:687
+#, fuzzy
 msgid "FT-TablesFormulaeGraphics.xml"
-msgstr ""
+msgstr "FT-TablesFormulaeGraphics.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:689
+#, fuzzy
 msgid "[15]"
-msgstr ""
+msgstr "[15]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:689
 msgid "Language Corpora"
-msgstr ""
+msgstr "言語コーパス"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:690
+#, fuzzy
 msgid "CC-LanguageCorpora.xml"
-msgstr ""
+msgstr "CC-LanguageCorpora.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:692
+#, fuzzy
 msgid "[16]"
-msgstr ""
+msgstr "[16]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:692
 msgid "Linking, Segmentation, and Alignment"
-msgstr ""
+msgstr "リンク、分割、整列"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:693
+#, fuzzy
 msgid "SA-LinkingSegmentationAlignment.xml"
-msgstr ""
+msgstr "SA-LinkingSegmentationAlignment.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:695
+#, fuzzy
 msgid "[17]"
-msgstr ""
+msgstr "[17]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:695
 msgid "Simple Analytic Mechanisms"
-msgstr ""
+msgstr "単純な分析メカニズム"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:696
+#, fuzzy
 msgid "AI-AnalyticMechanisms.xml"
-msgstr ""
+msgstr "AI-AnalyticMechanisms.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:698
+#, fuzzy
 msgid "[18]"
-msgstr ""
+msgstr "[18]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:698
 msgid "Feature Structures"
-msgstr ""
+msgstr "素性構造"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:699
+#, fuzzy
 msgid "FS-FeatureStructures.xml"
-msgstr ""
+msgstr "FS-FeatureStructures.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:701
+#, fuzzy
 msgid "[19]"
-msgstr ""
+msgstr "[19]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:701
 msgid "Graphs, Networks, and Trees"
-msgstr ""
+msgstr "グラフ、ネットワーク、木構造"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:702
+#, fuzzy
 msgid "GD-GraphsNetworksTrees.xml"
-msgstr ""
+msgstr "GD-GraphsNetworksTrees.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:704
+#, fuzzy
 msgid "[20]"
-msgstr ""
+msgstr "[20]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:704
 msgid "Non-hierarchical Structures"
-msgstr ""
+msgstr "非階層的構造"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:705
+#, fuzzy
 msgid "NH-Non-hierarchical.xml"
-msgstr ""
+msgstr "NH-Non-hierarchical.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:707
+#, fuzzy
 msgid "[21]"
-msgstr ""
+msgstr "[21]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:707
 msgid "Certainty, Precision, and Responsibility"
-msgstr ""
+msgstr "確かさ、正確さ、信頼性"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:708
+#, fuzzy
 msgid "CE-CertaintyResponsibility.xml"
-msgstr ""
+msgstr "CE-CertaintyResponsibility.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:710
+#, fuzzy
 msgid "[22]"
-msgstr ""
+msgstr "[22]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:710
 msgid "Documentation Elements"
-msgstr ""
+msgstr "ドキュメンテーション用要素"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:711
+#, fuzzy
 msgid "TD-DocumentationElements.xml"
-msgstr ""
+msgstr "TD-DocumentationElements.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:713
+#, fuzzy
 msgid "[23]"
-msgstr ""
+msgstr "[23]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:713
 msgid "Using the TEI"
-msgstr ""
+msgstr "TEIを使う"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:714
+#, fuzzy
 msgid "USE.xml"
-msgstr ""
+msgstr "USE.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:716
+#, fuzzy
 msgid "[A1]"
-msgstr ""
+msgstr "[A1]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:716
 msgid "Model Classes"
-msgstr ""
+msgstr "モデルクラス"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:717
+#, fuzzy
 msgid "REF-CLASSES-MODEL.xml"
-msgstr ""
+msgstr "REF-CLASSES-MODEL.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:719
+#, fuzzy
 msgid "[A2]"
-msgstr ""
+msgstr "[A2]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:719
 msgid "Attribute Classes"
-msgstr ""
+msgstr "属性クラス"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:720
+#, fuzzy
 msgid "REF-CLASSES-ATTS.xml"
-msgstr ""
+msgstr "REF-CLASSES-ATTS.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:722
+#, fuzzy
 msgid "[A3]"
-msgstr ""
+msgstr "[A3]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:722
 msgid "Elements"
-msgstr ""
+msgstr "要素"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:723
+#, fuzzy
 msgid "REF-ELEMENTS.xml"
-msgstr ""
+msgstr "REF-ELEMENTS.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:725
+#, fuzzy
 msgid "[A4]"
-msgstr ""
+msgstr "[A4]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:725
 msgid "Attributes"
-msgstr ""
+msgstr "属性"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:726
+#, fuzzy
 msgid "REF-ATTRIBUTES.xml"
-msgstr ""
+msgstr "REF-ATTRIBUTES.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:728
+#, fuzzy
 msgid "[A5]"
-msgstr ""
+msgstr "[A5]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:728
 msgid "Datatypes and Other Macros"
-msgstr ""
+msgstr "データ型とその他のマクロ"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:729
+#, fuzzy
 msgid "REF-MACROS.xml"
-msgstr ""
+msgstr "REF-MACROS.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:731
+#, fuzzy
 msgid "[A6]"
-msgstr ""
+msgstr "[A6]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:731
 msgid "Bibliography"
-msgstr ""
+msgstr "書誌一覧"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:734
+#, fuzzy
 msgid "[A7]"
-msgstr ""
+msgstr "[A7]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:734
 msgid "Prefatory Notes"
-msgstr ""
+msgstr "序文ノート"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:735
+#, fuzzy
 msgid "PrefatoryNote.xml"
-msgstr ""
+msgstr "PrefatoryNote.xml"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:737
+#, fuzzy
 msgid "[A8]"
-msgstr ""
+msgstr "[A8]"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:737
 msgid "Colophon"
-msgstr ""
+msgstr "奥付"
 
 #. (itstool) path: row/cell
 #: tcw20.xml:738
+#, fuzzy
 msgid "COL-Colophon.xml"
-msgstr ""
+msgstr "COL-Colophon.xml"
 
 #. (itstool) path: div/p
 #: tcw20.xml:620
 msgid "The following table shows the correspondence between the printed organization of the Guidelines and the corresponding filenames. The order is determined by the driver file <_:ident-1/>, from which the table is derived. <_:table-2/>"
 msgstr ""
+"次の表はビルドされたガイドラインの章構成と、それに対応するソースファイル名を示したものです。順序は表の元となったドライバーファイル <_:ident-1/"
+"> によっています。<_:table-2/>"
 
 #. (itstool) path: p/gi
 #. (itstool) path: item/gi
 #: tcw20.xml:741 tcw20.xml:742 tcw20.xml:771
+#, fuzzy
 msgid "div"
-msgstr ""
+msgstr "div"
 
 #. (itstool) path: div/p
 #: tcw20.xml:740
 msgid "In most chapters, the two character code is also used as a prefix for the <_:att-1/> values given to each <_:gi-2/> element. Note that every <_:gi-3/> element carries an <_:att-4/> value, whether or not it is actually referenced explicitly elewhere in the Guidelines."
 msgstr ""
+"ほとんどの章では、この2文字のコードは、各 <_:gi-2/> 要素における <_:att-1/> の値の接頭辞としても使われています。すべての <_:"
+"gi-3/> 要素は、それが明示的にガイドラインのどこかを参照しているかどうかに関わらず、<_:att-4/> 値を伴うことに注意してください。"
 
 #. (itstool) path: p/code
 #: tcw20.xml:746
+#, fuzzy
 msgid "REF"
-msgstr ""
+msgstr "REF"
 
 #. (itstool) path: div/p
 #: tcw20.xml:746
 msgid "Note that files with names beginning <_:code-1/> contain only <_:gi-2/> elements: their content, which provides the reference documentation (sections A1 to A5 inclusive), is automatically generated during the build process."
 msgstr ""
+"ファイル名が <_:code-1/> から始まるファイルには、<_:gi-2/> 要素だけが含まれることに注意してください。リファレンスドキュメント（これ"
+"にはセクションA1からA5が含まれます）となる実際の文章は、ビルドプロセスの間に自動的に生成されます。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:752
 msgid "Naming conventions"
-msgstr ""
+msgstr "命名規約"
 
 #. (itstool) path: div/p
 #: tcw20.xml:753
