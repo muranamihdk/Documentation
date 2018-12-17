@@ -29,6 +29,21 @@ fi
 
 echo
 
+while :
+do
+ if [ $(curl \
+  -s \
+  -H "Authorization: Token 4uQDi24YSNEYgpxkkTvwdk7z9gZYupXiUvcxyccT" \
+  http://www3420ue.sakura.ne.jp:8080/api/projects/tcw/repository/ \
+ | jq -r '.needs_push') = true ]
+ then
+   echo "Waiting for Weblate to push changes..."
+   sleep 3
+ else
+  break
+ fi
+done
+
 echo "git pull origin localize_ja"
 git pull origin localize_ja
 echo
