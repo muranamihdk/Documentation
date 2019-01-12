@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2019-01-12 06:27+0000\n"
+"PO-Revision-Date: 2019-01-12 06:44+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -440,7 +440,7 @@ msgstr "一般"
 #. (itstool) path: p/ref
 #: tcw20.xml:180
 msgid "Style Guide for Editing the TEI Guidelines"
-msgstr "TEI ガイドラインの編集のためのスタイルガイド"
+msgstr "TEI ガイドライン編集のためのスタイルガイド"
 
 #. (itstool) path: div/p
 #: tcw20.xml:180
