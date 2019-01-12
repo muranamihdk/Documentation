@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-24 22:26+0900\n"
-"PO-Revision-Date: 2018-11-26 00:31+0000\n"
+"PO-Revision-Date: 2019-01-12 06:44+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Weblate 3.3\n"
 
 #. (itstool) path: titleStmt/title
 #: tcw22.xml:6
@@ -53,12 +53,13 @@ msgstr "Hugh Cayless"
 #. (itstool) path: publicationStmt/publisher
 #: tcw22.xml:15
 msgid "TEI Technical Council"
-msgstr ""
+msgstr "TEI 技術評議会"
 
 #. (itstool) path: publicationStmt/date
 #: tcw22.xml:16
+#, fuzzy
 msgid "2018"
-msgstr ""
+msgstr "2018"
 
 #. (itstool) path: sourceDesc/p
 #: tcw22.xml:19
