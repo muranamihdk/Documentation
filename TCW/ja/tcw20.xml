@@ -576,27 +576,13 @@ In order to do that, we have to use the "detest" system. In <ident>trunk/P5/Test
             <label>一般的な識別子</label>
             <item>要素と属性の識別子は可能な限り自然言語の一つの単語を小文字表記したものでなければなりません。名前を複数の単語の結合で構成する場合は、ふたつ目以降のそれぞれの単語の先頭の文字は大文字でなければなりません。ハイフンやアンダースコアやドットなどは要素や属性の名前の中では使いません。</item>
             <label>クラス名</label>
-            <item>Class names are made up three parts: a name, constructed like an element name,
-              with a prefix and optionally a suffix. The prefix is one of <code>model.</code> or
-                <code>att.</code> and indicates whether this is a model or an attribute class. The
-              suffix, if present, is used to indicate subclassing: for example
-                <ident>att.linking.foo</ident> is the <ident>foo</ident> subclass of the attribute
-              class <ident>att.linking</ident></item>
-            <label>xml:id values</label>
-            <item>The conventions for these vary somewhat. Most of the older chapters of the
-              guidelines have consistently constructed identifiers, derived from the individual
-              section headings. Identifiers must be provided for:<list>
-                <item>every <gi>div</gi>, whether or not it is explicitly linked to elsewhere</item>
-                <item>every bibliographic reference in the <ident>BIB-Bibliography.xml</ident> file</item>
-              </list></item>
+            <item>クラス名は次の3つの部分から成ります。要素名と同様に構成された名前、それに付随する接頭辞、そして場合によっては接尾辞、です。接頭辞は <code>model.</code> か <code>att.</code> かのいずれかです。このクラスがモデルクラスか、それとも属性クラスかを示します。接尾辞が存在する場合、これはサブクラスを示します。例えば <ident>att.linking.foo</ident> は属性クラス <ident>att.linking</ident> のサブクラスである <ident>foo</ident> です。</item>
+            <label>xml:id の値</label>
+            <item>この値のための規約はいくぶん異なっています。比較的古いガイドラインの章のほとんどでは、常に個々のセクションの見出しから派生して、識別子を形作ってきました。識別子をつけなければいけないのは以下の2つです。</item>
           </list>
         </div>
-<div xml:id="fileOrg"><head>File release structure</head>
-<p>
-Currently, the organisation of the <code>/usr/share/xml/tei</code> and
-<code>/usr/share/doc/tei-*</code> directories on the TEI web site is
-as follows:
-<eg>
+<div xml:id="fileOrg"><head>リリースファイルの構成</head>
+<p>現在、TEI ウェブサイトの <code>/usr/share/xml/tei</code> ディレクトリと <code>/usr/share/doc/tei-*</code> ディレクトリの構成は、以下のようになっています。 <eg>
 tei
 |-- Test
 |-- custom
@@ -723,8 +709,7 @@ tei
 |   `-- xhtml2
 `-- xquery
 
-</eg>
-</p></div>
+</eg></p></div>
 
       </div>
     </body>

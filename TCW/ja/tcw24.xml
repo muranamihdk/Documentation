@@ -109,7 +109,7 @@ $LastChangedRevision: 0001$
             suffix, if present, is used to indicate subclassing. For example
             <ident>att.linking.foo</ident> is the <ident>foo</ident> subclass of the attribute
             class <ident>att.linking</ident></item>
-          <label>xml:id values</label>
+          <label>xml:id の値</label>
           <item>The conventions for these vary somewhat. Most of the older chapters of the
             guidelines have consistently constructed identifiers, derived from the individual
             section headings. Identifiers must be provided for:- <list>
