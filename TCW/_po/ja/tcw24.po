@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-24 22:27+0900\n"
-"PO-Revision-Date: 2019-01-12 06:23+0000\n"
+"PO-Revision-Date: 2019-01-12 06:44+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -15,79 +15,104 @@ msgstr ""
 #. (itstool) path: titleStmt/title
 #: tcw24.xml:11
 msgid "Style Guide for Editing the TEI Guidelines"
-msgstr ""
+msgstr "TEI ガイドライン編集のためのスタイルガイド"
 
 #. (itstool) path: titleStmt/author
 #. (itstool) path: publicationStmt/publisher
 #: tcw24.xml:12
 #: tcw24.xml:15
 msgid "TEI Technical Council"
-msgstr ""
+msgstr "TEI 技術評議会"
 
 #. (itstool) path: publicationStmt/date
 #: tcw24.xml:16
+#, fuzzy
 msgid "2018"
-msgstr ""
+msgstr "2018"
 
 #. (itstool) path: sourceDesc/p
 #: tcw24.xml:19
+#, fuzzy
 msgid "The first draft of this document was created by moving the \"House Style: preferred orthography\" and \"House Style: notes on usage\" sections from TCW20, \"How to Edit the TEI Guidelines\" to their own document, TCW24, which will serve as a full style guide for the Guidelines."
 msgstr ""
+"The first draft of this document was created by moving the \"House Style: "
+"preferred orthography\" and \"House Style: notes on usage\" sections from "
+"TCW20, \"How to Edit the TEI Guidelines\" to their own document, TCW24, "
+"which will serve as a full style guide for the Guidelines."
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:26
+#, fuzzy
 msgid "Added section on modal verbs"
-msgstr ""
+msgstr "Added section on modal verbs"
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:27
+#, fuzzy
 msgid "Added egXML guidance"
-msgstr ""
+msgstr "Added egXML guidance"
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:28
+#, fuzzy
 msgid "Link to BCP 14"
-msgstr ""
+msgstr "Link to BCP 14"
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:29
+#, fuzzy
 msgid "Fixed ptrs"
-msgstr ""
+msgstr "Fixed ptrs"
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:30
+#, fuzzy
 msgid "\"TEI header\" is preferred"
-msgstr ""
+msgstr "\"TEI header\" is preferred"
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:31
+#, fuzzy
 msgid "Explained -ize vs. -ise. Also a markup fix."
-msgstr ""
+msgstr "Explained -ize vs. -ise. Also a markup fix."
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:32
+#, fuzzy
 msgid "desc's for attributes should also be verbal phrases"
-msgstr ""
+msgstr "desc's for attributes should also be verbal phrases"
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:33
+#, fuzzy
 msgid "Added note about desc elements containing verbal phrases; some light copyediting"
 msgstr ""
+"Added note about desc elements containing verbal phrases; some light "
+"copyediting"
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:35
+#, fuzzy
 msgid "Adding prose about use of first-person/\"we\" and second-person/\"you\" in the Guidelines."
 msgstr ""
+"Adding prose about use of first-person/\"we\" and second-person/\"you\" in "
+"the Guidelines."
 
 #. (itstool) path: revisionDesc/change
 #: tcw24.xml:37
+#, fuzzy
 msgid "started first draft: moving sections from TCW20, \"How to Edit the TEI Guidelines\" to their own document. Re-ordered some sections, proofread, added some examples, and added discussion of hyphenation."
 msgstr ""
+"started first draft: moving sections from TCW20, \"How to Edit the TEI "
+"Guidelines\" to their own document. Re-ordered some sections, proofread, "
+"added some examples, and added discussion of hyphenation."
 
 #. (itstool) path: body/p
 #: tcw24.xml:44
 msgid "This document aims to capture decisions about House Style for writing and editing the TEI Guidelines, in order to maintain consistency throughout the Guidelines."
 msgstr ""
+"この文書の目的は、TEI "
+"ガイドラインの全体にわたって一貫性を維持するために、ガイドラインを執筆し編集するための、内部スタイルの取り決めを記録することです。"
 
 #. (itstool) path: div/head
 #: tcw24.xml:47
