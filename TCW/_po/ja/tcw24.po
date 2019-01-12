@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2018-11-24 22:27+0900\n"
-"PO-Revision-Date: 2018-12-17 15:00+0000\n"
+"PO-Revision-Date: 2019-01-12 06:23+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -257,7 +257,7 @@ msgstr ""
 #. (itstool) path: list/label
 #: tcw24.xml:112
 msgid "xml:id values"
-msgstr ""
+msgstr "xml:id の値"
 
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
@@ -270,7 +270,7 @@ msgstr "div"
 #. (itstool) path: list/item
 #: tcw24.xml:116
 msgid "every <_:gi-1/>, whether or not it is explicitly linked to elsewhere"
-msgstr ""
+msgstr "すべての <_:gi-1/> （明示的に別の箇所にリンクしているかどうかに関わらず）"
 
 #. (itstool) path: item/ident
 #: tcw24.xml:117
@@ -280,7 +280,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: tcw24.xml:117
 msgid "every bibliographic reference in the <_:ident-1/> file"
-msgstr ""
+msgstr "<_:ident-1/>ファイル内のすべての書誌参照"
 
 #. (itstool) path: list/item
 #: tcw24.xml:113
