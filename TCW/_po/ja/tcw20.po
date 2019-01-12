@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2019-01-12 06:23+0000\n"
+"PO-Revision-Date: 2019-01-12 06:27+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -2224,7 +2224,7 @@ msgstr "<_:ident-1/>ファイル内のすべての書誌参照"
 msgid "The conventions for these vary somewhat. Most of the older chapters of the guidelines have consistently constructed identifiers, derived from the individual section headings. Identifiers must be provided for:<_:list-1/>"
 msgstr ""
 "この値のための規約はいくぶん異なっています。比較的古いガイドラインの章のほとんどでは、常に個々のセクションの見出しから派生して、識別子を形作ってきました。"
-"識別子をつけなければいけないのは以下の2つです。"
+"識別子をつけなければいけないのは以下の2つです。<_:list-1/>"
 
 #. (itstool) path: div/head
 #: tcw20.xml:776
