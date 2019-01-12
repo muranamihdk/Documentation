@@ -8,11 +8,11 @@ $LastChangedRevision: 0001$
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Style Guide for Editing the TEI Guidelines</title>
-        <author>TEI Technical Council</author>
+        <title>TEI ガイドライン編集のためのスタイルガイド</title>
+        <author>TEI 技術評議会</author>
       </titleStmt>
       <publicationStmt>
-        <publisher>TEI Technical Council</publisher>
+        <publisher>TEI 技術評議会</publisher>
         <date>2018</date>
       </publicationStmt>
       <sourceDesc>
@@ -41,8 +41,7 @@ $LastChangedRevision: 0001$
   </teiHeader>
   <text>
     <body>
-      <p>This document aims to capture decisions about House Style for writing and editing the TEI
-        Guidelines, in order to maintain consistency throughout the Guidelines.</p>
+      <p>この文書の目的は、TEI ガイドラインの全体にわたって一貫性を維持するために、ガイドラインを執筆し編集するための、内部スタイルの取り決めを記録することです。</p>
       <div xml:id="house-style-tone-and-voice">
         <head>Tone and voice</head>
         <p>The Guidelines are a reference manual, not a tutorial. You should not talk down to the
