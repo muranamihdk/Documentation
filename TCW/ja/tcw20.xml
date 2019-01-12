@@ -578,7 +578,10 @@ In order to do that, we have to use the "detest" system. In <ident>trunk/P5/Test
             <label>クラス名</label>
             <item>クラス名は次の3つの部分から成ります。要素名と同様に構成された名前、それに付随する接頭辞、そして場合によっては接尾辞、です。接頭辞は <code>model.</code> か <code>att.</code> かのいずれかです。このクラスがモデルクラスか、それとも属性クラスかを示します。接尾辞が存在する場合、これはサブクラスを示します。例えば <ident>att.linking.foo</ident> は属性クラス <ident>att.linking</ident> のサブクラスである <ident>foo</ident> です。</item>
             <label>xml:id の値</label>
-            <item>この値のための規約はいくぶん異なっています。比較的古いガイドラインの章のほとんどでは、常に個々のセクションの見出しから派生して、識別子を形作ってきました。識別子をつけなければいけないのは以下の2つです。</item>
+            <item>この値のための規約はいくぶん異なっています。比較的古いガイドラインの章のほとんどでは、常に個々のセクションの見出しから派生して、識別子を形作ってきました。識別子をつけなければいけないのは以下の2つです。<list>
+                <item>すべての <gi>div</gi> （明示的に別の箇所にリンクしているかどうかに関わらず）</item>
+                <item><ident>BIB-Bibliography.xml</ident>ファイル内のすべての書誌参照</item>
+              </list></item>
           </list>
         </div>
 <div xml:id="fileOrg"><head>リリースファイルの構成</head>
