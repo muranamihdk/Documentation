@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2018-12-17 15:00+0000\n"
+"PO-Revision-Date: 2019-01-12 06:23+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -2199,51 +2199,87 @@ msgstr ""
 #: tcw20.xml:761
 msgid "Class names are made up three parts: a name, constructed like an element name, with a prefix and optionally a suffix. The prefix is one of <_:code-1/> or <_:code-2/> and indicates whether this is a model or an attribute class. The suffix, if present, is used to indicate subclassing: for example <_:ident-3/> is the <_:ident-4/> subclass of the attribute class <_:ident-5/>"
 msgstr ""
+"クラス名は次の3つの部分から成ります。要素名と同様に構成された名前、それに付随する接頭辞、そして場合によっては接尾辞、です。接頭辞は <_:code-1/"
+"> か <_:code-2/> "
+"かのいずれかです。このクラスがモデルクラスか、それとも属性クラスかを示します。接尾辞が存在する場合、これはサブクラスを示します。例えば <_:"
+"ident-3/> は属性クラス <_:ident-5/> のサブクラスである <_:ident-4/> です。"
 
 #. (itstool) path: list/label
 #: tcw20.xml:767
 msgid "xml:id values"
-msgstr ""
+msgstr "xml:id の値"
 
 #. (itstool) path: list/item
 #: tcw20.xml:771
 msgid "every <_:gi-1/>, whether or not it is explicitly linked to elsewhere"
-msgstr ""
+msgstr "すべての <_:gi-1/> （明示的に別の箇所にリンクしているかどうかに関わらず）"
 
 #. (itstool) path: list/item
 #: tcw20.xml:772
 msgid "every bibliographic reference in the <_:ident-1/> file"
-msgstr ""
+msgstr "<_:ident-1/>ファイル内のすべての書誌参照"
 
 #. (itstool) path: list/item
 #: tcw20.xml:768
 msgid "The conventions for these vary somewhat. Most of the older chapters of the guidelines have consistently constructed identifiers, derived from the individual section headings. Identifiers must be provided for:<_:list-1/>"
 msgstr ""
+"この値のための規約はいくぶん異なっています。比較的古いガイドラインの章のほとんどでは、常に個々のセクションの見出しから派生して、識別子を形作ってきました。"
+"識別子をつけなければいけないのは以下の2つです。"
 
 #. (itstool) path: div/head
 #: tcw20.xml:776
 msgid "File release structure"
-msgstr ""
+msgstr "リリースファイルの構成"
 
 #. (itstool) path: p/code
 #: tcw20.xml:778
+#, fuzzy
 msgid "/usr/share/xml/tei"
-msgstr ""
+msgstr "/usr/share/xml/tei"
 
 #. (itstool) path: p/code
 #: tcw20.xml:779
+#, fuzzy
 msgid "/usr/share/doc/tei-*"
-msgstr ""
+msgstr "/usr/share/doc/tei-*"
 
 #. (itstool) path: p/eg
 #: tcw20.xml:781
+#, fuzzy
 msgid "tei |-- Test |-- custom | |-- odd | |-- schema | | |-- dtd | | |-- relaxng | | `-- xsd | `-- templates |-- odd | |-- Exemplars | |-- ReleaseNotes | |-- Source | | |-- Guidelines | | | |-- en | | | | `-- Images | | | `-- fr | | | `-- Images | | |-- Images | | `-- Specs | | |-- 18decembre | | `-- exemples | |-- Utilities | `-- webnav | `-- icons |-- schema | |-- dtd | `-- relaxng |-- stylesheet | |-- common | |-- common2 | |-- docx | | |-- from | | | |-- dynamic | | | | `-- tests | | | | `-- xspec | | | |-- graphics | | | |-- lists | | | |-- marginals | | | |-- maths | | | |-- paragraphs | | | |-- pass0 | | | |-- pass2 | | | |-- tables | | | |-- templates | | | |-- textruns | | | |-- utils | | | `-- wordsections | | |-- misc | | |-- to | | | |-- docxfiles | | | |-- drama | | | |-- dynamic | | | |-- graphics | | | |-- lists | | | |-- maths | | | |-- templates | | | `-- wordsections | | `-- utils | | |-- graphics | | |-- identity | | |-- maths | | `-- verbatim | |-- epub | |-- fo | |-- fo2 | |-- html | |-- latex | |-- latex2 | |-- nlm | |-- odds | |-- odds2 | |-- oo | |-- profiles | | |-- bodley | | | `-- epub | | |-- default | | | |-- csv | | | |-- docbook | | | |-- docx | | | |-- dtd | | | |-- epub | | | |-- fo | | | |-- html | | | |-- latex | | | |-- lite | | | |-- oddhtml | | | |-- oo | | | |-- p4 | | | `-- relaxng | | |-- enrich | | | |-- docx | | | |-- fo | | | |-- html | | | `-- latex | | |-- iso | | | |-- docx | | | | `-- model | | | |-- epub | | | |-- fo | | | |-- html | | | |-- latex | | | |-- schema | | | `-- tbx | | |-- ota | | | |-- epub | | | `-- html | | |-- oucs | | | |-- docx | | | |-- epub | | | `-- p4 | | |-- oucscourses | | | `-- docx | | |-- podcasts | | | |-- docx | | | `-- epub | | `-- tei | | `-- epub | |-- slides | |-- slides2 | |-- tite | |-- tools2 | |-- xhtml | `-- xhtml2 `-- xquery"
 msgstr ""
+"tei |-- Test |-- custom | |-- odd | |-- schema | | |-- dtd | | |-- relaxng | "
+"| `-- xsd | `-- templates |-- odd | |-- Exemplars | |-- ReleaseNotes | |-- "
+"Source | | |-- Guidelines | | | |-- en | | | | `-- Images | | | `-- fr | | | "
+"`-- Images | | |-- Images | | `-- Specs | | |-- 18decembre | | `-- exemples |"
+" |-- Utilities | `-- webnav | `-- icons |-- schema | |-- dtd | `-- relaxng "
+"|-- stylesheet | |-- common | |-- common2 | |-- docx | | |-- from | | | |-- "
+"dynamic | | | | `-- tests | | | | `-- xspec | | | |-- graphics | | | |-- "
+"lists | | | |-- marginals | | | |-- maths | | | |-- paragraphs | | | |-- "
+"pass0 | | | |-- pass2 | | | |-- tables | | | |-- templates | | | |-- "
+"textruns | | | |-- utils | | | `-- wordsections | | |-- misc | | |-- to | | |"
+" |-- docxfiles | | | |-- drama | | | |-- dynamic | | | |-- graphics | | | |--"
+" lists | | | |-- maths | | | |-- templates | | | `-- wordsections | | `-- "
+"utils | | |-- graphics | | |-- identity | | |-- maths | | `-- verbatim | |-- "
+"epub | |-- fo | |-- fo2 | |-- html | |-- latex | |-- latex2 | |-- nlm | |-- "
+"odds | |-- odds2 | |-- oo | |-- profiles | | |-- bodley | | | `-- epub | | "
+"|-- default | | | |-- csv | | | |-- docbook | | | |-- docx | | | |-- dtd | | "
+"| |-- epub | | | |-- fo | | | |-- html | | | |-- latex | | | |-- lite | | | "
+"|-- oddhtml | | | |-- oo | | | |-- p4 | | | `-- relaxng | | |-- enrich | | | "
+"|-- docx | | | |-- fo | | | |-- html | | | `-- latex | | |-- iso | | | |-- "
+"docx | | | | `-- model | | | |-- epub | | | |-- fo | | | |-- html | | | |-- "
+"latex | | | |-- schema | | | `-- tbx | | |-- ota | | | |-- epub | | | `-- "
+"html | | |-- oucs | | | |-- docx | | | |-- epub | | | `-- p4 | | |-- "
+"oucscourses | | | `-- docx | | |-- podcasts | | | |-- docx | | | `-- epub | |"
+" `-- tei | | `-- epub | |-- slides | |-- slides2 | |-- tite | |-- tools2 | "
+"|-- xhtml | `-- xhtml2 `-- xquery"
 
 #. (itstool) path: div/p
 #: tcw20.xml:777
 msgid "Currently, the organisation of the <_:code-1/> and <_:code-2/> directories on the TEI web site is as follows: <_:eg-3/>"
 msgstr ""
+"現在、TEI ウェブサイトの <_:code-1/> ディレクトリと <_:code-2/> ディレクトリの構成は、以下のようになっています。 <_:"
+"eg-3/>"
 
 #. (itstool) path: div/head
 #: tcw20.xml:915
