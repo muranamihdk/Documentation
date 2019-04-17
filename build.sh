@@ -1,4 +1,4 @@
-cd ~/tei/Documentation/
+cd `dirname $0`
 
 echo "git checkout localize_ja"
 git checkout localize_ja
