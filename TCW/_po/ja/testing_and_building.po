@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-10-29 16:00+0900\n"
+"POT-Creation-Date: 2019-04-17 23:08+0900\n"
 "PO-Revision-Date: 2018-12-09 13:31+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
@@ -13,268 +13,473 @@ msgstr ""
 "X-Generator: Weblate 3.2.2\n"
 
 #. (itstool) path: titleStmt/title
-#: testing_and_building.xml:9
+#: TCW/testing_and_building.xml:9
 msgid "Building and Testing the TEI Guidelines and Stylesheets"
 msgstr "TEI ガイドラインとスタイルシートをビルドしてテストする"
 
 #. (itstool) path: titleStmt/author
-#: testing_and_building.xml:10
+#: TCW/testing_and_building.xml:10
 #, fuzzy
 msgid "Hugh Cayless"
 msgstr "Hugh Cayless"
 
 #. (itstool) path: publicationStmt/publisher
-#: testing_and_building.xml:13
+#: TCW/testing_and_building.xml:13
 msgid "TEI Technical Council"
 msgstr "TEI 技術評議会"
 
 #. (itstool) path: publicationStmt/date
-#: testing_and_building.xml:14
+#: TCW/testing_and_building.xml:14
 #, fuzzy
 msgid "2016"
 msgstr "2016"
 
 #. (itstool) path: sourceDesc/p
-#: testing_and_building.xml:17
+#: TCW/testing_and_building.xml:17
 msgid "Born digital document."
 msgstr "この文書は電子版が原本（ボーン・デジタル）である。"
 
 #. (itstool) path: div/head
-#: testing_and_building.xml:24
+#: TCW/testing_and_building.xml:24
 msgid "How to build and test the Guidelines and Stylesheets"
 msgstr "ガイドラインとスタイルシートをビルドしてテストする方法"
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:25
-msgid "Getting set up to run the various building and testing targets in the Guidelines and Stylesheets is relatively easy in Debian Linuxes like Ubuntu. But it is quite tricky on other systems, like Mac OS X or Windows. The TEI Jenkins server will run a variety of builds when you push changes to the TEI or Stylesheets repos, but you may find you prefer to run the tests locally, as they will likely be faster and will save you the trouble of waiting for Jenkins to email you when it finds a problem. Moreover, if you’re doing work in a branch, Jenkins won’t help you at all, and it can be very useful to “check your work” as you go to avoid lots of bug-fixing when your merge back into dev."
-msgstr "ガイドラインとスタイルシートを色々とビルドしてテストするための環境を用意するのは、Ubuntu などの Debian Linux では比較的簡単です。しかし Mac OS X や Windows といったそれ以外のシステムでは、かなり手の込んだ作業が必要になります。TEI あるいは Stylesheet リポジトリに変更が加えられると、TEI Jenkins サーバでさまざまなビルドが行われますが、自分のマシンでテストを実行した方がよいかもしれません。というのも、おそらくその方が実行も速いでしょうし、問題が見つかったときに Jenkins からメールが届くのを待っている時間も節約してくれるからです。それだけでなく、作業用ブランチでの変更については Jenkins はまったく関知しませんし、かといって dev ブランチにマージした後で大量のバグを直すハメになるのは避けたいところです。ですから自分でまず作業結果をチェックするのはとても有益でしょう。"
+#: TCW/testing_and_building.xml:25
+#, fuzzy
+msgid ""
+"Getting set up to run the various building and testing targets in the "
+"Guidelines and Stylesheets is relatively easy in Debian-based Linuxes like "
+"Ubuntu. But it is quite tricky on other systems, like Mac OS X or Windows. "
+"The TEI Jenkins server will run a variety of builds when you push changes to "
+"the TEI or Stylesheets repos, but you may find you prefer to run the tests "
+"locally, as they will likely be faster and will save you the trouble of "
+"waiting for Jenkins to email you when it finds a problem. Moreover, if "
+"you’re doing work in a branch, Jenkins won’t help you at all, and it can be "
+"very useful to “check your work” as you go to avoid lots of bug-fixing when "
+"your merge back into dev."
+msgstr ""
+"ガイドラインとスタイルシートを色々とビルドしてテストするための環境を用意する"
+"のは、Ubuntu などの Debian Linux では比較的簡単です。しかし Mac OS X や "
+"Windows といったそれ以外のシステムでは、かなり手の込んだ作業が必要になりま"
+"す。TEI あるいは Stylesheet リポジトリに変更が加えられると、TEI Jenkins サー"
+"バでさまざまなビルドが行われますが、自分のマシンでテストを実行した方がよいか"
+"もしれません。というのも、おそらくその方が実行も速いでしょうし、問題が見つ"
+"かったときに Jenkins からメールが届くのを待っている時間も節約してくれるからで"
+"す。それだけでなく、作業用ブランチでの変更については Jenkins はまったく関知し"
+"ませんし、かといって dev ブランチにマージした後で大量のバグを直すハメになるの"
+"は避けたいところです。ですから自分でまず作業結果をチェックするのはとても有益"
+"でしょう。"
 
 #. (itstool) path: p/ref
-#: testing_and_building.xml:40
+#: TCW/testing_and_building.xml:40
 #, fuzzy
 msgid "Learn Enough Command Line to Be Dangerous"
 msgstr "Learn Enough Command Line to Be Dangerous"
 
 #. (itstool) path: p/ref
-#: testing_and_building.xml:43
+#: TCW/testing_and_building.xml:43
 #, fuzzy
 msgid "How to Install and Use the Linux Bash Shell on Windows 10"
 msgstr "How to Install and Use the Linux Bash Shell on Windows 10"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:45
+#: TCW/testing_and_building.xml:45
 #, fuzzy
 msgid "git clone git@github.com:TEIC/TEI.git"
 msgstr "git clone git@github.com:TEIC/TEI.git"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:46
+#: TCW/testing_and_building.xml:46
 #, fuzzy
 msgid "git clone git@github.com:TEIC/Stylesheets.git"
 msgstr "git clone git@github.com:TEIC/Stylesheets.git"
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:33
-msgid "The first step in setting up your development and testing environment is to get copies of the TEI and Stylesheets repositories. These can be obtained from <_:ptr-1/> and <_:ptr-2/> respectively. All of the following instructions assume you are at least somewhat comfortable working in a command line environment. If you aren’t, this would be a good time to learn. A rather Mac-biased tutorial may be found at “<_:ref-3/>”, while Windows 10 users may learn how to install a Bash shell and the basics of using it at “<_:ref-4/>”. Once you’re in a terminal window, you can clone the TEI repos thus: <_:lb-5/><_:code-6/> and <_:lb-7/><_:code-8/>"
-msgstr "自分用の開発・テスト環境を構築するための第一歩は、TEI および Stylesheet リポジトリのコピーを入手することです。これらは <_:ptr-1/> と <_:ptr-2/> からそれぞれ入手することができます。ここから先の手順説明はすべて、少なくともある程度コマンドラインでの作業に慣れているものと仮定しています。そうでないならばこれが学ぶよい機会かもしれません。Mac に偏ったチュートリアルですが “<_:ref-3/>” があります。Windows 10 ユーザなら “<_:ref-4/>” で Bash シェルのインストール方法とその使い方の基本を学ぶことができるでしょう。さてターミナルのウィンドウを開いたら、次のコマンドで TEI のリポジトリを複製することができます。<_:lb-5/><_:code-6/>  <_:lb-7/><_:code-8/>"
+#: TCW/testing_and_building.xml:33
+msgid ""
+"The first step in setting up your development and testing environment is to "
+"get copies of the TEI and Stylesheets repositories. These can be obtained "
+"from <_:ptr-1/> and <_:ptr-2/> respectively. All of the following "
+"instructions assume you are at least somewhat comfortable working in a "
+"command line environment. If you aren’t, this would be a good time to learn. "
+"A rather Mac-biased tutorial may be found at “<_:ref-3/>”, while Windows 10 "
+"users may learn how to install a Bash shell and the basics of using it at "
+"“<_:ref-4/>”. Once you’re in a terminal window, you can clone the TEI repos "
+"thus: <_:lb-5/><_:code-6/> and <_:lb-7/><_:code-8/>"
+msgstr ""
+"自分用の開発・テスト環境を構築するための第一歩は、TEI および Stylesheet リポ"
+"ジトリのコピーを入手することです。これらは <_:ptr-1/> と <_:ptr-2/> からそれ"
+"ぞれ入手することができます。ここから先の手順説明はすべて、少なくともある程度"
+"コマンドラインでの作業に慣れているものと仮定しています。そうでないならばこれ"
+"が学ぶよい機会かもしれません。Mac に偏ったチュートリアルですが “<_:ref-3/>” "
+"があります。Windows 10 ユーザなら “<_:ref-4/>” で Bash シェルのインストール方"
+"法とその使い方の基本を学ぶことができるでしょう。さてターミナルのウィンドウを"
+"開いたら、次のコマンドで TEI のリポジトリを複製することができます。<_:lb-5/"
+"><_:code-6/>  <_:lb-7/><_:code-8/>"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:49
+#: TCW/testing_and_building.xml:49
 #, fuzzy
 msgid "/Users/hcayless/Development/TEIC"
 msgstr "/Users/hcayless/Development/TEIC"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:59
+#: TCW/testing_and_building.xml:59
 #, fuzzy
 msgid "docker pull teic/teidev-docker"
 msgstr "docker pull teic/teidev-docker"
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:48
-msgid "It’s probably a good idea to keep these side-by-side. I put mine in a directory called: <_:code-1/>. As you will see, it’s a good idea to do this somewhere under the Users directory, whether you’re on Mac or Windows. If you’re running Ubuntu or some other Linux, you can put them where you like. Let’s assume you’ve got working copies of the TEI and Stylesheets repos, and that you’ve made some changes you’d like to test before you push them back up to GitHub and make them available to everyone. The TEI has set up a pre-built test environment in Docker that you can use. First, you should get Docker. On a Mac, go to <_:ptr-2/>, on Windows, <_:ptr-3/>, and on Linux, <_:ptr-4/>. Once you have docker installed, you can run <_:lb-5/><_:code-6/> <_:lb-7/>to grab a copy of the pre-built image."
+#: TCW/testing_and_building.xml:48
+#, fuzzy
+msgid ""
+"It’s probably a good idea to keep these side-by-side. I put mine in a "
+"directory called: <_:code-1/>. As you will see, it’s a good idea to do this "
+"somewhere under the Users directory, whether you’re on Mac or Windows. If "
+"you’re running Ubuntu or some other Linux, you can put them where you like. "
+"Let’s assume you’ve got working copies of the TEI and Stylesheets repos, and "
+"that you’ve made some changes you’d like to test before you push them back "
+"up to GitHub and make them available to everyone. The TEI has set up a pre-"
+"built test environment in Docker that you can use. First, you should get "
+"Docker Community Edition (CE). On a Mac, go to <_:ptr-2/>, on Windows, <_:"
+"ptr-3/>, and on Linux, choose your specific platform here: <_:ptr-4/>. "
+"Follow Docker’s “Get Started” instructions for your installation to "
+"configure Docker and include the TEI repositories in your Docker container. "
+"Once you have Docker installed and set up, you can run <_:lb-5/><_:code-6/> "
+"<_:lb-7/>to grab a copy of the pre-built image."
 msgstr ""
-"これらのリポジトリは同じディレクトリに保存するのがおそらくはよいでしょう。私は <_:code-1/> "
-"という名前のディレクトリに保存しています。この先わかるでしょうが、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu "
-"かその他の Linux を使用しているなら、好きなところでいいです。すでに TEI および Stylesheets "
-"リポジトリの作業用コピーを用意していて、そこで行われた変更を GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI "
-"では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境を入手してください。Mac なら <_:ptr-2/> で、"
-"Windowsなら <_:ptr-3/> で、Linuxなら <_:ptr-4/> で入手することができます。Docker "
-"をインストールしたら、次のコマンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<_:lb-5/><_:code-6/> <_:"
-"lb-7/>"
+"これらのリポジトリは同じディレクトリに保存するのがおそらくはよいでしょう。私"
+"は <_:code-1/> という名前のディレクトリに保存しています。この先わかるでしょう"
+"が、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu かそ"
+"の他の Linux を使用しているなら、好きなところでいいです。すでに TEI および "
+"Stylesheets リポジトリの作業用コピーを用意していて、そこで行われた変更を "
+"GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI "
+"では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境"
+"を入手してください。Mac なら <_:ptr-2/> で、Windowsなら <_:ptr-3/> で、Linux"
+"なら <_:ptr-4/> で入手することができます。Docker をインストールしたら、次のコ"
+"マンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<_:"
+"lb-5/><_:code-6/> <_:lb-7/>"
 
 #. (itstool) path: p/ref
-#: testing_and_building.xml:64
+#: TCW/testing_and_building.xml:63
 #, fuzzy
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:71
+#: TCW/testing_and_building.xml:70
 #, fuzzy
-msgid "docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ=America/New_York teic/teidev-docker"
+msgid ""
+"docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e "
+"TZ=America/New_York teic/teidev-docker"
 msgstr ""
-"docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ="
-"America/New_York teic/teidev-docker"
+"docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e "
+"TZ=America/New_York teic/teidev-docker"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:75 testing_and_building.xml:80
+#: TCW/testing_and_building.xml:74 TCW/testing_and_building.xml:79
 #, fuzzy
 msgid "/tei"
 msgstr "/tei"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:76
+#: TCW/testing_and_building.xml:75
 #, fuzzy
 msgid "-v"
 msgstr "-v"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:76
+#: TCW/testing_and_building.xml:75
 #, fuzzy
 msgid "cd tei"
 msgstr "cd tei"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:76
+#: TCW/testing_and_building.xml:75
 #, fuzzy
 msgid "ls"
 msgstr "ls"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:79
+#: TCW/testing_and_building.xml:78
 #, fuzzy
 msgid "local.mk"
 msgstr "local.mk"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:79
+#: TCW/testing_and_building.xml:78
 #, fuzzy
 msgid "TEI/P5"
 msgstr "TEI/P5"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:80
+#: TCW/testing_and_building.xml:79
 #, fuzzy
 msgid "cd TEI/P5"
 msgstr "cd TEI/P5"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:81
+#: TCW/testing_and_building.xml:80
 #, fuzzy
 msgid "echo \"XSL=/tei/Stylesheets\" &gt; local.mk"
 msgstr "echo \"XSL=/tei/Stylesheets\" &gt; local.mk"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:85
+#: TCW/testing_and_building.xml:84
 #, fuzzy
 msgid "exit"
 msgstr "exit"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:86 testing_and_building.xml:89
+#: TCW/testing_and_building.xml:85 TCW/testing_and_building.xml:88
 #, fuzzy
 msgid "docker start -ai tei"
 msgstr "docker start -ai tei"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:88
+#: TCW/testing_and_building.xml:87
 #, fuzzy
 msgid "teidocker"
 msgstr "teidocker"
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:61
-msgid "Now you’re ready to run your test environment. You’ll need a couple of pieces of information for Docker: the location of your repositories and your timezone. Your timezone can be looked up on <_:ref-1/>. You need it because the default timezone of the container is UTC, which will lead to strange warnings when you run the builds unless you actually happen to be in sync with UTC, because the local time of your computer will differ from that set in the container. The directory containing your repositories will be mapped to a directory in the container (which is why it’s easier to put them side-by-side). You’ll run the test container with a command like: <_:lb-2/><_:code-3/> <_:lb-4/>which will put you in a Bash shell inside the container (named 'tei'), at the root directory. The directory on your local file system where you cloned the TEI and Stylesheets repos is mapped to <_:code-5/> in the container (that’s the part after <_:code-6/> above). If you then do <_:code-7/> and then <_:code-8/>, you should see the repos you cloned above. There’s one more piece of work to be done, and that’s to tell the Guidelines build process where it can find your copy of the Stylesheets. You do that by adding a <_:code-9/> file in <_:code-10/>. So, (from <_:code-11/>) do <_:code-12/> and then <_:code-13/>. Now you can build things! And, what’s more, you can work on the Guidelines and Stylesheets in your regular environment, and test them in Docker. The Docker command above will create a container named “tei”, which you can return to later. Because it runs a Bash terminal, you can exit it by typing <_:code-14/> at the command prompt, and that will stop the container. You can restart it with a command like <_:code-15/>, which will start the container and attach your terminal to it, with whatever state it was in when you left it. You may want to alias a simple command like <_:code-16/> to <_:code-17/>."
-msgstr "これでテスト環境を実行する準備が整いました。Docker のための情報があと二、三必要です。リポジトリのある場所と、タイムゾーンです。タイムゾーンは <_:ref-1/> で調べることができます。これが必要になるのは、Docker コンテナのタイムゾーンの初期設定が UTC だからです。これはたまたま実際に UTC 時間を使用してた場合を除いて、ビルドの際に奇妙な警告を引き起こすことになります。というのも、コンピュータのローカル時刻と、コンテナの中の設定が一致しないからです。リポジトリを格納しているディレクトリは、コンテナの中のディレクトリに対応づけられます（これがリポジトリを1箇所にかためておく方がやりやすい理由です）。テストコンテナを実行するには次のようなコマンドを使用します。<_:lb-2/><_:code-3/> <_:lb-4/> これにより、\"tei\" と名付けられたコンテナのルートディレクトリに、Bash シェルを使ってログインします。TEI と Stylesheets リポジトリを複製したローカルファイルシステム上のディレクトリは、コンテナの <_:code-5/> ディレクトリに対応づけられます（これが上記のコマンドで <_:code-6/> の後に続く部分の意味です）。その後 <_:code-7/> を実行し、次に <_:code-8/> を行うと、上で複製したリポジトリが表示されます。もう一つすることがあります。それは、ガイドラインをビルドするプロセスに、Stylesheets リポジトリの複製がどこにあるかを教えることです。<_:code-10/> ディレクトリに <_:code-9/> ファイルを追加することによって、これを行います。そこで（ <_:code-11/> ディレクトリから）<_:code-12/> を行ってから、<_:code-13/> を実行します。これでビルドをすることができるようになりました！それだけでなく、通常の環境で Guidelines と Stylesheets リポジトリの作業を行ってから、それを Docker でテストすることもできます。上記の Docker 作成コマンドで、コンテナに \"tei\" という名前をつけましたので、これを使って後から Docker 環境に戻ってくることができます。この環境は Bash 端末を実行しているので、コマンドプロンプトで <_:code-14/> を入力することにより、この環境から抜けることができ、これによりコンテナも停止します。再起動は <_:code-15/> というコマンドで可能です。これにより前回コンテナを停止した時の状態から再度コンテナが起動され、端末が接続されます。<_:code-17/> の代わりに、<_:code-16/> といった単純な別名のコマンドを作りたくなるかもしれませんね。"
+#: TCW/testing_and_building.xml:61
+#, fuzzy
+msgid ""
+"Now you’re ready to run your test environment. You’ll need a couple of "
+"pieces of information for Docker: the location of your repositories and your "
+"timezone. You can look up your timezone at <_:ref-1/>. You need it because "
+"the default timezone of the container is UTC, which will lead to strange "
+"warnings when you run the builds unless you actually happen to be in sync "
+"with UTC, because the local time of your computer will differ from that set "
+"in the container. The directory containing your repositories will be mapped "
+"to a directory in the container (which is why it’s easier to put them side-"
+"by-side). You’ll run the test container with a command like: <_:lb-2/><_:"
+"code-3/> <_:lb-4/>which will put you in a Bash shell inside the container "
+"(named 'tei'), at the root directory. The directory on your local file "
+"system where you cloned the TEI and Stylesheets repos is mapped to <_:code-5/"
+"> in the container (that’s the part after <_:code-6/> above). If you then do "
+"<_:code-7/> and then <_:code-8/>, you should see the repos you cloned above. "
+"There’s one more piece of work to be done, and that’s to tell the Guidelines "
+"build process where it can find your copy of the Stylesheets. You do that by "
+"adding a <_:code-9/> file in <_:code-10/>. So, (from <_:code-11/>) do <_:"
+"code-12/> and then <_:code-13/>. Now you can build things! And, what’s more, "
+"you can work on the Guidelines and Stylesheets in your regular environment, "
+"and test them in Docker. The Docker command above will create a container "
+"named “tei”, which you can return to later. Because it runs a Bash terminal, "
+"you can exit it by typing <_:code-14/> at the command prompt, and that will "
+"stop the container. You can restart it with a command like <_:code-15/>, "
+"which will start the container and attach your terminal to it, with whatever "
+"state it was in when you left it. You may want to alias a simple command "
+"like <_:code-16/> to <_:code-17/>."
+msgstr ""
+"これでテスト環境を実行する準備が整いました。Docker のための情報があと二、三必"
+"要です。リポジトリのある場所と、タイムゾーンです。タイムゾーンは <_:ref-1/> "
+"で調べることができます。これが必要になるのは、Docker コンテナのタイムゾーンの"
+"初期設定が UTC だからです。これはたまたま実際に UTC 時間を使用してた場合を除"
+"いて、ビルドの際に奇妙な警告を引き起こすことになります。というのも、コン"
+"ピュータのローカル時刻と、コンテナの中の設定が一致しないからです。リポジトリ"
+"を格納しているディレクトリは、コンテナの中のディレクトリに対応づけられます"
+"（これがリポジトリを1箇所にかためておく方がやりやすい理由です）。テストコンテ"
+"ナを実行するには次のようなコマンドを使用します。<_:lb-2/><_:code-3/> <_:lb-4/"
+"> これにより、\"tei\" と名付けられたコンテナのルートディレクトリに、Bash シェ"
+"ルを使ってログインします。TEI と Stylesheets リポジトリを複製したローカルファ"
+"イルシステム上のディレクトリは、コンテナの <_:code-5/> ディレクトリに対応づけ"
+"られます（これが上記のコマンドで <_:code-6/> の後に続く部分の意味です）。その"
+"後 <_:code-7/> を実行し、次に <_:code-8/> を行うと、上で複製したリポジトリが"
+"表示されます。もう一つすることがあります。それは、ガイドラインをビルドするプ"
+"ロセスに、Stylesheets リポジトリの複製がどこにあるかを教えることです。<_:"
+"code-10/> ディレクトリに <_:code-9/> ファイルを追加することによって、これを行"
+"います。そこで（ <_:code-11/> ディレクトリから）<_:code-12/> を行ってから、"
+"<_:code-13/> を実行します。これでビルドをすることができるようになりました！そ"
+"れだけでなく、通常の環境で Guidelines と Stylesheets リポジトリの作業を行って"
+"から、それを Docker でテストすることもできます。上記の Docker 作成コマンド"
+"で、コンテナに \"tei\" という名前をつけましたので、これを使って後から Docker "
+"環境に戻ってくることができます。この環境は Bash 端末を実行しているので、コマ"
+"ンドプロンプトで <_:code-14/> を入力することにより、この環境から抜けることが"
+"でき、これによりコンテナも停止します。再起動は <_:code-15/> というコマンドで"
+"可能です。これにより前回コンテナを停止した時の状態から再度コンテナが起動さ"
+"れ、端末が接続されます。<_:code-17/> の代わりに、<_:code-16/> といった単純な"
+"別名のコマンドを作りたくなるかもしれませんね。"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:92
+#: TCW/testing_and_building.xml:91
 msgid "/tei/TEI/P5"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:92
+#: TCW/testing_and_building.xml:91
 msgid "make html-web"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:97
+#: TCW/testing_and_building.xml:96
 msgid "P5/"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:99
+#: TCW/testing_and_building.xml:98
 msgid "Stylesheets/"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:100 testing_and_building.xml:105
+#: TCW/testing_and_building.xml:99 TCW/testing_and_building.xml:104
 msgid "Makefile"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:100 testing_and_building.xml:109
+#: TCW/testing_and_building.xml:99 TCW/testing_and_building.xml:108
 msgid "make"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:101 testing_and_building.xml:104
+#: TCW/testing_and_building.xml:100 TCW/testing_and_building.xml:103
 msgid "Stylesheets/Test"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:101 testing_and_building.xml:110
+#: TCW/testing_and_building.xml:100 TCW/testing_and_building.xml:109
 #, fuzzy
 msgid "make test"
 msgstr "make test"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:103
+#: TCW/testing_and_building.xml:102
 msgid "make test-oddity"
 msgstr ""
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:91
-msgid "To build the HTML version of the Guidelines, for example, you can run (in <_:code-1/>) <_:code-2/>, and after the process finishes, you’ll have a directory called “Guidelines-web” in your P5 directory. Outside your Docker shell, you can browse to this folder, find the index.html file, and open it in a browser. “Make” is a program typically used for compiling programs, but it’s also very useful as a kind of generic batch scripting tool, which is how it’s being used here. In the Guidelines, you’ll typically want to run Make inside the <_:code-3/> directory and in the Stylesheets, you’ll want to run it at the top of the repo (in <_:code-4/>. You can also run Make in any directory that contains a <_:code-5/>. Note that the targets may vary. Running <_:code-6/> inside <_:code-7/> is pretty much the same as running <_:code-8/> one level up. You can also run individual test targets if there’s a particular set of tests you want to troubleshoot (e.g. <_:code-9/> in <_:code-10/> to test ODD-conversion methods). The targets are all defined in the <_:code-11/>s."
-msgstr "たとえば、HTMLバージョンのガイドラインを作成するには、（<_:code-1/> で）<_:code-2/> を実行します。プロセスが終了すると、P5 ディレクトリに \"Guidelines-web\" という名前のディレクトリが作成されています。Docker シェルの外でこのフォルダを開き、index.html ファイルを見つけてブラウザで開くことができます。“Make” は一般的にはプログラムのコンパイルに使われるプログラムですが、ここで使われているように、一種のバッチスクリプト全般用ツールとしても役に立ちます。通常 Guidelines リポジトリでは、<_:code-3/> ディレクトリで Make を実行します。Stylesheets リポジトリでは、リポジトリのトップディレクトリ（<_:code-4/>）で実行します。また、<_:code-5/> を含むディレクトリであればどこでも Make を実行することが可能です。ターゲットは異なる場合があることに注意してください。<_:code-7/> の中で <_:code-6/> を実行することと、その一つ上の階層で <_:code-8/> を実行することは、ほとんど同一です。もしトラブルの解決のために特に行いたいテストセットがあれば、そのテストターゲットだけを独立に行うことも可能です（例えば ODD 変換メソッドをテストするには、<_:code-10/> で <_:code-9/> を実行します）。すべてのターゲットは <_:code-11/> の中で定義されています。"
+#: TCW/testing_and_building.xml:90
+msgid ""
+"To build the HTML version of the Guidelines, for example, you can run (in <_:"
+"code-1/>) <_:code-2/>, and after the process finishes, you’ll have a "
+"directory called “Guidelines-web” in your P5 directory. Outside your Docker "
+"shell, you can browse to this folder, find the index.html file, and open it "
+"in a browser. “Make” is a program typically used for compiling programs, but "
+"it’s also very useful as a kind of generic batch scripting tool, which is "
+"how it’s being used here. In the Guidelines, you’ll typically want to run "
+"Make inside the <_:code-3/> directory and in the Stylesheets, you’ll want to "
+"run it at the top of the repo (in <_:code-4/>. You can also run Make in any "
+"directory that contains a <_:code-5/>. Note that the targets may vary. "
+"Running <_:code-6/> inside <_:code-7/> is pretty much the same as running <_:"
+"code-8/> one level up. You can also run individual test targets if there’s a "
+"particular set of tests you want to troubleshoot (e.g. <_:code-9/> in <_:"
+"code-10/> to test ODD-conversion methods). The targets are all defined in "
+"the <_:code-11/>s."
+msgstr ""
+"たとえば、HTMLバージョンのガイドラインを作成するには、（<_:code-1/> で）<_:"
+"code-2/> を実行します。プロセスが終了すると、P5 ディレクトリに \"Guidelines-"
+"web\" という名前のディレクトリが作成されています。Docker シェルの外でこのフォ"
+"ルダを開き、index.html ファイルを見つけてブラウザで開くことができま"
+"す。“Make” は一般的にはプログラムのコンパイルに使われるプログラムですが、ここ"
+"で使われているように、一種のバッチスクリプト全般用ツールとしても役に立ちま"
+"す。通常 Guidelines リポジトリでは、<_:code-3/> ディレクトリで Make を実行し"
+"ます。Stylesheets リポジトリでは、リポジトリのトップディレクトリ（<_:code-4/"
+">）で実行します。また、<_:code-5/> を含むディレクトリであればどこでも Make を"
+"実行することが可能です。ターゲットは異なる場合があることに注意してください。"
+"<_:code-7/> の中で <_:code-6/> を実行することと、その一つ上の階層で <_:"
+"code-8/> を実行することは、ほとんど同一です。もしトラブルの解決のために特に行"
+"いたいテストセットがあれば、そのテストターゲットだけを独立に行うことも可能で"
+"す（例えば ODD 変換メソッドをテストするには、<_:code-10/> で <_:code-9/> を実"
+"行します）。すべてのターゲットは <_:code-11/> の中で定義されています。"
 
 #. (itstool) path: p/ref
-#: testing_and_building.xml:106
+#: TCW/testing_and_building.xml:105
 msgid "Using the TEI GitHub Repository"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:115
+#: TCW/testing_and_building.xml:114
 msgid "make clean"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:118
+#: TCW/testing_and_building.xml:117
 msgid "make clean test"
 msgstr ""
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:106
-msgid "The <_:ref-1/> document has more detail on all the processes you can run, and very meager information on how to get set up to run them—but you just bypassed all that. Besides the <_:code-2/> targets listed there, both the TEI and Stylesheets repos have <_:code-3/> targets which get run by Jenkins when you push to GitHub. These are both good ways to check your code before pushing. Make does lots of things when you run any of these targets, but all of them should finish with a “BUILD SUCCESSFUL” message. If there’s a problem, you’ll get a failure message, hopefully with some indication of what went wrong. If you’ve run a build target, you probably want to run a <_:code-4/> before doing it again to make sure files that were generated during the last run don’t interfere with your next build (Make tries not to repeat itself, so if it finds existing build artifacts, it won’t rebuild them). Targets can be put together, so you can do <_:code-5/>, and it will clean things up before running the test target."
-msgstr "ドキュメント <_:ref-1/> には、実行可能なプロセスについてより詳細な説明が—そしてそれを実行するための環境構築についてはごく貧弱な情報が—あります。しかし単純にそれらは全部無視してください。そこで列挙されている <_:code-2/> ターゲットの他に、TEI と Stylesheets の両方のリポジトリには、GitHub にプッシュした際に Jenkins で実行される <_:code-3/> ターゲットがあります。これらはいずれも、プッシュする前にコードを確認するための優れた方法です。これらのターゲットを実行すると、いずれの場合でも Make はたくさんのことを行いますが、それらすべてにおいて最後は “BUILD SUCCESSFUL” のメッセージで終わらなければなりません。何か問題がある場合は、うまくいけば何が悪いかの何らかの指摘とともに、失敗のメッセージが表示されます。一度ビルドターゲットを実行した後は、再度ビルドする前には <_:code-4/> を実行して、前回のビルドで生成されたファイルが次の実行時に干渉しないよう、確実を期した方がおそらくはよいでしょう（Make は一度行われたことは繰り返さないようにするので、もしビルドの生成物が残されているのを見つけた時は、それを再度ビルドすることはしません）。ターゲットはひとまとめにすることができますので、<_:code-5/> と実行すれば、前回の残存物の除去を行ってから、テストターゲットを実行します。"
+#: TCW/testing_and_building.xml:105
+msgid ""
+"The <_:ref-1/> document has more detail on all the processes you can run, "
+"and very meager information on how to get set up to run them—but you just "
+"bypassed all that. Besides the <_:code-2/> targets listed there, both the "
+"TEI and Stylesheets repos have <_:code-3/> targets which get run by Jenkins "
+"when you push to GitHub. These are both good ways to check your code before "
+"pushing. Make does lots of things when you run any of these targets, but all "
+"of them should finish with a “BUILD SUCCESSFUL” message. If there’s a "
+"problem, you’ll get a failure message, hopefully with some indication of "
+"what went wrong. If you’ve run a build target, you probably want to run a <_:"
+"code-4/> before doing it again to make sure files that were generated during "
+"the last run don’t interfere with your next build (Make tries not to repeat "
+"itself, so if it finds existing build artifacts, it won’t rebuild them). "
+"Targets can be put together, so you can do <_:code-5/>, and it will clean "
+"things up before running the test target."
+msgstr ""
+"ドキュメント <_:ref-1/> には、実行可能なプロセスについてより詳細な説明が—そし"
+"てそれを実行するための環境構築についてはごく貧弱な情報が—あります。しかし単純"
+"にそれらは全部無視してください。そこで列挙されている <_:code-2/> ターゲットの"
+"他に、TEI と Stylesheets の両方のリポジトリには、GitHub にプッシュした際に "
+"Jenkins で実行される <_:code-3/> ターゲットがあります。これらはいずれも、プッ"
+"シュする前にコードを確認するための優れた方法です。これらのターゲットを実行す"
+"ると、いずれの場合でも Make はたくさんのことを行いますが、それらすべてにおい"
+"て最後は “BUILD SUCCESSFUL” のメッセージで終わらなければなりません。何か問題"
+"がある場合は、うまくいけば何が悪いかの何らかの指摘とともに、失敗のメッセージ"
+"が表示されます。一度ビルドターゲットを実行した後は、再度ビルドする前には <_:"
+"code-4/> を実行して、前回のビルドで生成されたファイルが次の実行時に干渉しない"
+"よう、確実を期した方がおそらくはよいでしょう（Make は一度行われたことは繰り返"
+"さないようにするので、もしビルドの生成物が残されているのを見つけた時は、それ"
+"を再度ビルドすることはしません）。ターゲットはひとまとめにすることができます"
+"ので、<_:code-5/> と実行すれば、前回の残存物の除去を行ってから、テストター"
+"ゲットを実行します。"
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:128
+#: TCW/testing_and_building.xml:127
 msgid "Test/"
 msgstr ""
 
 #. (itstool) path: p/code
-#: testing_and_building.xml:129
+#: TCW/testing_and_building.xml:128
 msgid "Test/expected-results"
 msgstr ""
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:120
-msgid "When you run the tests and other build targets, you’ll see masses of text written out, most of which can be ignored. If one of the processes errors out, Make should stop running, so the last thing in your terminal should tell you what happened. This may not be a very useful message, so you might need to isolate the command that Make ran and run it yourself to see the error messages. In the Stylesheets, errors are often in the form of differences between the expected output of certain tests and the actual output. Test failures here aren’t necessarily errors—if you changed something to do with ODD compilation or schema generation, your new output might be correct but different from the old. When this happens, you can copy the new output from the <_:code-1/> directory into <_:code-2/>. You’ll want to be a bit careful that your new output is actually correct, of course, because now the test will pass even if it’s not really working, because all it’s checking is whether the test output is the same as what it expects."
-msgstr "テストやその他ビルドなどターゲットを実行すると、大量のテキストが出力されるのを目にすることになりますが、それらのほとんどは無視してよいものです。もしいずれかのプロセスでエラーが発生したら、Make は実行を停止するはずですので、ターミナルの最後に出力されているテキストが、何が起こったかを語っているはずです。このメッセージがあまり役に立たないこともありえますが、その場合は Make が実行していたコマンドを特定し、このコマンドを自分で実行して、エラーメッセージを確認する必要があるでしょう。Stylesheets リポジトリでは、エラーはしばしば、あるテストの実際の出力が、期待する出力とは違う、という形をとります。この場合のテストの失敗は、必ずしもエラーであるとは限りません。もし ODD のコンパイルやスキーマの生成に何か変更を加えていた場合は、新しい出力が正しいかもしれませんが、古いものとは一致しないでしょう。この問題が発生した場合は、<_:code-1/> ディレクトリの新しい出力を、<_:code-2/> にコピーすることができます。もちろん、新しい出力が本当に正しいのかについては、いささか慎重になる必要があります。というのも、もし本当にはそれが機能していなくても、今度はテストにパスしてしまうからです。なぜならテストで確認されているのは、テストでの出力が、事前に想定された出力と同じかどうかだけだからです。"
+#: TCW/testing_and_building.xml:119
+msgid ""
+"When you run the tests and other build targets, you’ll see masses of text "
+"written out, most of which can be ignored. If one of the processes errors "
+"out, Make should stop running, so the last thing in your terminal should "
+"tell you what happened. This may not be a very useful message, so you might "
+"need to isolate the command that Make ran and run it yourself to see the "
+"error messages. In the Stylesheets, errors are often in the form of "
+"differences between the expected output of certain tests and the actual "
+"output. Test failures here aren’t necessarily errors—if you changed "
+"something to do with ODD compilation or schema generation, your new output "
+"might be correct but different from the old. When this happens, you can copy "
+"the new output from the <_:code-1/> directory into <_:code-2/>. You’ll want "
+"to be a bit careful that your new output is actually correct, of course, "
+"because now the test will pass even if it’s not really working, because all "
+"it’s checking is whether the test output is the same as what it expects."
+msgstr ""
+"テストやその他ビルドなどターゲットを実行すると、大量のテキストが出力されるの"
+"を目にすることになりますが、それらのほとんどは無視してよいものです。もしいず"
+"れかのプロセスでエラーが発生したら、Make は実行を停止するはずですので、ターミ"
+"ナルの最後に出力されているテキストが、何が起こったかを語っているはずです。こ"
+"のメッセージがあまり役に立たないこともありえますが、その場合は Make が実行し"
+"ていたコマンドを特定し、このコマンドを自分で実行して、エラーメッセージを確認"
+"する必要があるでしょう。Stylesheets リポジトリでは、エラーはしばしば、あるテ"
+"ストの実際の出力が、期待する出力とは違う、という形をとります。この場合のテス"
+"トの失敗は、必ずしもエラーであるとは限りません。もし ODD のコンパイルやスキー"
+"マの生成に何か変更を加えていた場合は、新しい出力が正しいかもしれませんが、古"
+"いものとは一致しないでしょう。この問題が発生した場合は、<_:code-1/> ディレク"
+"トリの新しい出力を、<_:code-2/> にコピーすることができます。もちろん、新しい"
+"出力が本当に正しいのかについては、いささか慎重になる必要があります。というの"
+"も、もし本当にはそれが機能していなくても、今度はテストにパスしてしまうからで"
+"す。なぜならテストで確認されているのは、テストでの出力が、事前に想定された出"
+"力と同じかどうかだけだからです。"
 
 #. (itstool) path: div/p
-#: testing_and_building.xml:133
+#: TCW/testing_and_building.xml:132
 msgid "Good luck and happy testing!"
 msgstr "ではテストを楽しんでください。幸運を祈ります！"
