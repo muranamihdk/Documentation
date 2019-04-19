@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-04-17 23:08+0900\n"
-"PO-Revision-Date: 2019-01-12 06:44+0000\n"
+"PO-Revision-Date: 2019-04-19 11:55+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. (itstool) path: titleStmt/title
 #: TCW/tcw22.xml:6
@@ -53,7 +53,6 @@ msgstr ""
 #. (itstool) path: titleStmt/author
 #. (itstool) id: tcw22.xml#HC
 #: TCW/tcw22.xml:13
-#, fuzzy
 msgid "Hugh Cayless"
 msgstr "Hugh Cayless"
 
