@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-17 23:08+0900\n"
-"PO-Revision-Date: 2018-12-09 13:31+0000\n"
+"PO-Revision-Date: 2019-04-19 11:55+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. (itstool) path: titleStmt/title
 #: TCW/testing_and_building.xml:9
@@ -19,7 +19,6 @@ msgstr "TEI ガイドラインとスタイルシートをビルドしてテス�
 
 #. (itstool) path: titleStmt/author
 #: TCW/testing_and_building.xml:10
-#, fuzzy
 msgid "Hugh Cayless"
 msgstr "Hugh Cayless"
 
@@ -30,7 +29,6 @@ msgstr "TEI 技術評議会"
 
 #. (itstool) path: publicationStmt/date
 #: TCW/testing_and_building.xml:14
-#, fuzzy
 msgid "2016"
 msgstr "2016"
 
@@ -46,7 +44,6 @@ msgstr "ガイドラインとスタイルシートをビルドしてテストす
 
 #. (itstool) path: div/p
 #: TCW/testing_and_building.xml:25
-#, fuzzy
 msgid ""
 "Getting set up to run the various building and testing targets in the "
 "Guidelines and Stylesheets is relatively easy in Debian-based Linuxes like "
@@ -59,39 +56,31 @@ msgid ""
 "very useful to “check your work” as you go to avoid lots of bug-fixing when "
 "your merge back into dev."
 msgstr ""
-"ガイドラインとスタイルシートを色々とビルドしてテストするための環境を用意する"
-"のは、Ubuntu などの Debian Linux では比較的簡単です。しかし Mac OS X や "
-"Windows といったそれ以外のシステムでは、かなり手の込んだ作業が必要になりま"
-"す。TEI あるいは Stylesheet リポジトリに変更が加えられると、TEI Jenkins サー"
-"バでさまざまなビルドが行われますが、自分のマシンでテストを実行した方がよいか"
-"もしれません。というのも、おそらくその方が実行も速いでしょうし、問題が見つ"
-"かったときに Jenkins からメールが届くのを待っている時間も節約してくれるからで"
-"す。それだけでなく、作業用ブランチでの変更については Jenkins はまったく関知し"
-"ませんし、かといって dev ブランチにマージした後で大量のバグを直すハメになるの"
-"は避けたいところです。ですから自分でまず作業結果をチェックするのはとても有益"
-"でしょう。"
+"ガイドラインとスタイルシートを色々とビルドしてテストするための環境を用意するのは、Ubuntu などの Debian Linux では比較的簡単です。"
+"しかし Mac OS X や Windows といったそれ以外のシステムでは、かなり手の込んだ作業が必要になります。TEI あるいは "
+"Stylesheet リポジトリに変更が加えられると、TEI Jenkins "
+"サーバでさまざまなビルドが行われますが、自分のマシンでテストを実行した方がよいかもしれません。というのも、おそらくその方が実行も速いでしょうし、"
+"問題が見つかったときに Jenkins からメールが届くのを待っている時間も節約してくれるからです。それだけでなく、作業用ブランチでの変更については "
+"Jenkins はまったく関知しませんし、かといって dev "
+"ブランチにマージした後で大量のバグを直すハメになるのは避けたいところです。ですから自分でまず作業結果をチェックするのはとても有益でしょう。"
 
 #. (itstool) path: p/ref
 #: TCW/testing_and_building.xml:40
-#, fuzzy
 msgid "Learn Enough Command Line to Be Dangerous"
 msgstr "Learn Enough Command Line to Be Dangerous"
 
 #. (itstool) path: p/ref
 #: TCW/testing_and_building.xml:43
-#, fuzzy
 msgid "How to Install and Use the Linux Bash Shell on Windows 10"
 msgstr "How to Install and Use the Linux Bash Shell on Windows 10"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:45
-#, fuzzy
 msgid "git clone git@github.com:TEIC/TEI.git"
 msgstr "git clone git@github.com:TEIC/TEI.git"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:46
-#, fuzzy
 msgid "git clone git@github.com:TEIC/Stylesheets.git"
 msgstr "git clone git@github.com:TEIC/Stylesheets.git"
 
@@ -120,19 +109,16 @@ msgstr ""
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:49
-#, fuzzy
 msgid "/Users/hcayless/Development/TEIC"
 msgstr "/Users/hcayless/Development/TEIC"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:59
-#, fuzzy
 msgid "docker pull teic/teidev-docker"
 msgstr "docker pull teic/teidev-docker"
 
 #. (itstool) path: div/p
 #: TCW/testing_and_building.xml:48
-#, fuzzy
 msgid ""
 "It’s probably a good idea to keep these side-by-side. I put mine in a "
 "directory called: <_:code-1/>. As you will see, it’s a good idea to do this "
@@ -149,103 +135,86 @@ msgid ""
 "Once you have Docker installed and set up, you can run <_:lb-5/><_:code-6/> "
 "<_:lb-7/>to grab a copy of the pre-built image."
 msgstr ""
-"これらのリポジトリは同じディレクトリに保存するのがおそらくはよいでしょう。私"
-"は <_:code-1/> という名前のディレクトリに保存しています。この先わかるでしょう"
-"が、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu かそ"
-"の他の Linux を使用しているなら、好きなところでいいです。すでに TEI および "
-"Stylesheets リポジトリの作業用コピーを用意していて、そこで行われた変更を "
-"GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI "
-"では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境"
-"を入手してください。Mac なら <_:ptr-2/> で、Windowsなら <_:ptr-3/> で、Linux"
-"なら <_:ptr-4/> で入手することができます。Docker をインストールしたら、次のコ"
-"マンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<_:"
-"lb-5/><_:code-6/> <_:lb-7/>"
+"これらのリポジトリは同じディレクトリに保存するのがおそらくはよいでしょう。私は <_:code-1/> "
+"という名前のディレクトリに保存しています。この先わかるでしょうが、Mac か Windows ならユーザディレクトリのどこかがいいでしょう。Ubuntu "
+"かその他の Linux を使用しているなら、好きなところでいいです。すでに TEI および Stylesheets "
+"リポジトリの作業用コピーを用意していて、そこで行われた変更を GitHub リポジトリに送信して公開する前にテストしたいものと仮定しましょう。TEI "
+"では環境構築済みのテスト用 Docker を提供しています。まずは Docker の実行環境を入手してください。Mac なら <_:ptr-2/> で、"
+"Windowsなら <_:ptr-3/> で、Linuxなら <_:ptr-4/> で入手することができます。Docker "
+"をインストールしたら、次のコマンドを実行して、環境構築済みイメージファイルのコピーを入手してください。<_:lb-5/><_:code-6/> <_:"
+"lb-7/>"
 
 #. (itstool) path: p/ref
 #: TCW/testing_and_building.xml:63
-#, fuzzy
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:70
-#, fuzzy
 msgid ""
 "docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e "
 "TZ=America/New_York teic/teidev-docker"
 msgstr ""
-"docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e "
-"TZ=America/New_York teic/teidev-docker"
+"docker run --name tei -v /Users/hcayless/Development/TEIC:/tei -it -e TZ="
+"America/New_York teic/teidev-docker"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:74 TCW/testing_and_building.xml:79
-#, fuzzy
 msgid "/tei"
 msgstr "/tei"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:75
-#, fuzzy
 msgid "-v"
 msgstr "-v"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:75
-#, fuzzy
 msgid "cd tei"
 msgstr "cd tei"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:75
-#, fuzzy
 msgid "ls"
 msgstr "ls"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:78
-#, fuzzy
 msgid "local.mk"
 msgstr "local.mk"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:78
-#, fuzzy
 msgid "TEI/P5"
 msgstr "TEI/P5"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:79
-#, fuzzy
 msgid "cd TEI/P5"
 msgstr "cd TEI/P5"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:80
-#, fuzzy
 msgid "echo \"XSL=/tei/Stylesheets\" &gt; local.mk"
 msgstr "echo \"XSL=/tei/Stylesheets\" &gt; local.mk"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:84
-#, fuzzy
 msgid "exit"
 msgstr "exit"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:85 TCW/testing_and_building.xml:88
-#, fuzzy
 msgid "docker start -ai tei"
 msgstr "docker start -ai tei"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:87
-#, fuzzy
 msgid "teidocker"
 msgstr "teidocker"
 
 #. (itstool) path: div/p
 #: TCW/testing_and_building.xml:61
-#, fuzzy
 msgid ""
 "Now you’re ready to run your test environment. You’ll need a couple of "
 "pieces of information for Docker: the location of your repositories and your "
@@ -274,34 +243,24 @@ msgid ""
 "state it was in when you left it. You may want to alias a simple command "
 "like <_:code-16/> to <_:code-17/>."
 msgstr ""
-"これでテスト環境を実行する準備が整いました。Docker のための情報があと二、三必"
-"要です。リポジトリのある場所と、タイムゾーンです。タイムゾーンは <_:ref-1/> "
-"で調べることができます。これが必要になるのは、Docker コンテナのタイムゾーンの"
-"初期設定が UTC だからです。これはたまたま実際に UTC 時間を使用してた場合を除"
-"いて、ビルドの際に奇妙な警告を引き起こすことになります。というのも、コン"
-"ピュータのローカル時刻と、コンテナの中の設定が一致しないからです。リポジトリ"
-"を格納しているディレクトリは、コンテナの中のディレクトリに対応づけられます"
-"（これがリポジトリを1箇所にかためておく方がやりやすい理由です）。テストコンテ"
-"ナを実行するには次のようなコマンドを使用します。<_:lb-2/><_:code-3/> <_:lb-4/"
-"> これにより、\"tei\" と名付けられたコンテナのルートディレクトリに、Bash シェ"
-"ルを使ってログインします。TEI と Stylesheets リポジトリを複製したローカルファ"
-"イルシステム上のディレクトリは、コンテナの <_:code-5/> ディレクトリに対応づけ"
-"られます（これが上記のコマンドで <_:code-6/> の後に続く部分の意味です）。その"
-"後 <_:code-7/> を実行し、次に <_:code-8/> を行うと、上で複製したリポジトリが"
-"表示されます。もう一つすることがあります。それは、ガイドラインをビルドするプ"
-"ロセスに、Stylesheets リポジトリの複製がどこにあるかを教えることです。<_:"
-"code-10/> ディレクトリに <_:code-9/> ファイルを追加することによって、これを行"
-"います。そこで（ <_:code-11/> ディレクトリから）<_:code-12/> を行ってから、"
-"<_:code-13/> を実行します。これでビルドをすることができるようになりました！そ"
-"れだけでなく、通常の環境で Guidelines と Stylesheets リポジトリの作業を行って"
-"から、それを Docker でテストすることもできます。上記の Docker 作成コマンド"
-"で、コンテナに \"tei\" という名前をつけましたので、これを使って後から Docker "
-"環境に戻ってくることができます。この環境は Bash 端末を実行しているので、コマ"
-"ンドプロンプトで <_:code-14/> を入力することにより、この環境から抜けることが"
-"でき、これによりコンテナも停止します。再起動は <_:code-15/> というコマンドで"
-"可能です。これにより前回コンテナを停止した時の状態から再度コンテナが起動さ"
-"れ、端末が接続されます。<_:code-17/> の代わりに、<_:code-16/> といった単純な"
-"別名のコマンドを作りたくなるかもしれませんね。"
+"これでテスト環境を実行する準備が整いました。Docker のための情報があと二、三必要です。リポジトリのある場所と、タイムゾーンです。タイムゾーンは "
+"<_:ref-1/> で調べることができます。これが必要になるのは、Docker コンテナのタイムゾーンの初期設定が UTC だからです。"
+"これはたまたま実際に UTC 時間を使用してた場合を除いて、ビルドの際に奇妙な警告を引き起こすことになります。というのも、コンピュータのローカル時刻と、コ"
+"ンテナの中の設定が一致しないからです。リポジトリを格納しているディレクトリは、コンテナの中のディレクトリに対応づけられます（これがリポジトリを1箇所にかた"
+"めておく方がやりやすい理由です）。テストコンテナを実行するには次のようなコマンドを使用します。<_:lb-2/><_:code-3/> <_:lb-4/>"
+" これにより、\"tei\" と名付けられたコンテナのルートディレクトリに、Bash シェルを使ってログインします。TEI と Stylesheets "
+"リポジトリを複製したローカルファイルシステム上のディレクトリは、コンテナの <_:code-5/> ディレクトリに対応づけられます（"
+"これが上記のコマンドで <_:code-6/> の後に続く部分の意味です）。その後 <_:code-7/> を実行し、次に <_:code-8/> "
+"を行うと、上で複製したリポジトリが表示されます。もう一つすることがあります。それは、ガイドラインをビルドするプロセスに、Stylesheets "
+"リポジトリの複製がどこにあるかを教えることです。<_:code-10/> ディレクトリに <_:code-9/> "
+"ファイルを追加することによって、これを行います。そこで（ <_:code-11/> ディレクトリから）<_:code-12/> を行ってから、<_:"
+"code-13/> を実行します。これでビルドをすることができるようになりました！それだけでなく、通常の環境で Guidelines と "
+"Stylesheets リポジトリの作業を行ってから、それを Docker でテストすることもできます。上記の Docker 作成コマンドで、コンテナに "
+"\"tei\" という名前をつけましたので、これを使って後から Docker 環境に戻ってくることができます。この環境は Bash "
+"端末を実行しているので、コマンドプロンプトで <_:code-14/> "
+"を入力することにより、この環境から抜けることができ、これによりコンテナも停止します。再起動は <_:code-15/> "
+"というコマンドで可能です。これにより前回コンテナを停止した時の状態から再度コンテナが起動され、端末が接続されます。<_:code-17/> "
+"の代わりに、<_:code-16/> といった単純な別名のコマンドを作りたくなるかもしれませんね。"
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:91
@@ -340,7 +299,6 @@ msgstr ""
 
 #. (itstool) path: p/code
 #: TCW/testing_and_building.xml:100 TCW/testing_and_building.xml:109
-#, fuzzy
 msgid "make test"
 msgstr "make test"
 
