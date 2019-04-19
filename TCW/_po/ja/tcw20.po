@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-02 22:02+0900\n"
-"PO-Revision-Date: 2019-01-12 06:44+0000\n"
+"PO-Revision-Date: 2019-04-19 11:55+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.3\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. (itstool) path: titleStmt/title
 #: tcw20.xml:15
@@ -783,7 +783,6 @@ msgstr ""
 
 #. (itstool) path: p/ident
 #: tcw20.xml:285
-#, fuzzy
 msgid "make test"
 msgstr "make test"
 
